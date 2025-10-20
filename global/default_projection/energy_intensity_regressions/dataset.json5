@@ -1,0 +1,47 @@
+{
+  dataset_id: "STRIDE_Energy_Intensity_Regressions_2025",
+  version: "1.0.0",
+  dataset_type: "modeled",
+  data_schema: {
+    data_schema_type: "one_table",
+    table_format: {
+      format_type: "unpivoted",
+    },
+  },
+  description: "Energy intensity regression parameters for STRIDE",
+  data_classification: "low",
+  use_project_geography_time_zone: true,
+  dimensions: [
+    {
+      type: "metric",
+      "class": "EnergyIntensityRegression",
+      name: "metric",
+      description: "metric",
+      file: "dimensions/EnergyIntensityRegression.csv",
+      module: "dsgrid.dimension.standard",
+    },
+    {
+      type: "time",
+      time_type: "annual",
+      time_interval_type: "period_beginning",
+      name: "annual",
+      description: "annual",
+      module: "dsgrid.dimension.standard",
+      "class": "AnnualTime",
+      include_leap_day: true,
+      ranges: [
+        {
+          start: 1990,
+          end: 2050,
+        },
+      ],
+      str_format: "%Y",
+    },
+  ],
+  dimension_references: [],
+  trivial_dimensions: [],
+  sector_description: "energy consumption",
+  data_source: "IEA World Energy Balances combined with other datasets and analysis",
+  data_source_date: "2024",
+  data_source_doi_url: "https://www.iea.org/data-and-statistics/data-product/world-energy-balances",
+}
