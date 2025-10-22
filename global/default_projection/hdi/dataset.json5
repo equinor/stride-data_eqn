@@ -1,46 +1,55 @@
 {
-  dataset_id: "UN_HDI_2024",
-  version: "1.0.0",
-  dataset_type: "modeled",
-  data_schema: {
-    data_schema_type: "one_table",
-    table_format: {
-      format_type: "unpivoted",
-    },
-  },
-  description: "Historical and forecast human development index (HDI)",
-  data_classification: "low",
-  use_project_geography_time_zone: true,
-  dimensions: [
-    {
-      type: "metric",
-      "class": "FractionalIndex",
-      name: "metric",
-      description: "metric",
-      file: "dimensions/FractionalIndex.csv",
-      module: "dsgrid.dimension.standard",
-    },
-    {
-      type: "time",
-      time_type: "annual",
-      time_interval_type: "period_beginning",
-      name: "annual",
-      description: "annual",
-      module: "dsgrid.dimension.standard",
-      "class": "AnnualTime",
-      include_leap_day: true,
-      ranges: [
-        {
-          start: 1990,
-          end: 2050,
+    dataset_id: "UN_HDI_2024",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
         },
-      ],
-      str_format: "%Y",
     },
-  ],
-  dimension_references: [],
-  trivial_dimensions: [],
-  sector_description: "macroeconomics",
-  data_source: "United Nations Development Reports",
-  data_source_doi_url: "https://hdr.undp.org/data-center/human-development-index#/indicies/HDI",
+    description: "Historical and forecast human development index (HDI)",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "metric",
+            "class": "FractionalIndex",
+            name: "hdi",
+            description: "Human Development Index",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "hdi",
+                    name: "HDI",
+                    unit: "HDI",
+                    min_value: 0.0,
+                    max_value: 1.0,
+                },
+            ],
+        },
+        {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "../../dimensions/model_years.csv",
+        },
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [
+        "metric",
+    ],
+    sector_description: "macroeconomics",
+    data_source: "United Nations Development Reports",
+    data_source_doi_url: "https://hdr.undp.org/data-center/human-development-index#/indicies/HDI",
+    dimension_columns: {
+        country: "geography",
+        year: "model_year",
+    },
 }

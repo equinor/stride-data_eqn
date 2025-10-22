@@ -1,149 +1,149 @@
-id,name
-Albania,Albania
-Algeria,Algeria
-Angola,Angola
-Argentina,Argentina
-Armenia,Armenia
-Australia,Australia
-Austria,Austria
-Azerbaijan,Azerbaijan
-Bahrain,Bahrain
-Bangladesh,Bangladesh
-Belarus,Belarus
-Belgium,Belgium
-Benin,Benin
-Bolivia,Bolivia
-Bosnia And Herzegovina,Bosnia And Herzegovina
-Botswana,Botswana
-Brazil,Brazil
-Brunei,Brunei
-Bulgaria,Bulgaria
-Burkina Faso,Burkina Faso
-Cambodia,Cambodia
-Cameroon,Cameroon
-Canada,Canada
-Chad,Chad
-Chile,Chile
-China,China
-Colombia,Colombia
-Congo,Congo
-Costa Rica,Costa Rica
-Croatia,Croatia
-Cuba,Cuba
-Cyprus,Cyprus
-Czech Republic,Czech Republic
-Denmark,Denmark
-Dominican Republic,Dominican Republic
-Ecuador,Ecuador
-Egypt,Egypt
-El Salvador,El Salvador
-Equatorial Guinea,Equatorial Guinea
-Eritrea,Eritrea
-Estonia,Estonia
-Eswatini,Eswatini
-Ethiopia,Ethiopia
-Finland,Finland
-France,France
-Gabon,Gabon
-Georgia,Georgia
-Germany,Germany
-Ghana,Ghana
-Greece,Greece
-Guatemala,Guatemala
-Guyana,Guyana
-Haiti,Haiti
-Honduras,Honduras
-Hong Kong,Hong Kong
-Hungary,Hungary
-Iceland,Iceland
-India,India
-Indonesia,Indonesia
-Iran,Iran
-Iraq,Iraq
-Ireland,Ireland
-Israel,Israel
-Italy,Italy
-Ivory Coast,Ivory Coast
-Jamaica,Jamaica
-Japan,Japan
-Jordan,Jordan
-Kazakhstan,Kazakhstan
-Kenya,Kenya
-Kuwait,Kuwait
-Kyrgyzstan,Kyrgyzstan
-Laos,Laos
-Latvia,Latvia
-Lebanon,Lebanon
-Libya,Libya
-Lithuania,Lithuania
-Luxembourg,Luxembourg
-Madagascar,Madagascar
-Malaysia,Malaysia
-Mali,Mali
-Malta,Malta
-Mauritania,Mauritania
-Mauritius,Mauritius
-Mexico,Mexico
-Moldova,Moldova
-Mongolia,Mongolia
-Montenegro,Montenegro
-Morocco,Morocco
-Mozambique,Mozambique
-Myanmar,Myanmar
-Namibia,Namibia
-Nepal,Nepal
-Netherlands,Netherlands
-New Zealand,New Zealand
-Nicaragua,Nicaragua
-Niger,Niger
-Nigeria,Nigeria
-North Macedonia,North Macedonia
-Norway,Norway
-Oman,Oman
-Pakistan,Pakistan
-Palestine,Palestine
-Panama,Panama
-Paraguay,Paraguay
-Peru,Peru
-Philippines,Philippines
-Poland,Poland
-Portugal,Portugal
-Qatar,Qatar
-Romania,Romania
-Russia,Russia
-Rwanda,Rwanda
-Saudi Arabia,Saudi Arabia
-Senegal,Senegal
-Serbia,Serbia
-Singapore,Singapore
-Slovakia,Slovakia
-Slovenia,Slovenia
-South Africa,South Africa
-South Korea,South Korea
-Spain,Spain
-Sri Lanka,Sri Lanka
-Sudan,Sudan
-Suriname,Suriname
-Sweden,Sweden
-Switzerland,Switzerland
-Syria,Syria
-Tajikistan,Tajikistan
-Tanzania,Tanzania
-Thailand,Thailand
-Togo,Togo
-Trinidad And Tobago,Trinidad And Tobago
-Tunisia,Tunisia
-Turkey,Turkey
-Turkmenistan,Turkmenistan
-Uganda,Uganda
-Ukraine,Ukraine
-United Arab Emirates,United Arab Emirates
-United Kingdom,United Kingdom
-United States,United States
-Uruguay,Uruguay
-Uzbekistan,Uzbekistan
-Venezuela,Venezuela
-Vietnam,Vietnam
-Yemen,Yemen
-Zambia,Zambia
-Zimbabwe,Zimbabwe
+id,name,time_zone
+Albania,Albania,Europe/Tirane
+Algeria,Algeria,Africa/Algiers
+Angola,Angola,Africa/Lagos
+Argentina,Argentina,America/Argentina/Buenos_Aires
+Armenia,Armenia,Asia/Yerevan
+Australia,Australia,Australia/Brisbane
+Austria,Austria,Europe/Vienna
+Azerbaijan,Azerbaijan,Asia/Baku
+Bahrain,Bahrain,Asia/Qatar
+Bangladesh,Bangladesh,Asia/Dhaka
+Belarus,Belarus,Europe/Minsk
+Belgium,Belgium,Europe/Brussels
+Benin,Benin,Africa/Lagos
+Bolivia,Bolivia,America/La_Paz
+Bosnia And Herzegovina,Bosnia And Herzegovina,Europe/Belgrade
+Botswana,Botswana,Africa/Maputo
+Brazil,Brazil,America/Fortaleza
+Brunei,Brunei,Asia/Kuching
+Bulgaria,Bulgaria,Europe/Sofia
+Burkina Faso,Burkina Faso,Africa/Abidjan
+Cambodia,Cambodia,Asia/Bangkok
+Cameroon,Cameroon,Africa/Lagos
+Canada,Canada,America/Rankin_Inlet
+Chad,Chad,Africa/Ndjamena
+Chile,Chile,America/Santiago
+China,China,Asia/Shanghai
+Colombia,Colombia,America/Bogota
+Congo,Congo,Africa/Lagos
+Costa Rica,Costa Rica,America/Costa_Rica
+Croatia,Croatia,Europe/Belgrade
+Cuba,Cuba,America/Havana
+Cyprus,Cyprus,Asia/Famagusta
+Czech Republic,Czech Republic,Europe/Prague
+Denmark,Denmark,Europe/Berlin
+Dominican Republic,Dominican Republic,America/Santo_Domingo
+Ecuador,Ecuador,America/Guayaquil
+Egypt,Egypt,Africa/Cairo
+El Salvador,El Salvador,America/El_Salvador
+Equatorial Guinea,Equatorial Guinea,Africa/Lagos
+Eritrea,Eritrea,Africa/Nairobi
+Estonia,Estonia,Europe/Tallinn
+Eswatini,Eswatini,Africa/Johannesburg
+Ethiopia,Ethiopia,Africa/Nairobi
+Finland,Finland,Europe/Helsinki
+France,France,Europe/Paris
+Gabon,Gabon,Africa/Lagos
+Georgia,Georgia,Asia/Tbilisi
+Germany,Germany,Europe/Berlin
+Ghana,Ghana,Africa/Abidjan
+Greece,Greece,Europe/Athens
+Guatemala,Guatemala,America/Guatemala
+Guyana,Guyana,America/Guyana
+Haiti,Haiti,America/Port-au-Prince
+Honduras,Honduras,America/Tegucigalpa
+Hong Kong,Hong Kong,Asia/Hong_Kong
+Hungary,Hungary,Europe/Budapest
+Iceland,Iceland,Africa/Abidjan
+India,India,Asia/Kolkata
+Indonesia,Indonesia,Asia/Makassar
+Iran,Iran,Asia/Tehran
+Iraq,Iraq,Asia/Baghdad
+Ireland,Ireland,Europe/Dublin
+Israel,Israel,Asia/Jerusalem
+Italy,Italy,Europe/Rome
+Ivory Coast,Ivory Coast,Africa/Abidjan
+Jamaica,Jamaica,America/Jamaica
+Japan,Japan,Asia/Tokyo
+Jordan,Jordan,Asia/Amman
+Kazakhstan,Kazakhstan,Asia/Almaty
+Kenya,Kenya,Africa/Nairobi
+Kuwait,Kuwait,Asia/Riyadh
+Kyrgyzstan,Kyrgyzstan,Asia/Bishkek
+Laos,Laos,Asia/Bangkok
+Latvia,Latvia,Europe/Riga
+Lebanon,Lebanon,Asia/Beirut
+Libya,Libya,Africa/Tripoli
+Lithuania,Lithuania,Europe/Vilnius
+Luxembourg,Luxembourg,Europe/Brussels
+Madagascar,Madagascar,Africa/Nairobi
+Malaysia,Malaysia,Asia/Kuching
+Mali,Mali,Africa/Abidjan
+Malta,Malta,Europe/Malta
+Mauritania,Mauritania,Africa/Abidjan
+Mauritius,Mauritius,Indian/Mauritius
+Mexico,Mexico,America/Mexico_City
+Moldova,Moldova,Europe/Chisinau
+Mongolia,Mongolia,Asia/Ulaanbaatar
+Montenegro,Montenegro,Europe/Belgrade
+Morocco,Morocco,Africa/Casablanca
+Mozambique,Mozambique,Africa/Maputo
+Myanmar,Myanmar,Asia/Yangon
+Namibia,Namibia,Africa/Windhoek
+Nepal,Nepal,Asia/Kathmandu
+Netherlands,Netherlands,Europe/Brussels
+New Zealand,New Zealand,Pacific/Auckland
+Nicaragua,Nicaragua,America/Managua
+Niger,Niger,Africa/Lagos
+Nigeria,Nigeria,Africa/Lagos
+North Macedonia,North Macedonia,Europe/Belgrade
+Norway,Norway,Europe/Berlin
+Oman,Oman,Asia/Dubai
+Pakistan,Pakistan,Asia/Karachi
+Palestine,Palestine,Asia/Gaza
+Panama,Panama,America/Panama
+Paraguay,Paraguay,America/Asuncion
+Peru,Peru,America/Lima
+Philippines,Philippines,Asia/Manila
+Poland,Poland,Europe/Warsaw
+Portugal,Portugal,Europe/Lisbon
+Qatar,Qatar,Asia/Qatar
+Romania,Romania,Europe/Bucharest
+Russia,Russia,Europe/Moscow
+Rwanda,Rwanda,Africa/Maputo
+Saudi Arabia,Saudi Arabia,Asia/Riyadh
+Senegal,Senegal,Africa/Abidjan
+Serbia,Serbia,Europe/Belgrade
+Singapore,Singapore,Asia/Singapore
+Slovakia,Slovakia,Europe/Prague
+Slovenia,Slovenia,Europe/Belgrade
+South Africa,South Africa,Africa/Johannesburg
+South Korea,South Korea,Asia/Seoul
+Spain,Spain,Europe/Madrid
+Sri Lanka,Sri Lanka,Asia/Colombo
+Sudan,Sudan,Africa/Khartoum
+Suriname,Suriname,America/Paramaribo
+Sweden,Sweden,Europe/Berlin
+Switzerland,Switzerland,Europe/Zurich
+Syria,Syria,Asia/Damascus
+Tajikistan,Tajikistan,Asia/Dushanbe
+Tanzania,Tanzania,Africa/Nairobi
+Thailand,Thailand,Asia/Bangkok
+Togo,Togo,Africa/Abidjan
+Trinidad And Tobago,Trinidad And Tobago,America/Puerto_Rico
+Tunisia,Tunisia,Africa/Tunis
+Turkey,Turkey,Europe/Istanbul
+Turkmenistan,Turkmenistan,Asia/Ashgabat
+Uganda,Uganda,Africa/Nairobi
+Ukraine,Ukraine,Europe/Kyiv
+United Arab Emirates,United Arab Emirates,Asia/Dubai
+United Kingdom,United Kingdom,Europe/London
+United States,United States,America/Chicago
+Uruguay,Uruguay,America/Montevideo
+Uzbekistan,Uzbekistan,Asia/Samarkand
+Venezuela,Venezuela,America/Caracas
+Vietnam,Vietnam,Asia/Bangkok
+Yemen,Yemen,Asia/Riyadh
+Zambia,Zambia,Africa/Maputo
+Zimbabwe,Zimbabwe,Africa/Maputo

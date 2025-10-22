@@ -1,0 +1,94 @@
+{
+    project_id: "stride_global",
+    name: "STRIDE Global Dataset",
+    description: "Input data for the STRIDE application, country-level hourly with near-global coverage.",
+    datasets: [],
+    dimensions: {
+        base_dimensions: [
+            {
+                type: "scenario",
+                class: "Scenario",
+                module: 'dsgrid.dimension.standard',
+                name: "default",
+                description: "Default scenario",
+                records: [{id: "default", name: "default"}],
+            },
+            {
+                type: "model_year",
+                class: "ModelYear",
+                module: 'dsgrid.dimension.standard',
+                name: "all_model_years",
+                description: "All years available for analysis in STRIDE",
+                file: "dimensions/model_years.csv",
+            },
+            // Skipping weather year for now. Need real load shape data.
+            {
+                type: "geography",
+                class: "Geography",
+                module: 'dsgrid.dimension.standard',
+                name: "country",
+                description: "All countries available for analysis in STRIDE",
+                file: "dimensions/countries.csv",
+            },
+            {
+                type: "sector",
+                class: "Sector",
+                module: 'dsgrid.dimension.standard',
+                name: "sector",
+                description: "Sectors in the STRIDE global dataset",
+                file: "dimensions/sectors.csv",
+            },
+            {
+                type: "subsector",
+                class: "Subsector",
+                module: 'dsgrid.dimension.standard',
+                name: "subsector",
+                description: "Subsectors in the STRIDE global dataset",
+                file: "dimensions/subsectors.csv",
+            },
+            {
+                type: "metric",
+                "class": "Population",
+                name: "population",
+                description: "Number of people",
+                module: "dsgrid.dimension.standard",
+                records: [
+                    {id: "population", name: "population", unit: "people"},
+                ],
+            },
+            {
+                type: "metric",
+                "class": "FractionalIndex",
+                name: "hdi",
+                description: "Human Development Index",
+                module: "dsgrid.dimension.standard",
+                records: [
+                    {
+                        id: "hdi",
+                        name: "HDI",
+                        unit: "HDI",
+                        min_value: 0.0,
+                        max_value: 1.0,
+                    },
+                ],
+            },
+            {
+                type: "metric",
+                "class": "Stock",
+                name: "gdp",
+                description: "Gross Domestic Product",
+                module: "dsgrid.dimension.standard",
+                records: [
+                    {id: "gdp", name: "GDP", unit: "billion USD-2024"},
+                ],
+            },
+            {
+                type: "metric",
+                "class": "EnergyIntensityRegression",
+                name: "metric",
+                description: "Slope, intercept, and starting year (t0) parameters for energy intensity regressions. Supports linear and log-linear (exponential) regressions of energy intensity either per HDI-person or per GDP. Regressions describe change in energy intensity year over year.",
+                file: "dimensions/energy_intensity_regression_parameters.csv",
+            },
+        ],
+    },
+}

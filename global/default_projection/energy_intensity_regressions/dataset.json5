@@ -1,47 +1,50 @@
 {
-  dataset_id: "STRIDE_Energy_Intensity_Regressions_2025",
-  version: "1.0.0",
-  dataset_type: "modeled",
-  data_schema: {
-    data_schema_type: "one_table",
-    table_format: {
-      format_type: "unpivoted",
-    },
-  },
-  description: "Energy intensity regression parameters for STRIDE",
-  data_classification: "low",
-  use_project_geography_time_zone: true,
-  dimensions: [
-    {
-      type: "metric",
-      "class": "EnergyIntensityRegression",
-      name: "metric",
-      description: "metric",
-      file: "dimensions/EnergyIntensityRegression.csv",
-      module: "dsgrid.dimension.standard",
-    },
-    {
-      type: "time",
-      time_type: "annual",
-      time_interval_type: "period_beginning",
-      name: "annual",
-      description: "annual",
-      module: "dsgrid.dimension.standard",
-      "class": "AnnualTime",
-      include_leap_day: true,
-      ranges: [
-        {
-          start: 1990,
-          end: 2050,
+    dataset_id: "STRIDE_Energy_Intensity_Regressions_2025",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
         },
-      ],
-      str_format: "%Y",
     },
-  ],
-  dimension_references: [],
-  trivial_dimensions: [],
-  sector_description: "energy consumption",
-  data_source: "IEA World Energy Balances combined with other datasets and analysis",
-  data_source_date: "2024",
-  data_source_doi_url: "https://www.iea.org/data-and-statistics/data-product/world-energy-balances",
+    description: "Energy intensity regression parameters for STRIDE",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+        {
+            type: "sector",
+            "class": "Sector",
+            name: "sector",
+            file: "../../dimensions/sectors.csv",
+        },
+        {
+            type: "subsector",
+            "class": "Subsector",
+            name: "subsector",
+            file: "../../dimensions/subsectors.csv",
+        },
+        {
+            type: "metric",
+            "class": "EnergyIntensityRegression",
+            name: "metric",
+            description: "Slope, intercept, and starting year (t0) parameters for energy intensity regressions. Supports linear and log-linear (exponential) regressions of energy intensity either per HDI-person or per GDP. Regressions describe change in energy intensity year over year.",
+            file: "dimensions/energy_intensity_regression_parameters.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "energy consumption",
+    data_source: "IEA World Energy Balances combined with other datasets and analysis",
+    data_source_date: "2024",
+    data_source_doi_url: "https://www.iea.org/data-and-statistics/data-product/world-energy-balances",
+    dimension_columns: {
+        country: "geography",
+    },
 }
