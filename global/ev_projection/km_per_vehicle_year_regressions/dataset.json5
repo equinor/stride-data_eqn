@@ -19,6 +19,7 @@
             file: "dimensions/OECD_GEO_countries.csv",
         },
         {
+            // TODO: This looks incorrect.
             type: "metric",
             "class": "StockRegression",
             name: "metric",
