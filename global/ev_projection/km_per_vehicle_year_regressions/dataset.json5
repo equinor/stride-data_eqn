@@ -19,11 +19,10 @@
             file: "dimensions/OECD_GEO_countries.csv",
         },
         {
-            // TODO: This looks incorrect.
             type: "metric",
-            "class": "StockRegression",
+            "class": "EnergyServiceDemandRegression",
             name: "metric",
-            description: "Slope, intercept, and starting year (t0) parameters for cars per capita linear regressions. Regressions describe change in the number of cars per person year over year.",
+            description: "Slope, intercept, and starting year (t0) parameters for kilometers per vehicle year exponential regressions. Regressions describe change in the number of kilometers per vehicle year over time.",
             file: "dimensions/km_per_vehicle_year_regression_parameters.csv",
         },
     ],
