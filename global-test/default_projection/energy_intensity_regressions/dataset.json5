@@ -41,6 +41,9 @@
     dimension_references: [],
     trivial_dimensions: [],
     sector_description: "energy consumption",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
     dimension_columns: {
         country: "geography",
     },
