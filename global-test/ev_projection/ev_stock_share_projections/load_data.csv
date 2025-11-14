@@ -1,0 +1,15 @@
+﻿Country,Year,value
+country_1,2025,0.0
+country_1,2030,0.005
+country_1,2035,0.01
+country_1,2040,0.02
+country_1,2045,0.06
+country_1,2050,0.11
+country_1,2055,0.23
+country_2,2025,0.05
+country_2,2030,0.16
+country_2,2035,0.30
+country_2,2040,0.40
+country_2,2045,0.43
+country_2,2050,0.44
+country_2,2055,0.45

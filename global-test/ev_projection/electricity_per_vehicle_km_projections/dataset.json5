@@ -1,0 +1,68 @@
+{
+    dataset_id: "STRIDE_Test_Electricity_per_Vehicle_Kilometer_Projections",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "Electricity consumption per vehicle kilometer projections for STRIDE test dataset",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "metric",
+            "class": "EnergyEfficiency",
+            name: "electricity_per_vehicle_km",
+            description: "Electricity consumption per vehicle kilometer",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "Wh_per_vehicle_km",
+                    name: "Electricity per Vehicle Kilometer",
+                    fuel_id: "electricity",
+                    unit: "Wh/km",
+                },
+            ],
+        },
+        {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "../../dimensions/model_years.csv",
+        },
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+        {
+            type: "subsector",
+            "class": "Subsector",
+            name: "ev_powertrain",
+            records: [
+                {
+                    id: "bev",
+                    name: "Battery Electric Vehicle",
+                },
+                {
+                    id: "phev",
+                    name: "Plug-in Hybrid Electric Vehicle",
+                },
+            ],
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "transportation",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
+    dimension_columns: {
+        Country: "geography",
+        Year: "model_year",
+    },
+}

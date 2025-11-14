@@ -1,0 +1,4 @@
+id,name,regression_type,unit
+a0_lin,Intercept Linear,linear,cars/person
+a1_lin,Slope Linear,linear,cars/person-yr
+t0_lin,Start Year Linear,linear,yr

@@ -1,0 +1,7 @@
+region,metric,value
+Region_A,a0_lin,0.025
+Region_A,a1_lin,0.00025
+Region_A,t0_lin,2024.0
+Region_B,a0_lin,0.40
+Region_B,a1_lin,0.004
+Region_B,t0_lin,2024.0
