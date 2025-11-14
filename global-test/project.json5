@@ -157,25 +157,11 @@
                 module: 'dsgrid.dimension.standard'
             },
             {
-                type: 'metric',
-                class: 'EnergyIntensityRegression',
-                name: 'energy intensity regression',
-                description: 'Energy intensity regression coefficients for linear and exponential fits',
-                records: [
-                    {id: 'res_a0_lin', name: 'Residential Intercept Linear', regression_type: 'linear', unit: 'TJ/HDI-person'},
-                    {id: 'res_a1_lin', name: 'Residential Slope Linear', regression_type: 'linear', unit: 'TJ/HDI-person-yr'},
-                    {id: 'res_t0_lin', name: 'Residential Start Year Linear', regression_type: 'linear', unit: 'yr'},
-                    {id: 'res_a0_exp', name: 'Residential Intercept Exponential', regression_type: 'exponential', unit: 'TJ/HDI-person'},
-                    {id: 'res_a1_exp', name: 'Residential Slope Exponential', regression_type: 'exponential', unit: 'TJ/HDI-person-yr'},
-                    {id: 'res_t0_exp', name: 'Residential Start Year Exponential', regression_type: 'linear', unit: 'yr'},
-                    {id: 'nonres_a0_lin', name: 'Non-residential Intercept Linear', regression_type: 'linear', unit: 'TJ/billion USD-2024'},
-                    {id: 'nonres_a1_lin', name: 'Non-residential Slope Linear', regression_type: 'linear', unit: 'TJ/billion USD-2024-yr'},
-                    {id: 'nonres_t0_lin', name: 'Non-residential Start Year Linear', regression_type: 'linear', unit: 'yr'},
-                    {id: 'nonres_a0_exp', name: 'Non-residential Intercept Exponential', regression_type: 'exponential', unit: 'TJ/billion USD-2024'},
-                    {id: 'nonres_a1_exp', name: 'Non-residential Slope Exponential', regression_type:  'exponential', unit: 'TJ/billion USD-2024-yr'},
-                    {id: 'nonres_t0_exp', name: 'Non-residential Start Year Exponential', regression_type: 'linear', unit: 'yr'},
-                ],
-                module: 'dsgrid.dimension.standard'
+                type: "metric",
+                "class": "EnergyIntensityRegression",
+                name: "metric",
+                description: "Slope, intercept, and starting year (t0) parameters for energy intensity regressions. Supports linear and log-linear (exponential) regressions of energy intensity either per HDI-person or per GDP. Regressions describe change in energy intensity year over year.",
+                file: "../default_projection/energy_intensity_regressions/dimensions/energy_intensity_regression_parameters.csv",
             },
             {
                 type: 'metric',
