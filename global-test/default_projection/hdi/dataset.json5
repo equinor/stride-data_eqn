@@ -1,0 +1,56 @@
+{
+    dataset_id: "STRIDE_Test_HDI_Data",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "Fictitious HDI data for STRIDE test dataset",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "metric",
+            "class": "FractionalIndex",
+            name: "hdi",
+            description: "Human Development Index",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "hdi",
+                    name: "HDI",
+                    unit: "HDI",
+                    min_value: 0.0,
+                    max_value: 1.0,
+                },
+            ],
+        },
+        {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "../../dimensions/model_years.csv",
+        },
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [
+        "metric",
+    ],
+    sector_description: "macroeconomics",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
+    dimension_columns: {
+        country: "geography",
+        year: "model_year",
+    },
+}

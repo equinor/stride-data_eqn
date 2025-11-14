@@ -2,70 +2,16 @@
     project_id: "test_project",
     creator: "tester",
     description: "This is a test project.",
-    datasets: [
-        {
-            dataset_id: "energy_intensity",
-            path: "tests/data/energy_intensity.csv",
-            metric: "energy intensity regression", // hooking to dimension name
-            dimension_columns: {
-                country: "geography",
-                year: "model_year",
-            }
-        },
-        {
-            dataset_id: "gdp",
-            path: "tests/data/gdp.csv",
-            metric: "GDP",
-            dimension_columns: {
-                country: "geography",
-                year: "model_year",
-            }
-        },
-        {
-            dataset_id: "hdi",
-            path: "tests/data/hdi.csv",
-            metric: "HDI",
-            dimension_columns: {
-                country: "geography",
-                year: "model_year",
-            }
-        },
-        {
-            dataset_id: "population",
-            path: "tests/data/population.csv",
-            metric: "population",
-            dimension_columns: {
-                country: "geography",
-                year: "model_year",
-            }
-        },
-        {
-            dataset_id: "load_shapes",
-            path: "tests/data/load_shapes.csv",
-            // dataset_type: "energy_by_sector",
-            time_columns: ["month", "day_type", "hour"],
-            dimension_columns: {
-                country: "geography",
-                year: "model_year",
-                sector: "sector",
-                enduse: "metric",
-            }
-        },
-    ],
+    datasets: [],
     dimensions: {
         base_dimensions: [
             {
-                type: 'scenario',
-                class: 'Scenario',
-                name: 'scenario',
-                // Matching the wireframe names for now. Could also have the 
-                // first scenario be 'default' and others could have user-specified
-                // names. In general people will want to provide some sort of 
-                // meaningful label and/or to access a description.
-                records: [
-                    {id: 'scenario_1', name: 'Scenario 1'}
-                ],
+                type: "scenario",
+                class: "Scenario",
                 module: 'dsgrid.dimension.standard',
+                name: "default",
+                description: "Default scenario",
+                records: [{id: "default", name: "default"}],
             },
             {
                 type: 'model_year',
@@ -92,11 +38,8 @@
                 type: 'geography',
                 class: 'Geography',
                 name: 'country',
-                description: 'Selected country',
-                is_trivial: true,
-                records: [
-                    {id: 'country_1', name: 'Country 1'},
-                ],
+                description: 'All countries available for analysis in this test project',
+                file: 'dimensions/countries.csv',
                 module: 'dsgrid.dimension.standard',
             },
             {
@@ -108,13 +51,12 @@
                 module: 'dsgrid.dimension.standard',
             },
             {
-                // TODO: Will change this to "unspecified" and "electric_ldv" 
-                // for Workflow 3. In the meantime, this illustrates excluding
-                // subsector altogether. We could also just support subsector
-                // not being in the list at all or fully flexible "subsector"-
-                // like specifications, i.e., 0-N subsector dimensions.
-                type: 'subsector',
-                is_noop: true,
+                type: "subsector",
+                class: "Subsector",
+                module: 'dsgrid.dimension.standard',
+                name: "subsector",
+                description: "Subsectors in the STRIDE global dataset",
+                file: "dimensions/subsectors.csv",
             },
             {
                 type: 'metric',
@@ -174,7 +116,6 @@
                 ],
                 module: 'dsgrid.dimension.standard'
             }
-            // Briefly (prior to pulling in the hourly data) should we focus on AnnualTime?
         ]
     }
 }
