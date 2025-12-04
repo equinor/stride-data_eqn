@@ -1,0 +1,38 @@
+{
+    dataset_id: "STRIDE_Test_Kilometers_per_Vehicle_Year_Regression_Parameters",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "Kilometers per vehicle year regression parameters for STRIDE test dataset",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+        {
+            type: "metric",
+            "class": "EnergyServiceDemandRegression",
+            name: "metric",
+            description: "Slope, intercept, and starting year (t0) parameters for kilometers per vehicle year exponential regressions. Regressions describe change in the number of kilometers per vehicle year over time.",
+            file: "dimensions/km_per_vehicle_year_regression_parameters.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "transportation",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
+    dimension_columns: {
+        country: "geography",
+    },
+}

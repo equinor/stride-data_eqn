@@ -1,0 +1,52 @@
+{
+    dataset_id: "STRIDE_EV_Stock_Share_Projections_2025",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "Electric vehicle stock share projections for STRIDE.",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "metric",
+            "class": "StockShare",
+            name: "ev_stock_share",
+            description: "Electric vehicle stock share",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "ev_stock_share",
+                    name: "EV Stock Share",
+                    unit: "fraction",
+                },
+            ],
+        },
+        {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "../../dimensions/model_years.csv",
+        },
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "dimensions/IEA_GEO_countries_regions.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "transportation",
+    data_source: "EV stock share projection shapes for select countries and regions hand-translated from the BNEF Electric Vehicle Outlook 2025 and then summarized with logistic curve fits. Specific projections per IEA Global EV Outlook country constructed by selecting an appropriate BNEF curve and calculating a year offset to ensure that the final curve matches the last historical value reported by IEA GEO. This dataset then consists of historical EV stock shares from IEA GEO and values projected to 2050.",
+    data_source_date: "2025",
+    data_source_doi_url: "https://about.bnef.com/insights/clean-transport/electric-vehicle-outlook/",
+    dimension_columns: {
+        Country: "geography",
+        Year: "model_year",
+    },
+}

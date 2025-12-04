@@ -1,0 +1,13 @@
+id,name,regression_type,unit
+res_a0_lin,Residential Intercept Linear,linear,TJ/HDI-person
+res_a1_lin,Residential Slope Linear,linear,TJ/HDI-person-yr
+res_t0_lin,Residential Start Year Linear,linear,yr
+res_a0_exp,Residential Intercept Exponential,exponential,TJ/HDI-person
+res_a1_exp,Residential Slope Exponential,exponential,TJ/HDI-person-yr
+res_t0_exp,Residential Start Year Exponential,exponential,yr
+nonres_a0_lin,Non-residential Intercept Linear,linear,TJ/billion USD-2024
+nonres_a1_lin,Non-residential Slope Linear,linear,TJ/billion USD-2024-yr
+nonres_t0_lin,Non-residential Start Year Linear,linear,yr
+nonres_a0_exp,Non-residential Intercept Exponential,exponential,TJ/billion USD-2024
+nonres_a1_exp,Non-residential Slope Exponential,exponential,TJ/billion USD-2024-yr
+nonres_t0_exp,Non-residential Start Year Exponential,exponential,yr

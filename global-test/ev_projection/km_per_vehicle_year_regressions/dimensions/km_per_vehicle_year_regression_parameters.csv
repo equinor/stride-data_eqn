@@ -1,0 +1,4 @@
+id,name,regression_type,unit
+a0_exp,Intercept Exponential,exponential,km/vehicle
+a1_exp,Slope Exponential,exponential,km/vehicle-yr
+t0_exp,Start Year Exponential,exponential,yr

@@ -1,0 +1,52 @@
+{
+    dataset_id: "STRIDE_PHEV_Share_Projections_2025",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "PHEV share of electric vehicle stock projected to hold constant from the last historical value reported by IEA GEO.",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "metric",
+            "class": "StockShare",
+            name: "phev_stock_share",
+            description: "Plug-in hybrid electric vehicle share of the electric vehicle stock",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "phev_stock_share",
+                    name: "PHEV Stock Share",
+                    unit: "fraction",
+                },
+            ],
+        },
+        {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "../../dimensions/model_years.csv",
+        },
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../ev_stock_share_projections/IEA_GEO_countries_regions.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "transportation",
+    data_source: "IEA Global EV Outlook",
+    data_source_date: "2025",
+    data_source_doi_url: "https://www.iea.org/reports/global-ev-outlook-2025",
+    dimension_columns: {
+        Country: "geography",
+        Year: "model_year",
+    },
+}

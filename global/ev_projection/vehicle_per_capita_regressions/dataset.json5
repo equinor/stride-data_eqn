@@ -1,0 +1,38 @@
+{
+    dataset_id: "STRIDE_Vehicles_per_Capita_Regressions_2025",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "Vehicles per capita regression parameters for STRIDE. Cars only in STRIDE 2025.",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "dimensions/GEO_UN_countries_regions.csv",
+        },
+        {
+            type: "metric",
+            "class": "StockRegression",
+            name: "metric",
+            description: "Slope, intercept, and starting year (t0) parameters for cars per capita linear regressions. Regressions describe change in the number of cars per person year over year.",
+            file: "dimensions/vehicles_per_capita_regression_parameters.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "transportation",
+    data_source: "IEA Global EV Outlook data on EV stock and EV stock shares for cars combined to estimate vehicles per country per year. Combined with UN population data and regressed to describe changes in cars per capita over time.",
+    data_source_date: "2025",
+    data_source_doi_url: "https://www.iea.org/reports/global-ev-outlook-2025",
+    dimension_columns: {
+        country: "geography",
+    },
+}

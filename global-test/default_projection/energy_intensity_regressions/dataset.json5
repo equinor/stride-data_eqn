@@ -1,0 +1,50 @@
+{
+    dataset_id: "STRIDE_Test_Energy_Intensity_Regressions",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_schema: {
+        data_schema_type: "one_table",
+        table_format: {
+            format_type: "unpivoted",
+        },
+    },
+    description: "Energy intensity regression parameters for STRIDE test dataset",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+        {
+            type: "sector",
+            "class": "Sector",
+            name: "sector",
+            file: "../../dimensions/sectors.csv",
+        },
+        {
+            type: "subsector",
+            "class": "Subsector",
+            name: "subsector",
+            file: "../../dimensions/subsectors.csv",
+        },
+        {
+            type: "metric",
+            "class": "EnergyIntensityRegression",
+            name: "metric",
+            description: "Slope, intercept, and starting year (t0) parameters for energy intensity regressions. Supports linear and log-linear (exponential) regressions of energy intensity either per HDI-person or per GDP. Regressions describe change in energy intensity year over year.",
+            file: "dimensions/energy_intensity_regression_parameters.csv",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "energy consumption",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
+    dimension_columns: {
+        country: "geography",
+    },
+}
