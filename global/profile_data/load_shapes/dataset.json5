@@ -19,6 +19,9 @@
                 },
             ],
         },
+        missing_associations: [
+            "missing_associations",
+        ],
     },
     description: "Hourly load shapes from the IMAGE integrated assessment model (IAM) as documented in 'Castillo et al. 2022. Future global electricity demand load curves. Energy. 259:1.' Totals data have been processed to calculate electricity consumed by 'other' enduses and 'Other' sectors.",
     data_classification: "low",
@@ -37,6 +40,12 @@
             file: "dimensions/IMAGE_load_shape_sectors.csv",
         },
         {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "../../dimensions/model_years.csv",
+        },
+        {
             type: "metric",
             "class": "EnergyEndUse",
             name: "enduse",
@@ -51,6 +60,14 @@
             name: "representative_period",
             description: "representative_period",
             module: "dsgrid.dimension.standard",
+            "class": "Time",
+            format: "one_weekday_day_and_one_weekend_day_per_month_by_hour",
+            ranges: [
+                {
+                    start: 1,
+                    end: 12,
+                },
+            ],
         },
     ],
     dimension_references: [],

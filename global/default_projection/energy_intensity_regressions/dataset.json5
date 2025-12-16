@@ -15,6 +15,9 @@
                 },
             ],
         },
+        missing_associations: [
+            "missing_associations",
+        ],
     },
     description: "Energy intensity regression parameters for STRIDE",
     data_classification: "low",

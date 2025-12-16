@@ -52,7 +52,9 @@
         },
     ],
     dimension_references: [],
-    trivial_dimensions: [],
+    trivial_dimensions: [
+        "metric",
+    ],
     sector_description: "transportation",
     data_source: "IEA Global EV Outlook",
     data_source_date: "2025",

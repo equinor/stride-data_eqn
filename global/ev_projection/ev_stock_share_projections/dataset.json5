@@ -52,7 +52,9 @@
         },
     ],
     dimension_references: [],
-    trivial_dimensions: [],
+    trivial_dimensions: [
+        "metric",
+    ],
     sector_description: "transportation",
     data_source: "EV stock share projection shapes for select countries and regions hand-translated from the BNEF Electric Vehicle Outlook 2025 and then summarized with logistic curve fits. Specific projections per IEA Global EV Outlook country constructed by selecting an appropriate BNEF curve and calculating a year offset to ensure that the final curve matches the last historical value reported by IEA GEO. This dataset then consists of historical EV stock shares from IEA GEO and values projected to 2050.",
     data_source_date: "2025",

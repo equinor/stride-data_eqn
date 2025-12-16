@@ -68,7 +68,9 @@
         },
     ],
     dimension_references: [],
-    trivial_dimensions: [],
+    trivial_dimensions: [
+        "metric",
+    ],
     sector_description: "transportation",
     data_source: "NREL 2024 Transportation Annual Technology Baseline (ATB), Mid scenario projections for Midsize Battery Electric Vehicles (300-mile range) and Gasoline Extended Range Plug-in Hybrid Electric Vehicle (35-mile electric range). The values for PHEVs account for both Wh/mile and PHEV utility factor (fraction of miles traveled on electricity).",
     data_source_date: "2024",
