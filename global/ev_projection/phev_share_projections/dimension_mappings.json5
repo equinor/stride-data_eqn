@@ -1,0 +1,10 @@
+{
+  mappings: [
+    {
+      description: "Assignment of normalized EV data by IEA/GEO countries to STRIDE countries",
+      dimension_type: "geography",
+      file: "../ev_stock_share_projections/dimension_mappings/iea_geo_countries_to_countries.csv",
+      mapping_type: "duplication",
+    },
+  ]
+}

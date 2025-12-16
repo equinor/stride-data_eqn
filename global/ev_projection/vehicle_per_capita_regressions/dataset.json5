@@ -2,10 +2,18 @@
     dataset_id: "STRIDE_Vehicles_per_Capita_Regressions_2025",
     version: "1.0.0",
     dataset_type: "modeled",
-    data_schema: {
-        data_schema_type: "one_table",
-        table_format: {
-            format_type: "unpivoted",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        pivoted_dimension_type: null,
+        data_file: {
+            path: "load_data.parquet",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+            ],
         },
     },
     description: "Vehicles per capita regression parameters for STRIDE. Cars only in STRIDE 2025.",
@@ -32,7 +40,4 @@
     data_source: "IEA Global EV Outlook data on EV stock and EV stock shares for cars combined to estimate vehicles per country per year. Combined with UN population data and regressed to describe changes in cars per capita over time.",
     data_source_date: "2025",
     data_source_doi_url: "https://www.iea.org/reports/global-ev-outlook-2025",
-    dimension_columns: {
-        country: "geography",
-    },
 }

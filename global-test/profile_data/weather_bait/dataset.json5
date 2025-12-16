@@ -1,0 +1,76 @@
+{
+    dataset_id: "STRIDE_Test_Temperature_BAIT",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        data_file: {
+            path: "load_data.csv",
+        },
+    },
+    description: "Population-weighted building adjusted internal temperature in degrees centigrade, i.e., building-adjusted internal temperature (BAIT)",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+        {
+            type: "metric",
+            "class": "WeatherVariable",
+            name: "metric",
+            description: "metric",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "BAIT",
+                    name: "building-adjusted internal temperature",
+                    unit: "degree Celsius",
+                },
+            ],
+        },
+        {
+            type: "weather_year",
+            "class": "WeatherYear",
+            name: "weather_year",
+            file: "../../dimensions/weather_years.csv",
+        },
+        {
+            type: "time",
+            time_type: "datetime",
+            time_interval_type: "period_beginning",
+            column_format: {
+                dtype: "time_format_in_parts",
+                year_column: "weather_year",
+                month_column: "month",
+                day_column: "day",
+            },
+            time_zone_format: {
+              format_type: "aligned_in_clock_time",
+              time_zones: ["Europe/Brussels", "Asia/Bangkok"],
+            },
+            name: "daily",
+            description: "daily",
+            module: "dsgrid.dimension.standard",
+            "class": "Time",
+            leap_day_adjustment: "none",
+            ranges: [
+                {
+                    start: "2018-01-01",
+                    end: "2020-12-31",
+                    str_format: "%Y-%m-%d",
+                },
+            ],
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: ["metric"],
+    sector_description: "buildings",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
+}

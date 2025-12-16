@@ -1,0 +1,13 @@
+geography,metric,sector
+country_1,res_a0_lin,Residential
+country_1,res_a1_lin,Residential
+country_1,res_t0_lin,Residential
+country_1,nonres_a0_exp,Transportation
+country_1,nonres_a1_exp,Transportation
+country_1,nonres_t0_exp,Transportation
+country_2,res_a0_exp,Residential
+country_2,res_a1_exp,Residential
+country_2,res_t0_exp,Residential
+country_2,nonres_a0_lin,Transportation
+country_2,nonres_a1_lin,Transportation
+country_2,nonres_t0_lin,Transportation

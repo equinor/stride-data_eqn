@@ -2,10 +2,22 @@
     dataset_id: "UN_population_median_2024",
     version: "1.0.0",
     dataset_type: "modeled",
-    data_schema: {
-        data_schema_type: "one_table",
-        table_format: {
-            format_type: "unpivoted",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        pivoted_dimension_type: null,
+        data_file: {
+            path: "load_data.parquet",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+                {
+                    name: "year",
+                    dimension_type: "model_year",
+                },
+            ],
         },
     },
     description: "Historical and median projected population data",
@@ -47,8 +59,4 @@
     data_source: "United Nations World Population Prospects",
     data_source_date: "2024",
     data_soruce_doi_url: "https://population.un.org/wpp/",
-    dimension_columns: {
-        country: "geography",
-        year: "model_year",
-    },
 }

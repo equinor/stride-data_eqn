@@ -26,9 +26,7 @@
                 class: 'WeatherYear',
                 name: 'weather_year',
                 description: "Selected weather year",
-                records: [
-                    {id: '2018', name: '2018'}
-                ],
+                file: 'dimensions/weather_years.csv',
                 module: 'dsgrid.dimension.standard'
             },
             // Time could be period beginning, hourly, aligned with weather_year
@@ -57,16 +55,6 @@
                 name: "subsector",
                 description: "Subsectors in the STRIDE global dataset",
                 file: "dimensions/subsectors.csv",
-            },
-            {
-                type: 'metric',
-                class: 'EnergyEndUse',
-                name: 'end use',
-                description: 'Temporary placeholder for annual energy',
-                records: [
-                    {id: 'unspecified', name: 'Unspecified', fuel_id: 'electricity', unit: 'MWh'}
-                ],
-                module: 'dsgrid.dimension.standard'
             },
             {
                 type: 'metric',
@@ -115,7 +103,29 @@
                     {id: 'nonres_energy_intensity', name: 'Non-residential Energy Intensity', unit: 'MWh/billion USD-2024'},
                 ],
                 module: 'dsgrid.dimension.standard'
-            }
+            },
+            {
+                type: "metric",
+                "class": "EnergyEndUse",
+                name: "enduse",
+                description: "Enduses for STRIDE test load shapes",
+                file: "profile_data/load_shapes/dimensions/enduses.csv",
+                module: "dsgrid.dimension.standard",
+            },
+            {
+                type: "metric",
+                "class": "WeatherVariable",
+                name: "bait",
+                description: "building-adjusted internal temperature",
+                module: "dsgrid.dimension.standard",
+                records: [
+                    {
+                        id: "BAIT",
+                        name: "building-adjusted internal temperature",
+                        unit: "degree Celsius",
+                    },
+                ],
+            },
             {
                 type: "metric",
                 "class": "StockRegression",

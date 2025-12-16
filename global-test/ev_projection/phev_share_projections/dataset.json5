@@ -2,11 +2,22 @@
     dataset_id: "STRIDE_Test_PHEV_Share_Projections",
     version: "1.0.0",
     dataset_type: "modeled",
-    data_schema: {
-        data_schema_type: "one_table",
-        table_format: {
-            format_type: "unpivoted",
-        },
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        data_file: {
+            path: "load_data.csv",
+            columns: [
+                {
+                    name: "Country",
+                    dimension_type: "geography",
+                },
+                {
+                    name: "Year",
+                    dimension_type: "model_year",
+                },
+            ]
+        }
     },
     description: "PHEV share of electric vehicle stock for STRIDE test dataset.",
     data_classification: "low",
@@ -40,13 +51,9 @@
         },
     ],
     dimension_references: [],
-    trivial_dimensions: [],
+    trivial_dimensions: ["metric"],
     sector_description: "transportation",
     data_source: "STRIDE Team",
     data_source_date: "2025",
     data_source_doi_url: "https://github.com/dsgrid/stride-data",
-    dimension_columns: {
-        Country: "geography",
-        Year: "model_year",
-    },
 }

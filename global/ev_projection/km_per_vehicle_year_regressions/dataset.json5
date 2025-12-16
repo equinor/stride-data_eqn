@@ -2,10 +2,18 @@
     dataset_id: "STRIDE_Kilometers_per_Vehicle_Year_Regressions_2025",
     version: "1.0.0",
     dataset_type: "modeled",
-    data_schema: {
-        data_schema_type: "one_table",
-        table_format: {
-            format_type: "unpivoted",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        pivoted_dimension_type: null,
+        data_file: {
+            path: "load_data.parquet",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+            ],
         },
     },
     description: "Kilometers per vehicle year regression parameters for STRIDE. This metric is currently an average over all vehicle types.",
@@ -32,7 +40,4 @@
     data_source: "Data on vehicle kilometers per year by country from the OECD Road motor vehicle traffic dataset. Total number of vehicles derived from IEA Global EV Outlook EV stock and EV stock share data across all on-road modes (e.g., Cars, Vans, Trucks). Log-linear (exponential) regressions computed to describe change over time for select countries and a population-weighted average.",
     data_source_date: "2025",
     data_source_doi_url: "https://data-explorer.oecd.org/vis?lc=en&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ST%40DF_STTRAFFIC&df[ag]=OECD.ITF&dq=.A...ROAD...&lom=LASTNPERIODS&lo=5&to[TIME_PERIOD]=false",
-    dimension_columns: {
-        country: "geography",
-    },
 }

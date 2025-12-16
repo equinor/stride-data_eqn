@@ -2,10 +2,22 @@
     dataset_id: "WEO_CEBR_2024",
     version: "1.0.0",
     dataset_type: "modeled",
-    data_schema: {
-        data_schema_type: "one_table",
-        table_format: {
-            format_type: "unpivoted",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        pivoted_dimension_type: null,
+        data_file: {
+            path: "load_data.parquet",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+                {
+                    name: "year",
+                    dimension_type: "model_year",
+                },
+            ],
         },
     },
     description: "Historical GDP from the 2024 IMF World Economic Outlook (WEO) and GDP forecasts from the Centre for Economics and Business Research (CEBR) 2024 World Economic League Table",
@@ -47,8 +59,4 @@
     data_source: "International Monetary Fund (IMF) and Centre for Economics and Business Research (CEBR)",
     data_source_date: "2024",
     data_source_doi_url: "https://www.imf.org/en/Publications/WEO/weo-database/2024/October/weo-report;https://cebr.com/world-economic-league-table/",
-    dimension_columns: {
-        country: "geography",
-        year: "model_year",
-    },
 }

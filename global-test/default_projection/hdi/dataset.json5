@@ -2,11 +2,22 @@
     dataset_id: "STRIDE_Test_HDI_Data",
     version: "1.0.0",
     dataset_type: "modeled",
-    data_schema: {
-        data_schema_type: "one_table",
-        table_format: {
-            format_type: "unpivoted",
-        },
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        data_file: {
+            path: "load_data.csv",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+                {
+                    name: "year",
+                    dimension_type: "model_year",
+                },
+            ]
+        }
     },
     description: "Fictitious HDI data for STRIDE test dataset",
     data_classification: "low",
@@ -49,8 +60,4 @@
     data_source: "STRIDE Team",
     data_source_date: "2025",
     data_source_doi_url: "https://github.com/dsgrid/stride-data",
-    dimension_columns: {
-        country: "geography",
-        year: "model_year",
-    },
 }

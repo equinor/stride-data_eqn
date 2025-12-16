@@ -33,6 +33,16 @@
             config_file: "default_projection/energy_intensity_regressions/dataset.json5",
         },
         {
+            dataset_id: "STRIDE_Test_Load_Shapes",
+            dataset_path: "profile_data/load_shapes",
+            config_file: "profile_data/load_shapes/dataset.json5",
+        },        
+        {
+            dataset_id: "STRIDE_Test_Temperature_BAIT",
+            dataset_path: "profile_data/weather_bait",
+            config_file: "profile_data/weather_bait/dataset.json5",
+        },
+        {
             dataset_id: "STRIDE_Test_Vehicles_per_Capita_Regression_Parameters",
             dataset_path: "ev_projection/vehicle_per_capita_regressions",
             config_file: "ev_projection/vehicle_per_capita_regressions/dataset.json5",
@@ -81,8 +91,18 @@
         },
         {
             project_id: "test_project",
-            dataset_id: "STRIDE_Test_Vehicles_per_Capita_Regression_Parameters",
+            dataset_id: "STRIDE_Test_Load_Shapes",
+            dimension_mapping_file: "profile_data/load_shapes/dimension_mappings.json5",
+        },        
+        {
+            project_id: "test_project",
+            dataset_id: "STRIDE_Test_Temperature_BAIT",
             // dimension_mapping_file: "",
+        },        
+        {
+            project_id: "test_project",
+            dataset_id: "STRIDE_Test_Vehicles_per_Capita_Regression_Parameters",
+            dimension_mapping_file: "ev_projection/vehicle_per_capita_regressions/dimension_mappings.json5",
         },
         {
             project_id: "test_project",

@@ -1,0 +1,77 @@
+{
+    dataset_id: "STRIDE_Test_Load_Shapes",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "pivoted",
+        pivoted_dimension_type: "geography",
+        data_file: {
+            path: "load_data.csv",
+            columns: [
+                {
+                    name: "year",
+                    dimension_type: "model_year",
+                },
+                {
+                    name: "enduse",
+                    dimension_type: "metric",
+                },
+            ],
+        },
+        missing_associations: ["missing_associations"]
+    },
+    description: "Hourly load shapes for STRIDE test dataset.",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "country",
+            file: "../../dimensions/countries.csv",
+        },
+        {
+            type: "model_year",
+            "class": "ModelYear",
+            name: "model_year",
+            file: "dimensions/model_years.csv",
+        },
+        {
+            type: "sector",
+            "class": "Sector",
+            name: "sector",
+            file: "dimensions/sectors.csv",
+        },
+        {
+            type: "metric",
+            "class": "EnergyEndUse",
+            name: "enduse",
+            description: "Enduses for STRIDE test load shapes",
+            file: "dimensions/enduses.csv",
+            module: "dsgrid.dimension.standard",
+        },
+        {
+            type: "time",
+            "class": "Time",
+            time_type: "representative_period",
+            time_interval_type: "period_beginning",
+            name: "representative_period",
+            format: "one_weekday_day_and_one_weekend_day_per_month_by_hour",
+            description: "representative_period",
+            module: "dsgrid.dimension.standard",
+            ranges: [
+              {
+                start: 1,
+                end: 12,
+              },
+            ],
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "electricity",
+    data_source: "STRIDE Team",
+    data_source_date: "2025",
+    data_source_doi_url: "https://github.com/dsgrid/stride-data",
+}

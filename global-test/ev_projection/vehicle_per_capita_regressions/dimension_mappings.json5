@@ -1,0 +1,10 @@
+{
+    mappings:[
+        {
+            description: "Assignment of normalized vehicle data by regions to STRIDE test countries",
+            dimension_type: "geography",
+            file: "dimension_mappings/regions_to_countries.csv",
+            mapping_type: "duplication",
+        },
+    ]
+}

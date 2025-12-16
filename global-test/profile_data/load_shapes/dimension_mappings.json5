@@ -1,0 +1,10 @@
+{
+  mappings: [
+    {
+        description: "Assignment of load shape sectors to STRIDE test sectors",
+        dimension_type: "sector",
+        file: "dimension_mappings/load_shape_sectors_to_sectors.csv",
+        mapping_type: "one_to_one",
+    },
+  ]
+}

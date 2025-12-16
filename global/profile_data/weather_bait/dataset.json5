@@ -1,0 +1,67 @@
+{
+    dataset_id: "Temperature_BAIT_Demand_Ninja",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "pivoted",
+        pivoted_dimension_type: "geography",
+        data_file: {
+            path: "load_data.parquet",
+        },
+    },
+    description: "Population-weighted building adjusted internal temperature in degrees centigrade, i.e., building-adjusted internal temperature (BAIT). Daily, country-level averages provided for weather years 1980-2022.",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "ISO2_country_code",
+            file: "dimensions/ISO2_country_codes.csv",
+        },
+        {
+            type: "metric",
+            "class": "WeatherVariable",
+            name: "bait",
+            description: "Building-adjusted internal temperature",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "BAIT",
+                    name: "building-adjusted internal temperature",
+                    unit: "degree Celsius",
+                },
+            ],
+        },
+        {
+            type: "weather_year",
+            "class": "WeatherYear",
+            name: "weather_year",
+            file: "dimensions/weather_years.csv",
+        },
+        {
+            type: "time",
+            time_type: "daily",
+            time_interval_type: "period_beginning",
+            name: "daily",
+            description: "daily",
+            module: "dsgrid.dimension.standard",
+            "class": "DailyTime",
+            year_column: "weather_year",
+            ranges: [
+                {
+                    start: "1980-01-01",
+                    end: "2022-12-31",
+                },
+            ],
+            str_format: "%Y-%m-%d",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "buildings",
+    data_source: "Staffell, Pfenninger, and Johnson. 2023. A global model of hourly space heating and cooling demand at multiple spatial scales. Nature Energy. 8, 1328-1344.",
+    data_source_date: "2023",
+    data_source_doi_url: "https://doi.org/10.1038/s41560-023-01341-5;https://github.com/renewables-ninja/demand-ninja;https://www.renewables.ninja/",
+}

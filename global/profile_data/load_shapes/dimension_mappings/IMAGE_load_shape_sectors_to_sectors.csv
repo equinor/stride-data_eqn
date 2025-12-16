@@ -1,0 +1,6 @@
+from_id,to_id
+Residential,Residential
+Service,Commercial
+Other,
+Industry,Industrial
+Transport,Transportation

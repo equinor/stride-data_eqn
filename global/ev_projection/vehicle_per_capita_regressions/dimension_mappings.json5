@@ -1,0 +1,10 @@
+{
+  mappings: [
+    {
+      description: "Assignment of normalized vehicle data by GEO/UN countries to STRIDE countries",
+      dimension_type: "geography",
+      file: "dimension_mappings/geo_un_countries_to_countries.csv",
+      mapping_type: "duplication",
+    },
+  ]
+}

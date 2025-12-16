@@ -1,0 +1,62 @@
+{
+    dataset_id: "Load_Shapes_IMAGE_2022",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "pivoted",
+        pivoted_dimension_type: "geography",
+        data_file: {
+            path: "load_data.parquet",
+            columns: [
+                {
+                    name: "year",
+                    dimension_type: "model_year",
+                },
+                {
+                    name: "enduse",
+                    dimension_type: "metric",
+                },
+            ],
+        },
+    },
+    description: "Hourly load shapes from the IMAGE integrated assessment model (IAM) as documented in 'Castillo et al. 2022. Future global electricity demand load curves. Energy. 259:1.' Totals data have been processed to calculate electricity consumed by 'other' enduses and 'Other' sectors.",
+    data_classification: "low",
+    use_project_geography_time_zone: true,
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            name: "region",
+            file: "dimensions/IMAGE_load_shape_regions.csv",
+        },
+        {
+            type: "sector",
+            "class": "Sector",
+            name: "sector",
+            file: "dimensions/IMAGE_load_shape_sectors.csv",
+        },
+        {
+            type: "metric",
+            "class": "EnergyEndUse",
+            name: "enduse",
+            description: "Electricity enduses in IMAGE load shapes",
+            file: "dimensions/IMAGE_load_shape_enduses.csv",
+            module: "dsgrid.dimension.standard",
+        },
+        {
+            type: "time",
+            time_type: "representative_period",
+            time_interval_type: "period_beginning",
+            name: "representative_period",
+            description: "representative_period",
+            module: "dsgrid.dimension.standard",
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "electricity",
+    data_source: "IMAGE Integrated Assessment Model, Castillo et al. (2022)",
+    data_source_date: "2022",
+    data_source_doi_url: "https://data.mendeley.com/datasets/pmd2dchk44/1;https://www.sciencedirect.com/science/article/pii/S0360544222016449",
+}

@@ -1,0 +1,4 @@
+from_id,to_id
+Residential,Residential
+Industry,Industrial
+Transport,Transportation

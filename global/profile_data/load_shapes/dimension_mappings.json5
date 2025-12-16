@@ -1,0 +1,16 @@
+{
+  mappings: [
+    {
+      description: "Assignment of IMAGE load shape regions to STRIDE countries",
+      dimension_type: "geography",
+      file: "dimension_mappings/IMAGE_load_shape_regions_to_countries.csv",
+      mapping_type: "duplication",
+    },
+    {
+        description: "Assignment of IMAGE load shape sectors to STRIDE sectors",
+        dimension_type: "sector",
+        file: "dimension_mappings/IMAGE_load_shape_sectors_to_sectors.csv",
+        mapping_type: "one_to_one",
+    },
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  mappings: [
+    {
+      description: "Assignment of Demand Ninja ISO2 country codes to STRIDE countries",
+      dimension_type: "geography",
+      file: "dimension_mappings/ISO2_country_codes_to_countries.csv",
+      mapping_type: "duplication",
+    },
+  ]
+}

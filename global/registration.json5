@@ -33,6 +33,16 @@
             config_file: "default_projection/energy_intensity_regressions/dataset.json5",
         },
         {
+            dataset_id: "Load_Shapes_IMAGE_2022",
+            dataset_path: "profile_data/load_shapes",
+            config_file: "profile_data/load_shapes/dataset.json5",
+        },
+        {
+            dataset_id: "Temperature_BAIT_Demand_Ninja",
+            dataset_path: "profile_data/weather_bait",
+            config_file: "profile_data/weather_bait/dataset.json5",
+        },
+        {
             dataset_id: "STRIDE_Vehicles_per_Capita_Regressions_2025",
             dataset_path: "ev_projection/vehicle_per_capita_regressions",
             config_file: "ev_projection/vehicle_per_capita_regressions/dataset.json5",
@@ -81,28 +91,38 @@
         },
         {
             project_id: "stride_global",
+            dataset_id: "Load_Shapes_IMAGE_2022",
+            dimension_mapping_file: "profile_data/load_shapes/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "Temperature_BAIT_Demand_Ninja",
+            dimension_mapping_file: "profile_data/weather_bait/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
             dataset_id: "STRIDE_Vehicles_per_Capita_Regressions_2025",
-            // dimension_mapping_file: "",
+            dimension_mapping_file: "ev_projection/vehicle_per_capita_regressions/dimension_mappings.json5",
         },
         {
             project_id: "stride_global",
             dataset_id: "STRIDE_Kilometers_per_Vehicle_Year_Regressions_2025",
-            // dimension_mapping_file: "",
+            dimension_mapping_file: "ev_projection/km_per_vehicle_year_regressions/dimension_mappings.json5",
         },
         {
             project_id: "stride_global",
             dataset_id: "STRIDE_EV_Stock_Share_Projections_2025",
-            // dimension_mapping_file: "",
+            dimension_mapping_file: "ev_projection/ev_stock_share_projections/dimension_mappings.json5",
         },
         {
             project_id: "stride_global",
             dataset_id: "STRIDE_PHEV_Share_Projections_2025",
-            // dimension_mapping_file: "",
+            dimension_mapping_file: "ev_projection/phev_share_projections/dimension_mappings.json5",
         },
         {
             project_id: "stride_global",
             dataset_id: "STRIDE_Electricity_per_Vehicle_Kilometer_Projections_2025",
-            // dimension_mapping_file: "",
+            dimension_mapping_file: "ev_projection/electricity_per_vehicle_km_projections/dimension_mappings.json5",
         },
     ],
 }
