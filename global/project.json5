@@ -174,25 +174,28 @@
                     },
                 ],
             },
-             {
-               type: 'time',
-               class: 'Time',
-               frequency: 'P0DT1H0M0.000000S',
-               name: 'time_est',
-               time_type: 'datetime',
-               leap_day_adjustment: 'none',
-               description: 'Time dimension, 2018 hourly EST, hour-beginning, no Leap Day Adjustment, total value',
-               time_interval_type: 'period_beginning',
-               str_format: '%Y-%m-%d %H:%M:%S',
-               timezone: 'Etc/GMT+5',
-               measurement_type: 'total',
-               ranges: [
-                 {
-                   start: '2018-01-01 00:00:00',
-                   end: '2018-12-31 23:00:00',
-                 },
-               ],
-             },
+            {
+              type: 'time',
+              class: 'Time',
+              name: 'time_est',
+              time_type: 'datetime',
+              leap_day_adjustment: 'none',
+              description: 'Time dimension, 2018 hourly EST, hour-beginning, no Leap Day Adjustment, total value',
+              time_interval_type: 'period_beginning',
+              measurement_type: 'total',
+              time_zone_format: {
+                format_type: "aligned_in_absolute_time",
+                time_zone: "Etc/GMT+5",
+              },
+              ranges: [
+                {
+                  start: '2018-01-01 00:00:00',
+                  end: '2018-12-31 23:00:00',
+                  str_format: '%Y-%m-%d %H:%M:%S',
+                  frequency: 'P0DT1H0M0.000000S',
+                },
+              ],
+            },
         ],
     },
 }
