@@ -1,5 +1,5 @@
 {
-    dataset_id: "UN_HDI_2024",
+    dataset_id: "baseline__hdi",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Historical and forecast human development index (HDI)",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",

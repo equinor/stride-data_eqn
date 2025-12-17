@@ -1,5 +1,5 @@
 {
-    dataset_id: "WEO_CEBR_2024",
+    dataset_id: "baseline__gdp",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Historical GDP from the 2024 IMF World Economic Outlook (WEO) and GDP forecasts from the Centre for Economics and Business Research (CEBR) 2024 World Economic League Table",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",

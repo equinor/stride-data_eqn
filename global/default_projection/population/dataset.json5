@@ -1,5 +1,5 @@
 {
-    dataset_id: "UN_population_median_2024",
+    dataset_id: "baseline__population",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Historical and median projected population data",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",

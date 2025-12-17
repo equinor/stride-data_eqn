@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_Energy_Intensity_Regressions_2025",
+    dataset_id: "baseline__energy_intensity",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -21,7 +21,6 @@
     },
     description: "Energy intensity regression parameters for STRIDE",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "geography",

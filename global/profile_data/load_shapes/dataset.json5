@@ -1,5 +1,5 @@
 {
-    dataset_id: "Load_Shapes_IMAGE_2022",
+    dataset_id: "baseline__load_shapes",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -24,7 +24,6 @@
     },
     description: "Hourly load shapes from the IMAGE integrated assessment model (IAM) as documented in 'Castillo et al. 2022. Future global electricity demand load curves. Energy. 259:1.' Totals data have been processed to calculate electricity consumed by 'other' enduses and 'Other' sectors.",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "geography",

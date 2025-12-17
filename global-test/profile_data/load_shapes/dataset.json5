@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_Test_Load_Shapes",
+    dataset_id: "baseline__load_shapes",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Hourly load shapes for STRIDE test dataset.",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "geography",

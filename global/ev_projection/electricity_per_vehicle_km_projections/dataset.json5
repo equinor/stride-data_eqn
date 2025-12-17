@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_Electricity_per_Vehicle_Kilometer_Projections_2025",
+    dataset_id: "baseline__electricity_per_vehicle_km_projections",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Electricity consumption per vehicle kilometer projected to follow Mid scenario projections from the NREL 2024 TransporatationAnnual Technology Baseline (ATB).",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",

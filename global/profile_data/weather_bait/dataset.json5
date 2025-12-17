@@ -1,5 +1,5 @@
 {
-    dataset_id: "Temperature_BAIT_Demand_Ninja",
+    dataset_id: "baseline__weather_bait",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -12,7 +12,6 @@
     },
     description: "Population-weighted building adjusted internal temperature in degrees centigrade, i.e., building-adjusted internal temperature (BAIT). Daily, country-level averages provided for weather years 1980-2022.",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "geography",

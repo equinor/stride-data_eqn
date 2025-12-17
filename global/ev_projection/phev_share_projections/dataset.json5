@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_PHEV_Share_Projections_2025",
+    dataset_id: "baseline__phev_share_projections",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "PHEV share of electric vehicle stock projected to hold constant from the last historical value reported by IEA GEO.",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",
