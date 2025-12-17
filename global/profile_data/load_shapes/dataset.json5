@@ -4,8 +4,7 @@
     dataset_type: "modeled",
     data_layout: {
         table_format: "one_table",
-        value_format: "pivoted",
-        pivoted_dimension_type: "geography",
+        value_format: "stacked",
         data_file: {
             path: "load_data.parquet",
             columns: [
