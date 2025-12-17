@@ -47,7 +47,7 @@
             type: "geography",
             "class": "Geography",
             name: "country",
-            file: "../ev_stock_share_projections/IEA_GEO_countries_regions.csv",
+            file: "../ev_stock_share_projections/dimensions/IEA_GEO_countries_regions.csv",
         },
     ],
     dimension_references: [],
