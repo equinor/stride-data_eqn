@@ -58,5 +58,5 @@
     sector_description: "macroeconomics",
     data_source: "United Nations World Population Prospects",
     data_source_date: "2024",
-    data_soruce_doi_url: "https://population.un.org/wpp/",
+    data_source_doi_url: "https://population.un.org/wpp/",
 }
