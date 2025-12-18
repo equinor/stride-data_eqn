@@ -1,0 +1,1861 @@
+geography,metric,sector
+Albania,nonres_a0_lin,Commercial
+Albania,nonres_a0_lin,Industrial
+Albania,nonres_a1_lin,Commercial
+Albania,nonres_a1_lin,Industrial
+Albania,nonres_t0_lin,Commercial
+Albania,nonres_t0_lin,Industrial
+Albania,res_a0_lin,Residential
+Albania,res_a1_lin,Residential
+Albania,res_t0_lin,Residential
+Algeria,nonres_a0_lin,Commercial
+Algeria,nonres_a0_lin,Industrial
+Algeria,nonres_a0_lin,Transportation
+Algeria,nonres_a1_lin,Commercial
+Algeria,nonres_a1_lin,Industrial
+Algeria,nonres_a1_lin,Transportation
+Algeria,nonres_t0_lin,Commercial
+Algeria,nonres_t0_lin,Industrial
+Algeria,nonres_t0_lin,Transportation
+Algeria,res_a0_lin,Residential
+Algeria,res_a1_lin,Residential
+Algeria,res_t0_lin,Residential
+Angola,nonres_a0_exp,Commercial
+Angola,nonres_a0_exp,Transportation
+Angola,nonres_a0_lin,Commercial
+Angola,nonres_a0_lin,Industrial
+Angola,nonres_a0_lin,Transportation
+Angola,nonres_a1_exp,Commercial
+Angola,nonres_a1_exp,Transportation
+Angola,nonres_a1_lin,Commercial
+Angola,nonres_a1_lin,Industrial
+Angola,nonres_a1_lin,Transportation
+Angola,nonres_t0_exp,Commercial
+Angola,nonres_t0_exp,Transportation
+Angola,nonres_t0_lin,Commercial
+Angola,nonres_t0_lin,Industrial
+Angola,nonres_t0_lin,Transportation
+Angola,res_a0_lin,Residential
+Angola,res_a1_lin,Residential
+Angola,res_t0_lin,Residential
+Argentina,nonres_a0_lin,Commercial
+Argentina,nonres_a0_lin,Industrial
+Argentina,nonres_a0_lin,Transportation
+Argentina,nonres_a1_lin,Commercial
+Argentina,nonres_a1_lin,Industrial
+Argentina,nonres_a1_lin,Transportation
+Argentina,nonres_t0_lin,Commercial
+Argentina,nonres_t0_lin,Industrial
+Argentina,nonres_t0_lin,Transportation
+Argentina,res_a0_lin,Residential
+Argentina,res_a1_lin,Residential
+Argentina,res_t0_lin,Residential
+Armenia,nonres_a0_lin,Commercial
+Armenia,nonres_a0_lin,Industrial
+Armenia,nonres_a0_lin,Transportation
+Armenia,nonres_a1_lin,Commercial
+Armenia,nonres_a1_lin,Industrial
+Armenia,nonres_a1_lin,Transportation
+Armenia,nonres_t0_lin,Commercial
+Armenia,nonres_t0_lin,Industrial
+Armenia,nonres_t0_lin,Transportation
+Armenia,res_a0_lin,Residential
+Armenia,res_a1_lin,Residential
+Armenia,res_t0_lin,Residential
+Australia,nonres_a0_lin,Commercial
+Australia,nonres_a0_lin,Industrial
+Australia,nonres_a1_lin,Commercial
+Australia,nonres_a1_lin,Industrial
+Australia,nonres_t0_lin,Commercial
+Australia,nonres_t0_lin,Industrial
+Australia,res_a0_lin,Residential
+Australia,res_a1_lin,Residential
+Australia,res_t0_lin,Residential
+Austria,nonres_a0_lin,Commercial
+Austria,nonres_a0_lin,Industrial
+Austria,nonres_a0_lin,Transportation
+Austria,nonres_a1_lin,Commercial
+Austria,nonres_a1_lin,Industrial
+Austria,nonres_a1_lin,Transportation
+Austria,nonres_t0_lin,Commercial
+Austria,nonres_t0_lin,Industrial
+Austria,nonres_t0_lin,Transportation
+Austria,res_a0_lin,Residential
+Austria,res_a1_lin,Residential
+Austria,res_t0_lin,Residential
+Azerbaijan,nonres_a0_lin,Commercial
+Azerbaijan,nonres_a0_lin,Industrial
+Azerbaijan,nonres_a0_lin,Transportation
+Azerbaijan,nonres_a1_lin,Commercial
+Azerbaijan,nonres_a1_lin,Industrial
+Azerbaijan,nonres_a1_lin,Transportation
+Azerbaijan,nonres_t0_lin,Commercial
+Azerbaijan,nonres_t0_lin,Industrial
+Azerbaijan,nonres_t0_lin,Transportation
+Azerbaijan,res_a0_lin,Residential
+Azerbaijan,res_a1_lin,Residential
+Azerbaijan,res_t0_lin,Residential
+Bahrain,nonres_a0_exp,Transportation
+Bahrain,nonres_a0_lin,Commercial
+Bahrain,nonres_a0_lin,Industrial
+Bahrain,nonres_a0_lin,Transportation
+Bahrain,nonres_a1_exp,Transportation
+Bahrain,nonres_a1_lin,Commercial
+Bahrain,nonres_a1_lin,Industrial
+Bahrain,nonres_a1_lin,Transportation
+Bahrain,nonres_t0_exp,Transportation
+Bahrain,nonres_t0_lin,Commercial
+Bahrain,nonres_t0_lin,Industrial
+Bahrain,nonres_t0_lin,Transportation
+Bahrain,res_a0_lin,Residential
+Bahrain,res_a1_lin,Residential
+Bahrain,res_t0_lin,Residential
+Bangladesh,nonres_a0_exp,Transportation
+Bangladesh,nonres_a0_lin,Commercial
+Bangladesh,nonres_a0_lin,Industrial
+Bangladesh,nonres_a1_exp,Transportation
+Bangladesh,nonres_a1_lin,Commercial
+Bangladesh,nonres_a1_lin,Industrial
+Bangladesh,nonres_t0_exp,Transportation
+Bangladesh,nonres_t0_lin,Commercial
+Bangladesh,nonres_t0_lin,Industrial
+Bangladesh,res_a0_exp,Residential
+Bangladesh,res_a1_exp,Residential
+Bangladesh,res_t0_exp,Residential
+Belarus,nonres_a0_lin,Commercial
+Belarus,nonres_a0_lin,Industrial
+Belarus,nonres_a0_lin,Transportation
+Belarus,nonres_a1_lin,Commercial
+Belarus,nonres_a1_lin,Industrial
+Belarus,nonres_a1_lin,Transportation
+Belarus,nonres_t0_lin,Commercial
+Belarus,nonres_t0_lin,Industrial
+Belarus,nonres_t0_lin,Transportation
+Belarus,res_a0_lin,Residential
+Belarus,res_a1_lin,Residential
+Belarus,res_t0_lin,Residential
+Belgium,nonres_a0_lin,Commercial
+Belgium,nonres_a0_lin,Industrial
+Belgium,nonres_a1_lin,Commercial
+Belgium,nonres_a1_lin,Industrial
+Belgium,nonres_t0_lin,Commercial
+Belgium,nonres_t0_lin,Industrial
+Belgium,res_a0_lin,Residential
+Belgium,res_a1_lin,Residential
+Belgium,res_t0_lin,Residential
+Benin,nonres_a0_exp,Transportation
+Benin,nonres_a0_lin,Commercial
+Benin,nonres_a0_lin,Industrial
+Benin,nonres_a0_lin,Transportation
+Benin,nonres_a1_exp,Transportation
+Benin,nonres_a1_lin,Commercial
+Benin,nonres_a1_lin,Industrial
+Benin,nonres_a1_lin,Transportation
+Benin,nonres_t0_exp,Transportation
+Benin,nonres_t0_lin,Commercial
+Benin,nonres_t0_lin,Industrial
+Benin,nonres_t0_lin,Transportation
+Benin,res_a0_lin,Residential
+Benin,res_a1_lin,Residential
+Benin,res_t0_lin,Residential
+Bolivia,nonres_a0_exp,Transportation
+Bolivia,nonres_a0_lin,Commercial
+Bolivia,nonres_a0_lin,Industrial
+Bolivia,nonres_a1_exp,Transportation
+Bolivia,nonres_a1_lin,Commercial
+Bolivia,nonres_a1_lin,Industrial
+Bolivia,nonres_t0_exp,Transportation
+Bolivia,nonres_t0_lin,Commercial
+Bolivia,nonres_t0_lin,Industrial
+Bolivia,res_a0_lin,Residential
+Bolivia,res_a1_lin,Residential
+Bolivia,res_t0_lin,Residential
+Bosnia and Herzegovina,nonres_a0_lin,Commercial
+Bosnia and Herzegovina,nonres_a0_lin,Industrial
+Bosnia and Herzegovina,nonres_a0_lin,Transportation
+Bosnia and Herzegovina,nonres_a1_lin,Commercial
+Bosnia and Herzegovina,nonres_a1_lin,Industrial
+Bosnia and Herzegovina,nonres_a1_lin,Transportation
+Bosnia and Herzegovina,nonres_t0_lin,Commercial
+Bosnia and Herzegovina,nonres_t0_lin,Industrial
+Bosnia and Herzegovina,nonres_t0_lin,Transportation
+Bosnia and Herzegovina,res_a0_lin,Residential
+Bosnia and Herzegovina,res_a1_lin,Residential
+Bosnia and Herzegovina,res_t0_lin,Residential
+Botswana,nonres_a0_exp,Transportation
+Botswana,nonres_a0_lin,Commercial
+Botswana,nonres_a0_lin,Industrial
+Botswana,nonres_a0_lin,Transportation
+Botswana,nonres_a1_exp,Transportation
+Botswana,nonres_a1_lin,Commercial
+Botswana,nonres_a1_lin,Industrial
+Botswana,nonres_a1_lin,Transportation
+Botswana,nonres_t0_exp,Transportation
+Botswana,nonres_t0_lin,Commercial
+Botswana,nonres_t0_lin,Industrial
+Botswana,nonres_t0_lin,Transportation
+Botswana,res_a0_lin,Residential
+Botswana,res_a1_lin,Residential
+Botswana,res_t0_lin,Residential
+Brazil,nonres_a0_lin,Commercial
+Brazil,nonres_a0_lin,Industrial
+Brazil,nonres_a0_lin,Transportation
+Brazil,nonres_a1_lin,Commercial
+Brazil,nonres_a1_lin,Industrial
+Brazil,nonres_a1_lin,Transportation
+Brazil,nonres_t0_lin,Commercial
+Brazil,nonres_t0_lin,Industrial
+Brazil,nonres_t0_lin,Transportation
+Brazil,res_a0_lin,Residential
+Brazil,res_a1_lin,Residential
+Brazil,res_t0_lin,Residential
+Brunei,nonres_a0_exp,Transportation
+Brunei,nonres_a0_lin,Commercial
+Brunei,nonres_a0_lin,Industrial
+Brunei,nonres_a0_lin,Transportation
+Brunei,nonres_a1_exp,Transportation
+Brunei,nonres_a1_lin,Commercial
+Brunei,nonres_a1_lin,Industrial
+Brunei,nonres_a1_lin,Transportation
+Brunei,nonres_t0_exp,Transportation
+Brunei,nonres_t0_lin,Commercial
+Brunei,nonres_t0_lin,Industrial
+Brunei,nonres_t0_lin,Transportation
+Brunei,res_a0_lin,Residential
+Brunei,res_a1_lin,Residential
+Brunei,res_t0_lin,Residential
+Bulgaria,nonres_a0_lin,Commercial
+Bulgaria,nonres_a0_lin,Industrial
+Bulgaria,nonres_a0_lin,Transportation
+Bulgaria,nonres_a1_lin,Commercial
+Bulgaria,nonres_a1_lin,Industrial
+Bulgaria,nonres_a1_lin,Transportation
+Bulgaria,nonres_t0_lin,Commercial
+Bulgaria,nonres_t0_lin,Industrial
+Bulgaria,nonres_t0_lin,Transportation
+Bulgaria,res_a0_lin,Residential
+Bulgaria,res_a1_lin,Residential
+Bulgaria,res_t0_lin,Residential
+Burkina Faso,nonres_a0_exp,Transportation
+Burkina Faso,nonres_a0_lin,Commercial
+Burkina Faso,nonres_a0_lin,Industrial
+Burkina Faso,nonres_a0_lin,Transportation
+Burkina Faso,nonres_a1_exp,Transportation
+Burkina Faso,nonres_a1_lin,Commercial
+Burkina Faso,nonres_a1_lin,Industrial
+Burkina Faso,nonres_a1_lin,Transportation
+Burkina Faso,nonres_t0_exp,Transportation
+Burkina Faso,nonres_t0_lin,Commercial
+Burkina Faso,nonres_t0_lin,Industrial
+Burkina Faso,nonres_t0_lin,Transportation
+Burkina Faso,res_a0_lin,Residential
+Burkina Faso,res_a1_lin,Residential
+Burkina Faso,res_t0_lin,Residential
+Cambodia,nonres_a0_exp,Industrial
+Cambodia,nonres_a0_exp,Transportation
+Cambodia,nonres_a0_lin,Commercial
+Cambodia,nonres_a0_lin,Transportation
+Cambodia,nonres_a1_exp,Industrial
+Cambodia,nonres_a1_exp,Transportation
+Cambodia,nonres_a1_lin,Commercial
+Cambodia,nonres_a1_lin,Transportation
+Cambodia,nonres_t0_exp,Industrial
+Cambodia,nonres_t0_exp,Transportation
+Cambodia,nonres_t0_lin,Commercial
+Cambodia,nonres_t0_lin,Transportation
+Cambodia,res_a0_exp,Residential
+Cambodia,res_a1_exp,Residential
+Cambodia,res_t0_exp,Residential
+Cameroon,nonres_a0_exp,Transportation
+Cameroon,nonres_a0_lin,Commercial
+Cameroon,nonres_a0_lin,Industrial
+Cameroon,nonres_a0_lin,Transportation
+Cameroon,nonres_a1_exp,Transportation
+Cameroon,nonres_a1_lin,Commercial
+Cameroon,nonres_a1_lin,Industrial
+Cameroon,nonres_a1_lin,Transportation
+Cameroon,nonres_t0_exp,Transportation
+Cameroon,nonres_t0_lin,Commercial
+Cameroon,nonres_t0_lin,Industrial
+Cameroon,nonres_t0_lin,Transportation
+Cameroon,res_a0_lin,Residential
+Cameroon,res_a1_lin,Residential
+Cameroon,res_t0_lin,Residential
+Canada,nonres_a0_lin,Commercial
+Canada,nonres_a0_lin,Industrial
+Canada,nonres_a0_lin,Transportation
+Canada,nonres_a1_lin,Commercial
+Canada,nonres_a1_lin,Industrial
+Canada,nonres_a1_lin,Transportation
+Canada,nonres_t0_lin,Commercial
+Canada,nonres_t0_lin,Industrial
+Canada,nonres_t0_lin,Transportation
+Canada,res_a0_lin,Residential
+Canada,res_a1_lin,Residential
+Canada,res_t0_lin,Residential
+Chad,nonres_a0_exp,Transportation
+Chad,nonres_a0_lin,Commercial
+Chad,nonres_a0_lin,Industrial
+Chad,nonres_a0_lin,Transportation
+Chad,nonres_a1_exp,Transportation
+Chad,nonres_a1_lin,Commercial
+Chad,nonres_a1_lin,Industrial
+Chad,nonres_a1_lin,Transportation
+Chad,nonres_t0_exp,Transportation
+Chad,nonres_t0_lin,Commercial
+Chad,nonres_t0_lin,Industrial
+Chad,nonres_t0_lin,Transportation
+Chad,res_a0_lin,Residential
+Chad,res_a1_lin,Residential
+Chad,res_t0_lin,Residential
+Chile,nonres_a0_lin,Commercial
+Chile,nonres_a0_lin,Industrial
+Chile,nonres_a1_lin,Commercial
+Chile,nonres_a1_lin,Industrial
+Chile,nonres_t0_lin,Commercial
+Chile,nonres_t0_lin,Industrial
+Chile,res_a0_lin,Residential
+Chile,res_a1_lin,Residential
+Chile,res_t0_lin,Residential
+China,nonres_a0_lin,Commercial
+China,nonres_a0_lin,Industrial
+China,nonres_a1_lin,Commercial
+China,nonres_a1_lin,Industrial
+China,nonres_t0_lin,Commercial
+China,nonres_t0_lin,Industrial
+China,res_a0_lin,Residential
+China,res_a1_lin,Residential
+China,res_t0_lin,Residential
+Colombia,nonres_a0_lin,Commercial
+Colombia,nonres_a0_lin,Industrial
+Colombia,nonres_a1_lin,Commercial
+Colombia,nonres_a1_lin,Industrial
+Colombia,nonres_t0_lin,Commercial
+Colombia,nonres_t0_lin,Industrial
+Colombia,res_a0_lin,Residential
+Colombia,res_a1_lin,Residential
+Colombia,res_t0_lin,Residential
+Congo,nonres_a0_lin,Commercial
+Congo,nonres_a0_lin,Industrial
+Congo,nonres_a0_lin,Transportation
+Congo,nonres_a1_lin,Commercial
+Congo,nonres_a1_lin,Industrial
+Congo,nonres_a1_lin,Transportation
+Congo,nonres_t0_lin,Commercial
+Congo,nonres_t0_lin,Industrial
+Congo,nonres_t0_lin,Transportation
+Congo,res_a0_lin,Residential
+Congo,res_a1_lin,Residential
+Congo,res_t0_lin,Residential
+Costa Rica,nonres_a0_lin,Commercial
+Costa Rica,nonres_a0_lin,Industrial
+Costa Rica,nonres_a0_lin,Transportation
+Costa Rica,nonres_a1_lin,Commercial
+Costa Rica,nonres_a1_lin,Industrial
+Costa Rica,nonres_a1_lin,Transportation
+Costa Rica,nonres_t0_lin,Commercial
+Costa Rica,nonres_t0_lin,Industrial
+Costa Rica,nonres_t0_lin,Transportation
+Costa Rica,res_a0_lin,Residential
+Costa Rica,res_a1_lin,Residential
+Costa Rica,res_t0_lin,Residential
+Croatia,nonres_a0_lin,Commercial
+Croatia,nonres_a0_lin,Industrial
+Croatia,nonres_a1_lin,Commercial
+Croatia,nonres_a1_lin,Industrial
+Croatia,nonres_t0_lin,Commercial
+Croatia,nonres_t0_lin,Industrial
+Croatia,res_a0_lin,Residential
+Croatia,res_a1_lin,Residential
+Croatia,res_t0_lin,Residential
+Cuba,nonres_a0_lin,Commercial
+Cuba,nonres_a0_lin,Industrial
+Cuba,nonres_a0_lin,Transportation
+Cuba,nonres_a1_lin,Commercial
+Cuba,nonres_a1_lin,Industrial
+Cuba,nonres_a1_lin,Transportation
+Cuba,nonres_t0_lin,Commercial
+Cuba,nonres_t0_lin,Industrial
+Cuba,nonres_t0_lin,Transportation
+Cuba,res_a0_lin,Residential
+Cuba,res_a1_lin,Residential
+Cuba,res_t0_lin,Residential
+Cyprus,nonres_a0_lin,Commercial
+Cyprus,nonres_a0_lin,Industrial
+Cyprus,nonres_a0_lin,Transportation
+Cyprus,nonres_a1_lin,Commercial
+Cyprus,nonres_a1_lin,Industrial
+Cyprus,nonres_a1_lin,Transportation
+Cyprus,nonres_t0_lin,Commercial
+Cyprus,nonres_t0_lin,Industrial
+Cyprus,nonres_t0_lin,Transportation
+Cyprus,res_a0_lin,Residential
+Cyprus,res_a1_lin,Residential
+Cyprus,res_t0_lin,Residential
+Czech Republic,nonres_a0_lin,Commercial
+Czech Republic,nonres_a0_lin,Industrial
+Czech Republic,nonres_a0_lin,Transportation
+Czech Republic,nonres_a1_lin,Commercial
+Czech Republic,nonres_a1_lin,Industrial
+Czech Republic,nonres_a1_lin,Transportation
+Czech Republic,nonres_t0_lin,Commercial
+Czech Republic,nonres_t0_lin,Industrial
+Czech Republic,nonres_t0_lin,Transportation
+Czech Republic,res_a0_lin,Residential
+Czech Republic,res_a1_lin,Residential
+Czech Republic,res_t0_lin,Residential
+Denmark,nonres_a0_lin,Commercial
+Denmark,nonres_a0_lin,Industrial
+Denmark,nonres_a1_lin,Commercial
+Denmark,nonres_a1_lin,Industrial
+Denmark,nonres_t0_lin,Commercial
+Denmark,nonres_t0_lin,Industrial
+Denmark,res_a0_lin,Residential
+Denmark,res_a1_lin,Residential
+Denmark,res_t0_lin,Residential
+Dominican Republic,nonres_a0_lin,Commercial
+Dominican Republic,nonres_a0_lin,Industrial
+Dominican Republic,nonres_a0_lin,Transportation
+Dominican Republic,nonres_a1_lin,Commercial
+Dominican Republic,nonres_a1_lin,Industrial
+Dominican Republic,nonres_a1_lin,Transportation
+Dominican Republic,nonres_t0_lin,Commercial
+Dominican Republic,nonres_t0_lin,Industrial
+Dominican Republic,nonres_t0_lin,Transportation
+Dominican Republic,res_a0_lin,Residential
+Dominican Republic,res_a1_lin,Residential
+Dominican Republic,res_t0_lin,Residential
+Ecuador,nonres_a0_lin,Commercial
+Ecuador,nonres_a0_lin,Industrial
+Ecuador,nonres_a0_lin,Transportation
+Ecuador,nonres_a1_lin,Commercial
+Ecuador,nonres_a1_lin,Industrial
+Ecuador,nonres_a1_lin,Transportation
+Ecuador,nonres_t0_lin,Commercial
+Ecuador,nonres_t0_lin,Industrial
+Ecuador,nonres_t0_lin,Transportation
+Ecuador,res_a0_lin,Residential
+Ecuador,res_a1_lin,Residential
+Ecuador,res_t0_lin,Residential
+Egypt,nonres_a0_lin,Commercial
+Egypt,nonres_a0_lin,Industrial
+Egypt,nonres_a0_lin,Transportation
+Egypt,nonres_a1_lin,Commercial
+Egypt,nonres_a1_lin,Industrial
+Egypt,nonres_a1_lin,Transportation
+Egypt,nonres_t0_lin,Commercial
+Egypt,nonres_t0_lin,Industrial
+Egypt,nonres_t0_lin,Transportation
+Egypt,res_a0_lin,Residential
+Egypt,res_a1_lin,Residential
+Egypt,res_t0_lin,Residential
+El Salvador,nonres_a0_exp,Transportation
+El Salvador,nonres_a0_lin,Commercial
+El Salvador,nonres_a0_lin,Industrial
+El Salvador,nonres_a1_exp,Transportation
+El Salvador,nonres_a1_lin,Commercial
+El Salvador,nonres_a1_lin,Industrial
+El Salvador,nonres_t0_exp,Transportation
+El Salvador,nonres_t0_lin,Commercial
+El Salvador,nonres_t0_lin,Industrial
+El Salvador,res_a0_lin,Residential
+El Salvador,res_a1_lin,Residential
+El Salvador,res_t0_lin,Residential
+Equatorial Guinea,nonres_a0_exp,Commercial
+Equatorial Guinea,nonres_a0_exp,Transportation
+Equatorial Guinea,nonres_a0_lin,Industrial
+Equatorial Guinea,nonres_a0_lin,Transportation
+Equatorial Guinea,nonres_a1_exp,Commercial
+Equatorial Guinea,nonres_a1_exp,Transportation
+Equatorial Guinea,nonres_a1_lin,Industrial
+Equatorial Guinea,nonres_a1_lin,Transportation
+Equatorial Guinea,nonres_t0_exp,Commercial
+Equatorial Guinea,nonres_t0_exp,Transportation
+Equatorial Guinea,nonres_t0_lin,Industrial
+Equatorial Guinea,nonres_t0_lin,Transportation
+Equatorial Guinea,res_a0_exp,Residential
+Equatorial Guinea,res_a1_exp,Residential
+Equatorial Guinea,res_t0_exp,Residential
+Eritrea,nonres_a0_exp,Transportation
+Eritrea,nonres_a0_lin,Commercial
+Eritrea,nonres_a0_lin,Industrial
+Eritrea,nonres_a0_lin,Transportation
+Eritrea,nonres_a1_exp,Transportation
+Eritrea,nonres_a1_lin,Commercial
+Eritrea,nonres_a1_lin,Industrial
+Eritrea,nonres_a1_lin,Transportation
+Eritrea,nonres_t0_exp,Transportation
+Eritrea,nonres_t0_lin,Commercial
+Eritrea,nonres_t0_lin,Industrial
+Eritrea,nonres_t0_lin,Transportation
+Eritrea,res_a0_lin,Residential
+Eritrea,res_a1_lin,Residential
+Eritrea,res_t0_lin,Residential
+Estonia,nonres_a0_lin,Commercial
+Estonia,nonres_a0_lin,Industrial
+Estonia,nonres_a0_lin,Transportation
+Estonia,nonres_a1_lin,Commercial
+Estonia,nonres_a1_lin,Industrial
+Estonia,nonres_a1_lin,Transportation
+Estonia,nonres_t0_lin,Commercial
+Estonia,nonres_t0_lin,Industrial
+Estonia,nonres_t0_lin,Transportation
+Estonia,res_a0_lin,Residential
+Estonia,res_a1_lin,Residential
+Estonia,res_t0_lin,Residential
+Eswatini,nonres_a0_exp,Transportation
+Eswatini,nonres_a0_lin,Commercial
+Eswatini,nonres_a0_lin,Industrial
+Eswatini,nonres_a0_lin,Transportation
+Eswatini,nonres_a1_exp,Transportation
+Eswatini,nonres_a1_lin,Commercial
+Eswatini,nonres_a1_lin,Industrial
+Eswatini,nonres_a1_lin,Transportation
+Eswatini,nonres_t0_exp,Transportation
+Eswatini,nonres_t0_lin,Commercial
+Eswatini,nonres_t0_lin,Industrial
+Eswatini,nonres_t0_lin,Transportation
+Eswatini,res_a0_lin,Residential
+Eswatini,res_a1_lin,Residential
+Eswatini,res_t0_lin,Residential
+Ethiopia,nonres_a0_lin,Commercial
+Ethiopia,nonres_a0_lin,Industrial
+Ethiopia,nonres_a0_lin,Transportation
+Ethiopia,nonres_a1_lin,Commercial
+Ethiopia,nonres_a1_lin,Industrial
+Ethiopia,nonres_a1_lin,Transportation
+Ethiopia,nonres_t0_lin,Commercial
+Ethiopia,nonres_t0_lin,Industrial
+Ethiopia,nonres_t0_lin,Transportation
+Ethiopia,res_a0_lin,Residential
+Ethiopia,res_a1_lin,Residential
+Ethiopia,res_t0_lin,Residential
+Finland,nonres_a0_lin,Commercial
+Finland,nonres_a0_lin,Industrial
+Finland,nonres_a1_lin,Commercial
+Finland,nonres_a1_lin,Industrial
+Finland,nonres_t0_lin,Commercial
+Finland,nonres_t0_lin,Industrial
+Finland,res_a0_lin,Residential
+Finland,res_a1_lin,Residential
+Finland,res_t0_lin,Residential
+France,nonres_a0_lin,Commercial
+France,nonres_a0_lin,Industrial
+France,nonres_a1_lin,Commercial
+France,nonres_a1_lin,Industrial
+France,nonres_t0_lin,Commercial
+France,nonres_t0_lin,Industrial
+France,res_a0_lin,Residential
+France,res_a1_lin,Residential
+France,res_t0_lin,Residential
+Gabon,nonres_a0_lin,Commercial
+Gabon,nonres_a0_lin,Industrial
+Gabon,nonres_a0_lin,Transportation
+Gabon,nonres_a1_lin,Commercial
+Gabon,nonres_a1_lin,Industrial
+Gabon,nonres_a1_lin,Transportation
+Gabon,nonres_t0_lin,Commercial
+Gabon,nonres_t0_lin,Industrial
+Gabon,nonres_t0_lin,Transportation
+Gabon,res_a0_lin,Residential
+Gabon,res_a1_lin,Residential
+Gabon,res_t0_lin,Residential
+Georgia,nonres_a0_lin,Commercial
+Georgia,nonres_a0_lin,Industrial
+Georgia,nonres_a0_lin,Transportation
+Georgia,nonres_a1_lin,Commercial
+Georgia,nonres_a1_lin,Industrial
+Georgia,nonres_a1_lin,Transportation
+Georgia,nonres_t0_lin,Commercial
+Georgia,nonres_t0_lin,Industrial
+Georgia,nonres_t0_lin,Transportation
+Georgia,res_a0_lin,Residential
+Georgia,res_a1_lin,Residential
+Georgia,res_t0_lin,Residential
+Germany,nonres_a0_lin,Commercial
+Germany,nonres_a0_lin,Industrial
+Germany,nonres_a1_lin,Commercial
+Germany,nonres_a1_lin,Industrial
+Germany,nonres_t0_lin,Commercial
+Germany,nonres_t0_lin,Industrial
+Germany,res_a0_lin,Residential
+Germany,res_a1_lin,Residential
+Germany,res_t0_lin,Residential
+Ghana,nonres_a0_exp,Transportation
+Ghana,nonres_a0_lin,Commercial
+Ghana,nonres_a0_lin,Industrial
+Ghana,nonres_a1_exp,Transportation
+Ghana,nonres_a1_lin,Commercial
+Ghana,nonres_a1_lin,Industrial
+Ghana,nonres_t0_exp,Transportation
+Ghana,nonres_t0_lin,Commercial
+Ghana,nonres_t0_lin,Industrial
+Ghana,res_a0_lin,Residential
+Ghana,res_a1_lin,Residential
+Ghana,res_t0_lin,Residential
+Greece,nonres_a0_lin,Commercial
+Greece,nonres_a0_lin,Industrial
+Greece,nonres_a0_lin,Transportation
+Greece,nonres_a1_lin,Commercial
+Greece,nonres_a1_lin,Industrial
+Greece,nonres_a1_lin,Transportation
+Greece,nonres_t0_lin,Commercial
+Greece,nonres_t0_lin,Industrial
+Greece,nonres_t0_lin,Transportation
+Greece,res_a0_lin,Residential
+Greece,res_a1_lin,Residential
+Greece,res_t0_lin,Residential
+Guatemala,nonres_a0_exp,Transportation
+Guatemala,nonres_a0_lin,Commercial
+Guatemala,nonres_a0_lin,Industrial
+Guatemala,nonres_a0_lin,Transportation
+Guatemala,nonres_a1_exp,Transportation
+Guatemala,nonres_a1_lin,Commercial
+Guatemala,nonres_a1_lin,Industrial
+Guatemala,nonres_a1_lin,Transportation
+Guatemala,nonres_t0_exp,Transportation
+Guatemala,nonres_t0_lin,Commercial
+Guatemala,nonres_t0_lin,Industrial
+Guatemala,nonres_t0_lin,Transportation
+Guatemala,res_a0_lin,Residential
+Guatemala,res_a1_lin,Residential
+Guatemala,res_t0_lin,Residential
+Guyana,nonres_a0_exp,Transportation
+Guyana,nonres_a0_lin,Commercial
+Guyana,nonres_a0_lin,Industrial
+Guyana,nonres_a0_lin,Transportation
+Guyana,nonres_a1_exp,Transportation
+Guyana,nonres_a1_lin,Commercial
+Guyana,nonres_a1_lin,Industrial
+Guyana,nonres_a1_lin,Transportation
+Guyana,nonres_t0_exp,Transportation
+Guyana,nonres_t0_lin,Commercial
+Guyana,nonres_t0_lin,Industrial
+Guyana,nonres_t0_lin,Transportation
+Guyana,res_a0_lin,Residential
+Guyana,res_a1_lin,Residential
+Guyana,res_t0_lin,Residential
+Haiti,nonres_a0_exp,Transportation
+Haiti,nonres_a0_lin,Commercial
+Haiti,nonres_a0_lin,Industrial
+Haiti,nonres_a0_lin,Transportation
+Haiti,nonres_a1_exp,Transportation
+Haiti,nonres_a1_lin,Commercial
+Haiti,nonres_a1_lin,Industrial
+Haiti,nonres_a1_lin,Transportation
+Haiti,nonres_t0_exp,Transportation
+Haiti,nonres_t0_lin,Commercial
+Haiti,nonres_t0_lin,Industrial
+Haiti,nonres_t0_lin,Transportation
+Haiti,res_a0_lin,Residential
+Haiti,res_a1_lin,Residential
+Haiti,res_t0_lin,Residential
+Honduras,nonres_a0_exp,Transportation
+Honduras,nonres_a0_lin,Commercial
+Honduras,nonres_a0_lin,Industrial
+Honduras,nonres_a0_lin,Transportation
+Honduras,nonres_a1_exp,Transportation
+Honduras,nonres_a1_lin,Commercial
+Honduras,nonres_a1_lin,Industrial
+Honduras,nonres_a1_lin,Transportation
+Honduras,nonres_t0_exp,Transportation
+Honduras,nonres_t0_lin,Commercial
+Honduras,nonres_t0_lin,Industrial
+Honduras,nonres_t0_lin,Transportation
+Honduras,res_a0_lin,Residential
+Honduras,res_a1_lin,Residential
+Honduras,res_t0_lin,Residential
+Hong Kong,nonres_a0_lin,Commercial
+Hong Kong,nonres_a0_lin,Industrial
+Hong Kong,nonres_a1_lin,Commercial
+Hong Kong,nonres_a1_lin,Industrial
+Hong Kong,nonres_t0_lin,Commercial
+Hong Kong,nonres_t0_lin,Industrial
+Hong Kong,res_a0_lin,Residential
+Hong Kong,res_a1_lin,Residential
+Hong Kong,res_t0_lin,Residential
+Hungary,nonres_a0_lin,Commercial
+Hungary,nonres_a0_lin,Industrial
+Hungary,nonres_a1_lin,Commercial
+Hungary,nonres_a1_lin,Industrial
+Hungary,nonres_t0_lin,Commercial
+Hungary,nonres_t0_lin,Industrial
+Hungary,res_a0_lin,Residential
+Hungary,res_a1_lin,Residential
+Hungary,res_t0_lin,Residential
+Iceland,nonres_a0_exp,Transportation
+Iceland,nonres_a0_lin,Commercial
+Iceland,nonres_a0_lin,Industrial
+Iceland,nonres_a1_exp,Transportation
+Iceland,nonres_a1_lin,Commercial
+Iceland,nonres_a1_lin,Industrial
+Iceland,nonres_t0_exp,Transportation
+Iceland,nonres_t0_lin,Commercial
+Iceland,nonres_t0_lin,Industrial
+Iceland,res_a0_lin,Residential
+Iceland,res_a1_lin,Residential
+Iceland,res_t0_lin,Residential
+India,nonres_a0_lin,Commercial
+India,nonres_a0_lin,Industrial
+India,nonres_a0_lin,Transportation
+India,nonres_a1_lin,Commercial
+India,nonres_a1_lin,Industrial
+India,nonres_a1_lin,Transportation
+India,nonres_t0_lin,Commercial
+India,nonres_t0_lin,Industrial
+India,nonres_t0_lin,Transportation
+India,res_a0_lin,Residential
+India,res_a1_lin,Residential
+India,res_t0_lin,Residential
+Indonesia,nonres_a0_lin,Commercial
+Indonesia,nonres_a0_lin,Industrial
+Indonesia,nonres_a0_lin,Transportation
+Indonesia,nonres_a1_lin,Commercial
+Indonesia,nonres_a1_lin,Industrial
+Indonesia,nonres_a1_lin,Transportation
+Indonesia,nonres_t0_lin,Commercial
+Indonesia,nonres_t0_lin,Industrial
+Indonesia,nonres_t0_lin,Transportation
+Indonesia,res_a0_lin,Residential
+Indonesia,res_a1_lin,Residential
+Indonesia,res_t0_lin,Residential
+Iran,nonres_a0_exp,Transportation
+Iran,nonres_a0_lin,Commercial
+Iran,nonres_a0_lin,Industrial
+Iran,nonres_a1_exp,Transportation
+Iran,nonres_a1_lin,Commercial
+Iran,nonres_a1_lin,Industrial
+Iran,nonres_t0_exp,Transportation
+Iran,nonres_t0_lin,Commercial
+Iran,nonres_t0_lin,Industrial
+Iran,res_a0_lin,Residential
+Iran,res_a1_lin,Residential
+Iran,res_t0_lin,Residential
+Iraq,nonres_a0_exp,Transportation
+Iraq,nonres_a0_lin,Commercial
+Iraq,nonres_a0_lin,Industrial
+Iraq,nonres_a0_lin,Transportation
+Iraq,nonres_a1_exp,Transportation
+Iraq,nonres_a1_lin,Commercial
+Iraq,nonres_a1_lin,Industrial
+Iraq,nonres_a1_lin,Transportation
+Iraq,nonres_t0_exp,Transportation
+Iraq,nonres_t0_lin,Commercial
+Iraq,nonres_t0_lin,Industrial
+Iraq,nonres_t0_lin,Transportation
+Iraq,res_a0_lin,Residential
+Iraq,res_a1_lin,Residential
+Iraq,res_t0_lin,Residential
+Ireland,nonres_a0_lin,Commercial
+Ireland,nonres_a0_lin,Industrial
+Ireland,nonres_a1_lin,Commercial
+Ireland,nonres_a1_lin,Industrial
+Ireland,nonres_t0_lin,Commercial
+Ireland,nonres_t0_lin,Industrial
+Ireland,res_a0_lin,Residential
+Ireland,res_a1_lin,Residential
+Ireland,res_t0_lin,Residential
+Israel,nonres_a0_exp,Transportation
+Israel,nonres_a0_lin,Commercial
+Israel,nonres_a0_lin,Industrial
+Israel,nonres_a0_lin,Transportation
+Israel,nonres_a1_exp,Transportation
+Israel,nonres_a1_lin,Commercial
+Israel,nonres_a1_lin,Industrial
+Israel,nonres_a1_lin,Transportation
+Israel,nonres_t0_exp,Transportation
+Israel,nonres_t0_lin,Commercial
+Israel,nonres_t0_lin,Industrial
+Israel,nonres_t0_lin,Transportation
+Israel,res_a0_lin,Residential
+Israel,res_a1_lin,Residential
+Israel,res_t0_lin,Residential
+Italy,nonres_a0_lin,Commercial
+Italy,nonres_a0_lin,Industrial
+Italy,nonres_a1_lin,Commercial
+Italy,nonres_a1_lin,Industrial
+Italy,nonres_t0_lin,Commercial
+Italy,nonres_t0_lin,Industrial
+Italy,res_a0_lin,Residential
+Italy,res_a1_lin,Residential
+Italy,res_t0_lin,Residential
+Ivory Coast,nonres_a0_exp,Transportation
+Ivory Coast,nonres_a0_lin,Commercial
+Ivory Coast,nonres_a0_lin,Industrial
+Ivory Coast,nonres_a0_lin,Transportation
+Ivory Coast,nonres_a1_exp,Transportation
+Ivory Coast,nonres_a1_lin,Commercial
+Ivory Coast,nonres_a1_lin,Industrial
+Ivory Coast,nonres_a1_lin,Transportation
+Ivory Coast,nonres_t0_exp,Transportation
+Ivory Coast,nonres_t0_lin,Commercial
+Ivory Coast,nonres_t0_lin,Industrial
+Ivory Coast,nonres_t0_lin,Transportation
+Ivory Coast,res_a0_lin,Residential
+Ivory Coast,res_a1_lin,Residential
+Ivory Coast,res_t0_lin,Residential
+Jamaica,nonres_a0_exp,Transportation
+Jamaica,nonres_a0_lin,Commercial
+Jamaica,nonres_a0_lin,Industrial
+Jamaica,nonres_a0_lin,Transportation
+Jamaica,nonres_a1_exp,Transportation
+Jamaica,nonres_a1_lin,Commercial
+Jamaica,nonres_a1_lin,Industrial
+Jamaica,nonres_a1_lin,Transportation
+Jamaica,nonres_t0_exp,Transportation
+Jamaica,nonres_t0_lin,Commercial
+Jamaica,nonres_t0_lin,Industrial
+Jamaica,nonres_t0_lin,Transportation
+Jamaica,res_a0_lin,Residential
+Jamaica,res_a1_lin,Residential
+Jamaica,res_t0_lin,Residential
+Japan,nonres_a0_lin,Commercial
+Japan,nonres_a0_lin,Industrial
+Japan,nonres_a0_lin,Transportation
+Japan,nonres_a1_lin,Commercial
+Japan,nonres_a1_lin,Industrial
+Japan,nonres_a1_lin,Transportation
+Japan,nonres_t0_lin,Commercial
+Japan,nonres_t0_lin,Industrial
+Japan,nonres_t0_lin,Transportation
+Japan,res_a0_lin,Residential
+Japan,res_a1_lin,Residential
+Japan,res_t0_lin,Residential
+Jordan,nonres_a0_exp,Transportation
+Jordan,nonres_a0_lin,Commercial
+Jordan,nonres_a0_lin,Industrial
+Jordan,nonres_a0_lin,Transportation
+Jordan,nonres_a1_exp,Transportation
+Jordan,nonres_a1_lin,Commercial
+Jordan,nonres_a1_lin,Industrial
+Jordan,nonres_a1_lin,Transportation
+Jordan,nonres_t0_exp,Transportation
+Jordan,nonres_t0_lin,Commercial
+Jordan,nonres_t0_lin,Industrial
+Jordan,nonres_t0_lin,Transportation
+Jordan,res_a0_lin,Residential
+Jordan,res_a1_lin,Residential
+Jordan,res_t0_lin,Residential
+Kazakhstan,nonres_a0_exp,Commercial
+Kazakhstan,nonres_a0_lin,Industrial
+Kazakhstan,nonres_a0_lin,Transportation
+Kazakhstan,nonres_a1_exp,Commercial
+Kazakhstan,nonres_a1_lin,Industrial
+Kazakhstan,nonres_a1_lin,Transportation
+Kazakhstan,nonres_t0_exp,Commercial
+Kazakhstan,nonres_t0_lin,Industrial
+Kazakhstan,nonres_t0_lin,Transportation
+Kazakhstan,res_a0_lin,Residential
+Kazakhstan,res_a1_lin,Residential
+Kazakhstan,res_t0_lin,Residential
+Kenya,nonres_a0_exp,Transportation
+Kenya,nonres_a0_lin,Commercial
+Kenya,nonres_a0_lin,Industrial
+Kenya,nonres_a0_lin,Transportation
+Kenya,nonres_a1_exp,Transportation
+Kenya,nonres_a1_lin,Commercial
+Kenya,nonres_a1_lin,Industrial
+Kenya,nonres_a1_lin,Transportation
+Kenya,nonres_t0_exp,Transportation
+Kenya,nonres_t0_lin,Commercial
+Kenya,nonres_t0_lin,Industrial
+Kenya,nonres_t0_lin,Transportation
+Kenya,res_a0_lin,Residential
+Kenya,res_a1_lin,Residential
+Kenya,res_t0_lin,Residential
+Kuwait,nonres_a0_exp,Transportation
+Kuwait,nonres_a0_lin,Commercial
+Kuwait,nonres_a0_lin,Industrial
+Kuwait,nonres_a0_lin,Transportation
+Kuwait,nonres_a1_exp,Transportation
+Kuwait,nonres_a1_lin,Commercial
+Kuwait,nonres_a1_lin,Industrial
+Kuwait,nonres_a1_lin,Transportation
+Kuwait,nonres_t0_exp,Transportation
+Kuwait,nonres_t0_lin,Commercial
+Kuwait,nonres_t0_lin,Industrial
+Kuwait,nonres_t0_lin,Transportation
+Kuwait,res_a0_lin,Residential
+Kuwait,res_a1_lin,Residential
+Kuwait,res_t0_lin,Residential
+Kyrgyzstan,nonres_a0_lin,Commercial
+Kyrgyzstan,nonres_a0_lin,Industrial
+Kyrgyzstan,nonres_a0_lin,Transportation
+Kyrgyzstan,nonres_a1_lin,Commercial
+Kyrgyzstan,nonres_a1_lin,Industrial
+Kyrgyzstan,nonres_a1_lin,Transportation
+Kyrgyzstan,nonres_t0_lin,Commercial
+Kyrgyzstan,nonres_t0_lin,Industrial
+Kyrgyzstan,nonres_t0_lin,Transportation
+Kyrgyzstan,res_a0_lin,Residential
+Kyrgyzstan,res_a1_lin,Residential
+Kyrgyzstan,res_t0_lin,Residential
+Laos,nonres_a0_exp,Transportation
+Laos,nonres_a0_lin,Commercial
+Laos,nonres_a0_lin,Industrial
+Laos,nonres_a0_lin,Transportation
+Laos,nonres_a1_exp,Transportation
+Laos,nonres_a1_lin,Commercial
+Laos,nonres_a1_lin,Industrial
+Laos,nonres_a1_lin,Transportation
+Laos,nonres_t0_exp,Transportation
+Laos,nonres_t0_lin,Commercial
+Laos,nonres_t0_lin,Industrial
+Laos,nonres_t0_lin,Transportation
+Laos,res_a0_lin,Residential
+Laos,res_a1_lin,Residential
+Laos,res_t0_lin,Residential
+Latvia,nonres_a0_lin,Commercial
+Latvia,nonres_a0_lin,Industrial
+Latvia,nonres_a0_lin,Transportation
+Latvia,nonres_a1_lin,Commercial
+Latvia,nonres_a1_lin,Industrial
+Latvia,nonres_a1_lin,Transportation
+Latvia,nonres_t0_lin,Commercial
+Latvia,nonres_t0_lin,Industrial
+Latvia,nonres_t0_lin,Transportation
+Latvia,res_a0_lin,Residential
+Latvia,res_a1_lin,Residential
+Latvia,res_t0_lin,Residential
+Lebanon,nonres_a0_exp,Transportation
+Lebanon,nonres_a0_lin,Commercial
+Lebanon,nonres_a0_lin,Industrial
+Lebanon,nonres_a0_lin,Transportation
+Lebanon,nonres_a1_exp,Transportation
+Lebanon,nonres_a1_lin,Commercial
+Lebanon,nonres_a1_lin,Industrial
+Lebanon,nonres_a1_lin,Transportation
+Lebanon,nonres_t0_exp,Transportation
+Lebanon,nonres_t0_lin,Commercial
+Lebanon,nonres_t0_lin,Industrial
+Lebanon,nonres_t0_lin,Transportation
+Lebanon,res_a0_lin,Residential
+Lebanon,res_a1_lin,Residential
+Lebanon,res_t0_lin,Residential
+Libya,nonres_a0_exp,Transportation
+Libya,nonres_a0_lin,Commercial
+Libya,nonres_a0_lin,Industrial
+Libya,nonres_a0_lin,Transportation
+Libya,nonres_a1_exp,Transportation
+Libya,nonres_a1_lin,Commercial
+Libya,nonres_a1_lin,Industrial
+Libya,nonres_a1_lin,Transportation
+Libya,nonres_t0_exp,Transportation
+Libya,nonres_t0_lin,Commercial
+Libya,nonres_t0_lin,Industrial
+Libya,nonres_t0_lin,Transportation
+Libya,res_a0_lin,Residential
+Libya,res_a1_lin,Residential
+Libya,res_t0_lin,Residential
+Lithuania,nonres_a0_lin,Commercial
+Lithuania,nonres_a0_lin,Industrial
+Lithuania,nonres_a0_lin,Transportation
+Lithuania,nonres_a1_lin,Commercial
+Lithuania,nonres_a1_lin,Industrial
+Lithuania,nonres_a1_lin,Transportation
+Lithuania,nonres_t0_lin,Commercial
+Lithuania,nonres_t0_lin,Industrial
+Lithuania,nonres_t0_lin,Transportation
+Lithuania,res_a0_lin,Residential
+Lithuania,res_a1_lin,Residential
+Lithuania,res_t0_lin,Residential
+Luxembourg,nonres_a0_lin,Commercial
+Luxembourg,nonres_a0_lin,Industrial
+Luxembourg,nonres_a1_lin,Commercial
+Luxembourg,nonres_a1_lin,Industrial
+Luxembourg,nonres_t0_lin,Commercial
+Luxembourg,nonres_t0_lin,Industrial
+Luxembourg,res_a0_lin,Residential
+Luxembourg,res_a1_lin,Residential
+Luxembourg,res_t0_lin,Residential
+Madagascar,nonres_a0_lin,Commercial
+Madagascar,nonres_a0_lin,Industrial
+Madagascar,nonres_a0_lin,Transportation
+Madagascar,nonres_a1_lin,Commercial
+Madagascar,nonres_a1_lin,Industrial
+Madagascar,nonres_a1_lin,Transportation
+Madagascar,nonres_t0_lin,Commercial
+Madagascar,nonres_t0_lin,Industrial
+Madagascar,nonres_t0_lin,Transportation
+Madagascar,res_a0_lin,Residential
+Madagascar,res_a1_lin,Residential
+Madagascar,res_t0_lin,Residential
+Malaysia,nonres_a0_lin,Commercial
+Malaysia,nonres_a0_lin,Industrial
+Malaysia,nonres_a0_lin,Transportation
+Malaysia,nonres_a1_lin,Commercial
+Malaysia,nonres_a1_lin,Industrial
+Malaysia,nonres_a1_lin,Transportation
+Malaysia,nonres_t0_lin,Commercial
+Malaysia,nonres_t0_lin,Industrial
+Malaysia,nonres_t0_lin,Transportation
+Malaysia,res_a0_lin,Residential
+Malaysia,res_a1_lin,Residential
+Malaysia,res_t0_lin,Residential
+Mali,nonres_a0_exp,Transportation
+Mali,nonres_a0_lin,Commercial
+Mali,nonres_a0_lin,Industrial
+Mali,nonres_a0_lin,Transportation
+Mali,nonres_a1_exp,Transportation
+Mali,nonres_a1_lin,Commercial
+Mali,nonres_a1_lin,Industrial
+Mali,nonres_a1_lin,Transportation
+Mali,nonres_t0_exp,Transportation
+Mali,nonres_t0_lin,Commercial
+Mali,nonres_t0_lin,Industrial
+Mali,nonres_t0_lin,Transportation
+Mali,res_a0_lin,Residential
+Mali,res_a1_lin,Residential
+Mali,res_t0_lin,Residential
+Malta,nonres_a0_exp,Transportation
+Malta,nonres_a0_lin,Commercial
+Malta,nonres_a0_lin,Industrial
+Malta,nonres_a1_exp,Transportation
+Malta,nonres_a1_lin,Commercial
+Malta,nonres_a1_lin,Industrial
+Malta,nonres_t0_exp,Transportation
+Malta,nonres_t0_lin,Commercial
+Malta,nonres_t0_lin,Industrial
+Malta,res_a0_lin,Residential
+Malta,res_a1_lin,Residential
+Malta,res_t0_lin,Residential
+Mauritania,nonres_a0_exp,Transportation
+Mauritania,nonres_a0_lin,Commercial
+Mauritania,nonres_a0_lin,Industrial
+Mauritania,nonres_a0_lin,Transportation
+Mauritania,nonres_a1_exp,Transportation
+Mauritania,nonres_a1_lin,Commercial
+Mauritania,nonres_a1_lin,Industrial
+Mauritania,nonres_a1_lin,Transportation
+Mauritania,nonres_t0_exp,Transportation
+Mauritania,nonres_t0_lin,Commercial
+Mauritania,nonres_t0_lin,Industrial
+Mauritania,nonres_t0_lin,Transportation
+Mauritania,res_a0_lin,Residential
+Mauritania,res_a1_lin,Residential
+Mauritania,res_t0_lin,Residential
+Mauritius,nonres_a0_exp,Transportation
+Mauritius,nonres_a0_lin,Commercial
+Mauritius,nonres_a0_lin,Industrial
+Mauritius,nonres_a0_lin,Transportation
+Mauritius,nonres_a1_exp,Transportation
+Mauritius,nonres_a1_lin,Commercial
+Mauritius,nonres_a1_lin,Industrial
+Mauritius,nonres_a1_lin,Transportation
+Mauritius,nonres_t0_exp,Transportation
+Mauritius,nonres_t0_lin,Commercial
+Mauritius,nonres_t0_lin,Industrial
+Mauritius,nonres_t0_lin,Transportation
+Mauritius,res_a0_lin,Residential
+Mauritius,res_a1_lin,Residential
+Mauritius,res_t0_lin,Residential
+Mexico,nonres_a0_lin,Commercial
+Mexico,nonres_a0_lin,Industrial
+Mexico,nonres_a0_lin,Transportation
+Mexico,nonres_a1_lin,Commercial
+Mexico,nonres_a1_lin,Industrial
+Mexico,nonres_a1_lin,Transportation
+Mexico,nonres_t0_lin,Commercial
+Mexico,nonres_t0_lin,Industrial
+Mexico,nonres_t0_lin,Transportation
+Mexico,res_a0_lin,Residential
+Mexico,res_a1_lin,Residential
+Mexico,res_t0_lin,Residential
+Moldova,nonres_a0_lin,Commercial
+Moldova,nonres_a0_lin,Industrial
+Moldova,nonres_a0_lin,Transportation
+Moldova,nonres_a1_lin,Commercial
+Moldova,nonres_a1_lin,Industrial
+Moldova,nonres_a1_lin,Transportation
+Moldova,nonres_t0_lin,Commercial
+Moldova,nonres_t0_lin,Industrial
+Moldova,nonres_t0_lin,Transportation
+Moldova,res_a0_lin,Residential
+Moldova,res_a1_lin,Residential
+Moldova,res_t0_lin,Residential
+Mongolia,nonres_a0_exp,Commercial
+Mongolia,nonres_a0_exp,Transportation
+Mongolia,nonres_a0_lin,Commercial
+Mongolia,nonres_a0_lin,Industrial
+Mongolia,nonres_a0_lin,Transportation
+Mongolia,nonres_a1_exp,Commercial
+Mongolia,nonres_a1_exp,Transportation
+Mongolia,nonres_a1_lin,Commercial
+Mongolia,nonres_a1_lin,Industrial
+Mongolia,nonres_a1_lin,Transportation
+Mongolia,nonres_t0_exp,Commercial
+Mongolia,nonres_t0_exp,Transportation
+Mongolia,nonres_t0_lin,Commercial
+Mongolia,nonres_t0_lin,Industrial
+Mongolia,nonres_t0_lin,Transportation
+Mongolia,res_a0_lin,Residential
+Mongolia,res_a1_lin,Residential
+Mongolia,res_t0_lin,Residential
+Montenegro,nonres_a0_exp,Commercial
+Montenegro,nonres_a0_lin,Industrial
+Montenegro,nonres_a0_lin,Transportation
+Montenegro,nonres_a1_exp,Commercial
+Montenegro,nonres_a1_lin,Industrial
+Montenegro,nonres_a1_lin,Transportation
+Montenegro,nonres_t0_exp,Commercial
+Montenegro,nonres_t0_lin,Industrial
+Montenegro,nonres_t0_lin,Transportation
+Montenegro,res_a0_lin,Residential
+Montenegro,res_a1_lin,Residential
+Montenegro,res_t0_lin,Residential
+Morocco,nonres_a0_lin,Commercial
+Morocco,nonres_a0_lin,Industrial
+Morocco,nonres_a0_lin,Transportation
+Morocco,nonres_a1_lin,Commercial
+Morocco,nonres_a1_lin,Industrial
+Morocco,nonres_a1_lin,Transportation
+Morocco,nonres_t0_lin,Commercial
+Morocco,nonres_t0_lin,Industrial
+Morocco,nonres_t0_lin,Transportation
+Morocco,res_a0_lin,Residential
+Morocco,res_a1_lin,Residential
+Morocco,res_t0_lin,Residential
+Mozambique,nonres_a0_exp,Transportation
+Mozambique,nonres_a0_lin,Commercial
+Mozambique,nonres_a0_lin,Industrial
+Mozambique,nonres_a0_lin,Transportation
+Mozambique,nonres_a1_exp,Transportation
+Mozambique,nonres_a1_lin,Commercial
+Mozambique,nonres_a1_lin,Industrial
+Mozambique,nonres_a1_lin,Transportation
+Mozambique,nonres_t0_exp,Transportation
+Mozambique,nonres_t0_lin,Commercial
+Mozambique,nonres_t0_lin,Industrial
+Mozambique,nonres_t0_lin,Transportation
+Mozambique,res_a0_lin,Residential
+Mozambique,res_a1_lin,Residential
+Mozambique,res_t0_lin,Residential
+Myanmar,nonres_a0_exp,Transportation
+Myanmar,nonres_a0_lin,Commercial
+Myanmar,nonres_a0_lin,Industrial
+Myanmar,nonres_a0_lin,Transportation
+Myanmar,nonres_a1_exp,Transportation
+Myanmar,nonres_a1_lin,Commercial
+Myanmar,nonres_a1_lin,Industrial
+Myanmar,nonres_a1_lin,Transportation
+Myanmar,nonres_t0_exp,Transportation
+Myanmar,nonres_t0_lin,Commercial
+Myanmar,nonres_t0_lin,Industrial
+Myanmar,nonres_t0_lin,Transportation
+Myanmar,res_a0_lin,Residential
+Myanmar,res_a1_lin,Residential
+Myanmar,res_t0_lin,Residential
+Namibia,nonres_a0_exp,Transportation
+Namibia,nonres_a0_lin,Commercial
+Namibia,nonres_a0_lin,Industrial
+Namibia,nonres_a0_lin,Transportation
+Namibia,nonres_a1_exp,Transportation
+Namibia,nonres_a1_lin,Commercial
+Namibia,nonres_a1_lin,Industrial
+Namibia,nonres_a1_lin,Transportation
+Namibia,nonres_t0_exp,Transportation
+Namibia,nonres_t0_lin,Commercial
+Namibia,nonres_t0_lin,Industrial
+Namibia,nonres_t0_lin,Transportation
+Namibia,res_a0_lin,Residential
+Namibia,res_a1_lin,Residential
+Namibia,res_t0_lin,Residential
+Nepal,nonres_a0_lin,Commercial
+Nepal,nonres_a0_lin,Industrial
+Nepal,nonres_a0_lin,Transportation
+Nepal,nonres_a1_lin,Commercial
+Nepal,nonres_a1_lin,Industrial
+Nepal,nonres_a1_lin,Transportation
+Nepal,nonres_t0_lin,Commercial
+Nepal,nonres_t0_lin,Industrial
+Nepal,nonres_t0_lin,Transportation
+Nepal,res_a0_exp,Residential
+Nepal,res_a1_exp,Residential
+Nepal,res_t0_exp,Residential
+Netherlands,nonres_a0_lin,Commercial
+Netherlands,nonres_a0_lin,Industrial
+Netherlands,nonres_a1_lin,Commercial
+Netherlands,nonres_a1_lin,Industrial
+Netherlands,nonres_t0_lin,Commercial
+Netherlands,nonres_t0_lin,Industrial
+Netherlands,res_a0_lin,Residential
+Netherlands,res_a1_lin,Residential
+Netherlands,res_t0_lin,Residential
+New Zealand,nonres_a0_lin,Commercial
+New Zealand,nonres_a0_lin,Industrial
+New Zealand,nonres_a0_lin,Transportation
+New Zealand,nonres_a1_lin,Commercial
+New Zealand,nonres_a1_lin,Industrial
+New Zealand,nonres_a1_lin,Transportation
+New Zealand,nonres_t0_lin,Commercial
+New Zealand,nonres_t0_lin,Industrial
+New Zealand,nonres_t0_lin,Transportation
+New Zealand,res_a0_lin,Residential
+New Zealand,res_a1_lin,Residential
+New Zealand,res_t0_lin,Residential
+Nicaragua,nonres_a0_exp,Transportation
+Nicaragua,nonres_a0_lin,Commercial
+Nicaragua,nonres_a0_lin,Industrial
+Nicaragua,nonres_a0_lin,Transportation
+Nicaragua,nonres_a1_exp,Transportation
+Nicaragua,nonres_a1_lin,Commercial
+Nicaragua,nonres_a1_lin,Industrial
+Nicaragua,nonres_a1_lin,Transportation
+Nicaragua,nonres_t0_exp,Transportation
+Nicaragua,nonres_t0_lin,Commercial
+Nicaragua,nonres_t0_lin,Industrial
+Nicaragua,nonres_t0_lin,Transportation
+Nicaragua,res_a0_lin,Residential
+Nicaragua,res_a1_lin,Residential
+Nicaragua,res_t0_lin,Residential
+Niger,nonres_a0_exp,Transportation
+Niger,nonres_a0_lin,Commercial
+Niger,nonres_a0_lin,Industrial
+Niger,nonres_a0_lin,Transportation
+Niger,nonres_a1_exp,Transportation
+Niger,nonres_a1_lin,Commercial
+Niger,nonres_a1_lin,Industrial
+Niger,nonres_a1_lin,Transportation
+Niger,nonres_t0_exp,Transportation
+Niger,nonres_t0_lin,Commercial
+Niger,nonres_t0_lin,Industrial
+Niger,nonres_t0_lin,Transportation
+Niger,res_a0_lin,Residential
+Niger,res_a1_lin,Residential
+Niger,res_t0_lin,Residential
+Nigeria,nonres_a0_exp,Transportation
+Nigeria,nonres_a0_lin,Commercial
+Nigeria,nonres_a0_lin,Industrial
+Nigeria,nonres_a0_lin,Transportation
+Nigeria,nonres_a1_exp,Transportation
+Nigeria,nonres_a1_lin,Commercial
+Nigeria,nonres_a1_lin,Industrial
+Nigeria,nonres_a1_lin,Transportation
+Nigeria,nonres_t0_exp,Transportation
+Nigeria,nonres_t0_lin,Commercial
+Nigeria,nonres_t0_lin,Industrial
+Nigeria,nonres_t0_lin,Transportation
+Nigeria,res_a0_lin,Residential
+Nigeria,res_a1_lin,Residential
+Nigeria,res_t0_lin,Residential
+North Macedonia,nonres_a0_lin,Commercial
+North Macedonia,nonres_a0_lin,Industrial
+North Macedonia,nonres_a0_lin,Transportation
+North Macedonia,nonres_a1_lin,Commercial
+North Macedonia,nonres_a1_lin,Industrial
+North Macedonia,nonres_a1_lin,Transportation
+North Macedonia,nonres_t0_lin,Commercial
+North Macedonia,nonres_t0_lin,Industrial
+North Macedonia,nonres_t0_lin,Transportation
+North Macedonia,res_a0_lin,Residential
+North Macedonia,res_a1_lin,Residential
+North Macedonia,res_t0_lin,Residential
+Norway,nonres_a0_lin,Commercial
+Norway,nonres_a0_lin,Industrial
+Norway,nonres_a1_lin,Commercial
+Norway,nonres_a1_lin,Industrial
+Norway,nonres_t0_lin,Commercial
+Norway,nonres_t0_lin,Industrial
+Norway,res_a0_lin,Residential
+Norway,res_a1_lin,Residential
+Norway,res_t0_lin,Residential
+Oman,nonres_a0_exp,Transportation
+Oman,nonres_a0_lin,Commercial
+Oman,nonres_a0_lin,Industrial
+Oman,nonres_a0_lin,Transportation
+Oman,nonres_a1_exp,Transportation
+Oman,nonres_a1_lin,Commercial
+Oman,nonres_a1_lin,Industrial
+Oman,nonres_a1_lin,Transportation
+Oman,nonres_t0_exp,Transportation
+Oman,nonres_t0_lin,Commercial
+Oman,nonres_t0_lin,Industrial
+Oman,nonres_t0_lin,Transportation
+Oman,res_a0_lin,Residential
+Oman,res_a1_lin,Residential
+Oman,res_t0_lin,Residential
+Pakistan,nonres_a0_lin,Commercial
+Pakistan,nonres_a0_lin,Industrial
+Pakistan,nonres_a0_lin,Transportation
+Pakistan,nonres_a1_lin,Commercial
+Pakistan,nonres_a1_lin,Industrial
+Pakistan,nonres_a1_lin,Transportation
+Pakistan,nonres_t0_lin,Commercial
+Pakistan,nonres_t0_lin,Industrial
+Pakistan,nonres_t0_lin,Transportation
+Pakistan,res_a0_lin,Residential
+Pakistan,res_a1_lin,Residential
+Pakistan,res_t0_lin,Residential
+Palestine,nonres_a0_exp,Transportation
+Palestine,nonres_a0_lin,Commercial
+Palestine,nonres_a0_lin,Industrial
+Palestine,nonres_a0_lin,Transportation
+Palestine,nonres_a1_exp,Transportation
+Palestine,nonres_a1_lin,Commercial
+Palestine,nonres_a1_lin,Industrial
+Palestine,nonres_a1_lin,Transportation
+Palestine,nonres_t0_exp,Transportation
+Palestine,nonres_t0_lin,Commercial
+Palestine,nonres_t0_lin,Industrial
+Palestine,nonres_t0_lin,Transportation
+Palestine,res_a0_lin,Residential
+Palestine,res_a1_lin,Residential
+Palestine,res_t0_lin,Residential
+Panama,nonres_a0_exp,Transportation
+Panama,nonres_a0_lin,Commercial
+Panama,nonres_a0_lin,Industrial
+Panama,nonres_a1_exp,Transportation
+Panama,nonres_a1_lin,Commercial
+Panama,nonres_a1_lin,Industrial
+Panama,nonres_t0_exp,Transportation
+Panama,nonres_t0_lin,Commercial
+Panama,nonres_t0_lin,Industrial
+Panama,res_a0_lin,Residential
+Panama,res_a1_lin,Residential
+Panama,res_t0_lin,Residential
+Paraguay,nonres_a0_lin,Commercial
+Paraguay,nonres_a0_lin,Industrial
+Paraguay,nonres_a0_lin,Transportation
+Paraguay,nonres_a1_lin,Commercial
+Paraguay,nonres_a1_lin,Industrial
+Paraguay,nonres_a1_lin,Transportation
+Paraguay,nonres_t0_lin,Commercial
+Paraguay,nonres_t0_lin,Industrial
+Paraguay,nonres_t0_lin,Transportation
+Paraguay,res_a0_lin,Residential
+Paraguay,res_a1_lin,Residential
+Paraguay,res_t0_lin,Residential
+Peru,nonres_a0_lin,Commercial
+Peru,nonres_a0_lin,Industrial
+Peru,nonres_a0_lin,Transportation
+Peru,nonres_a1_lin,Commercial
+Peru,nonres_a1_lin,Industrial
+Peru,nonres_a1_lin,Transportation
+Peru,nonres_t0_lin,Commercial
+Peru,nonres_t0_lin,Industrial
+Peru,nonres_t0_lin,Transportation
+Peru,res_a0_lin,Residential
+Peru,res_a1_lin,Residential
+Peru,res_t0_lin,Residential
+Philippines,nonres_a0_lin,Commercial
+Philippines,nonres_a0_lin,Industrial
+Philippines,nonres_a0_lin,Transportation
+Philippines,nonres_a1_lin,Commercial
+Philippines,nonres_a1_lin,Industrial
+Philippines,nonres_a1_lin,Transportation
+Philippines,nonres_t0_lin,Commercial
+Philippines,nonres_t0_lin,Industrial
+Philippines,nonres_t0_lin,Transportation
+Philippines,res_a0_lin,Residential
+Philippines,res_a1_lin,Residential
+Philippines,res_t0_lin,Residential
+Poland,nonres_a0_lin,Commercial
+Poland,nonres_a0_lin,Industrial
+Poland,nonres_a0_lin,Transportation
+Poland,nonres_a1_lin,Commercial
+Poland,nonres_a1_lin,Industrial
+Poland,nonres_a1_lin,Transportation
+Poland,nonres_t0_lin,Commercial
+Poland,nonres_t0_lin,Industrial
+Poland,nonres_t0_lin,Transportation
+Poland,res_a0_lin,Residential
+Poland,res_a1_lin,Residential
+Poland,res_t0_lin,Residential
+Portugal,nonres_a0_lin,Commercial
+Portugal,nonres_a0_lin,Industrial
+Portugal,nonres_a1_lin,Commercial
+Portugal,nonres_a1_lin,Industrial
+Portugal,nonres_t0_lin,Commercial
+Portugal,nonres_t0_lin,Industrial
+Portugal,res_a0_lin,Residential
+Portugal,res_a1_lin,Residential
+Portugal,res_t0_lin,Residential
+Qatar,nonres_a0_exp,Transportation
+Qatar,nonres_a0_lin,Commercial
+Qatar,nonres_a0_lin,Industrial
+Qatar,nonres_a0_lin,Transportation
+Qatar,nonres_a1_exp,Transportation
+Qatar,nonres_a1_lin,Commercial
+Qatar,nonres_a1_lin,Industrial
+Qatar,nonres_a1_lin,Transportation
+Qatar,nonres_t0_exp,Transportation
+Qatar,nonres_t0_lin,Commercial
+Qatar,nonres_t0_lin,Industrial
+Qatar,nonres_t0_lin,Transportation
+Qatar,res_a0_lin,Residential
+Qatar,res_a1_lin,Residential
+Qatar,res_t0_lin,Residential
+Romania,nonres_a0_lin,Commercial
+Romania,nonres_a0_lin,Industrial
+Romania,nonres_a0_lin,Transportation
+Romania,nonres_a1_lin,Commercial
+Romania,nonres_a1_lin,Industrial
+Romania,nonres_a1_lin,Transportation
+Romania,nonres_t0_lin,Commercial
+Romania,nonres_t0_lin,Industrial
+Romania,nonres_t0_lin,Transportation
+Romania,res_a0_lin,Residential
+Romania,res_a1_lin,Residential
+Romania,res_t0_lin,Residential
+Russia,nonres_a0_lin,Commercial
+Russia,nonres_a0_lin,Industrial
+Russia,nonres_a0_lin,Transportation
+Russia,nonres_a1_lin,Commercial
+Russia,nonres_a1_lin,Industrial
+Russia,nonres_a1_lin,Transportation
+Russia,nonres_t0_lin,Commercial
+Russia,nonres_t0_lin,Industrial
+Russia,nonres_t0_lin,Transportation
+Russia,res_a0_lin,Residential
+Russia,res_a1_lin,Residential
+Russia,res_t0_lin,Residential
+Rwanda,nonres_a0_exp,Transportation
+Rwanda,nonres_a0_lin,Commercial
+Rwanda,nonres_a0_lin,Industrial
+Rwanda,nonres_a0_lin,Transportation
+Rwanda,nonres_a1_exp,Transportation
+Rwanda,nonres_a1_lin,Commercial
+Rwanda,nonres_a1_lin,Industrial
+Rwanda,nonres_a1_lin,Transportation
+Rwanda,nonres_t0_exp,Transportation
+Rwanda,nonres_t0_lin,Commercial
+Rwanda,nonres_t0_lin,Industrial
+Rwanda,nonres_t0_lin,Transportation
+Rwanda,res_a0_lin,Residential
+Rwanda,res_a1_lin,Residential
+Rwanda,res_t0_lin,Residential
+Saudi Arabia,nonres_a0_exp,Transportation
+Saudi Arabia,nonres_a0_lin,Commercial
+Saudi Arabia,nonres_a0_lin,Industrial
+Saudi Arabia,nonres_a0_lin,Transportation
+Saudi Arabia,nonres_a1_exp,Transportation
+Saudi Arabia,nonres_a1_lin,Commercial
+Saudi Arabia,nonres_a1_lin,Industrial
+Saudi Arabia,nonres_a1_lin,Transportation
+Saudi Arabia,nonres_t0_exp,Transportation
+Saudi Arabia,nonres_t0_lin,Commercial
+Saudi Arabia,nonres_t0_lin,Industrial
+Saudi Arabia,nonres_t0_lin,Transportation
+Saudi Arabia,res_a0_lin,Residential
+Saudi Arabia,res_a1_lin,Residential
+Saudi Arabia,res_t0_lin,Residential
+Senegal,nonres_a0_exp,Transportation
+Senegal,nonres_a0_lin,Commercial
+Senegal,nonres_a0_lin,Industrial
+Senegal,nonres_a0_lin,Transportation
+Senegal,nonres_a1_exp,Transportation
+Senegal,nonres_a1_lin,Commercial
+Senegal,nonres_a1_lin,Industrial
+Senegal,nonres_a1_lin,Transportation
+Senegal,nonres_t0_exp,Transportation
+Senegal,nonres_t0_lin,Commercial
+Senegal,nonres_t0_lin,Industrial
+Senegal,nonres_t0_lin,Transportation
+Senegal,res_a0_lin,Residential
+Senegal,res_a1_lin,Residential
+Senegal,res_t0_lin,Residential
+Serbia,nonres_a0_lin,Commercial
+Serbia,nonres_a0_lin,Industrial
+Serbia,nonres_a0_lin,Transportation
+Serbia,nonres_a1_lin,Commercial
+Serbia,nonres_a1_lin,Industrial
+Serbia,nonres_a1_lin,Transportation
+Serbia,nonres_t0_lin,Commercial
+Serbia,nonres_t0_lin,Industrial
+Serbia,nonres_t0_lin,Transportation
+Serbia,res_a0_lin,Residential
+Serbia,res_a1_lin,Residential
+Serbia,res_t0_lin,Residential
+Singapore,nonres_a0_lin,Commercial
+Singapore,nonres_a0_lin,Industrial
+Singapore,nonres_a1_lin,Commercial
+Singapore,nonres_a1_lin,Industrial
+Singapore,nonres_t0_lin,Commercial
+Singapore,nonres_t0_lin,Industrial
+Singapore,res_a0_lin,Residential
+Singapore,res_a1_lin,Residential
+Singapore,res_t0_lin,Residential
+Slovakia,nonres_a0_lin,Commercial
+Slovakia,nonres_a0_lin,Industrial
+Slovakia,nonres_a0_lin,Transportation
+Slovakia,nonres_a1_lin,Commercial
+Slovakia,nonres_a1_lin,Industrial
+Slovakia,nonres_a1_lin,Transportation
+Slovakia,nonres_t0_lin,Commercial
+Slovakia,nonres_t0_lin,Industrial
+Slovakia,nonres_t0_lin,Transportation
+Slovakia,res_a0_lin,Residential
+Slovakia,res_a1_lin,Residential
+Slovakia,res_t0_lin,Residential
+Slovenia,nonres_a0_lin,Commercial
+Slovenia,nonres_a0_lin,Industrial
+Slovenia,nonres_a1_lin,Commercial
+Slovenia,nonres_a1_lin,Industrial
+Slovenia,nonres_t0_lin,Commercial
+Slovenia,nonres_t0_lin,Industrial
+Slovenia,res_a0_lin,Residential
+Slovenia,res_a1_lin,Residential
+Slovenia,res_t0_lin,Residential
+South Africa,nonres_a0_lin,Commercial
+South Africa,nonres_a0_lin,Industrial
+South Africa,nonres_a0_lin,Transportation
+South Africa,nonres_a1_lin,Commercial
+South Africa,nonres_a1_lin,Industrial
+South Africa,nonres_a1_lin,Transportation
+South Africa,nonres_t0_lin,Commercial
+South Africa,nonres_t0_lin,Industrial
+South Africa,nonres_t0_lin,Transportation
+South Africa,res_a0_lin,Residential
+South Africa,res_a1_lin,Residential
+South Africa,res_t0_lin,Residential
+South Korea,nonres_a0_lin,Commercial
+South Korea,nonres_a0_lin,Industrial
+South Korea,nonres_a1_lin,Commercial
+South Korea,nonres_a1_lin,Industrial
+South Korea,nonres_t0_lin,Commercial
+South Korea,nonres_t0_lin,Industrial
+South Korea,res_a0_lin,Residential
+South Korea,res_a1_lin,Residential
+South Korea,res_t0_lin,Residential
+Spain,nonres_a0_lin,Commercial
+Spain,nonres_a0_lin,Industrial
+Spain,nonres_a1_lin,Commercial
+Spain,nonres_a1_lin,Industrial
+Spain,nonres_t0_lin,Commercial
+Spain,nonres_t0_lin,Industrial
+Spain,res_a0_lin,Residential
+Spain,res_a1_lin,Residential
+Spain,res_t0_lin,Residential
+Sri Lanka,nonres_a0_exp,Transportation
+Sri Lanka,nonres_a0_lin,Commercial
+Sri Lanka,nonres_a0_lin,Industrial
+Sri Lanka,nonres_a0_lin,Transportation
+Sri Lanka,nonres_a1_exp,Transportation
+Sri Lanka,nonres_a1_lin,Commercial
+Sri Lanka,nonres_a1_lin,Industrial
+Sri Lanka,nonres_a1_lin,Transportation
+Sri Lanka,nonres_t0_exp,Transportation
+Sri Lanka,nonres_t0_lin,Commercial
+Sri Lanka,nonres_t0_lin,Industrial
+Sri Lanka,nonres_t0_lin,Transportation
+Sri Lanka,res_a0_lin,Residential
+Sri Lanka,res_a1_lin,Residential
+Sri Lanka,res_t0_lin,Residential
+Sudan,nonres_a0_exp,Transportation
+Sudan,nonres_a0_lin,Commercial
+Sudan,nonres_a0_lin,Industrial
+Sudan,nonres_a0_lin,Transportation
+Sudan,nonres_a1_exp,Transportation
+Sudan,nonres_a1_lin,Commercial
+Sudan,nonres_a1_lin,Industrial
+Sudan,nonres_a1_lin,Transportation
+Sudan,nonres_t0_exp,Transportation
+Sudan,nonres_t0_lin,Commercial
+Sudan,nonres_t0_lin,Industrial
+Sudan,nonres_t0_lin,Transportation
+Sudan,res_a0_lin,Residential
+Sudan,res_a1_lin,Residential
+Sudan,res_t0_lin,Residential
+Suriname,nonres_a0_exp,Transportation
+Suriname,nonres_a0_lin,Commercial
+Suriname,nonres_a0_lin,Industrial
+Suriname,nonres_a0_lin,Transportation
+Suriname,nonres_a1_exp,Transportation
+Suriname,nonres_a1_lin,Commercial
+Suriname,nonres_a1_lin,Industrial
+Suriname,nonres_a1_lin,Transportation
+Suriname,nonres_t0_exp,Transportation
+Suriname,nonres_t0_lin,Commercial
+Suriname,nonres_t0_lin,Industrial
+Suriname,nonres_t0_lin,Transportation
+Suriname,res_a0_lin,Residential
+Suriname,res_a1_lin,Residential
+Suriname,res_t0_lin,Residential
+Sweden,nonres_a0_lin,Commercial
+Sweden,nonres_a0_lin,Industrial
+Sweden,nonres_a1_lin,Commercial
+Sweden,nonres_a1_lin,Industrial
+Sweden,nonres_t0_lin,Commercial
+Sweden,nonres_t0_lin,Industrial
+Sweden,res_a0_lin,Residential
+Sweden,res_a1_lin,Residential
+Sweden,res_t0_lin,Residential
+Switzerland,nonres_a0_lin,Commercial
+Switzerland,nonres_a0_lin,Industrial
+Switzerland,nonres_a1_lin,Commercial
+Switzerland,nonres_a1_lin,Industrial
+Switzerland,nonres_t0_lin,Commercial
+Switzerland,nonres_t0_lin,Industrial
+Switzerland,res_a0_lin,Residential
+Switzerland,res_a1_lin,Residential
+Switzerland,res_t0_lin,Residential
+Syria,nonres_a0_exp,Transportation
+Syria,nonres_a0_lin,Commercial
+Syria,nonres_a0_lin,Industrial
+Syria,nonres_a0_lin,Transportation
+Syria,nonres_a1_exp,Transportation
+Syria,nonres_a1_lin,Commercial
+Syria,nonres_a1_lin,Industrial
+Syria,nonres_a1_lin,Transportation
+Syria,nonres_t0_exp,Transportation
+Syria,nonres_t0_lin,Commercial
+Syria,nonres_t0_lin,Industrial
+Syria,nonres_t0_lin,Transportation
+Syria,res_a0_lin,Residential
+Syria,res_a1_lin,Residential
+Syria,res_t0_lin,Residential
+Tajikistan,nonres_a0_lin,Commercial
+Tajikistan,nonres_a0_lin,Industrial
+Tajikistan,nonres_a0_lin,Transportation
+Tajikistan,nonres_a1_lin,Commercial
+Tajikistan,nonres_a1_lin,Industrial
+Tajikistan,nonres_a1_lin,Transportation
+Tajikistan,nonres_t0_lin,Commercial
+Tajikistan,nonres_t0_lin,Industrial
+Tajikistan,nonres_t0_lin,Transportation
+Tajikistan,res_a0_lin,Residential
+Tajikistan,res_a1_lin,Residential
+Tajikistan,res_t0_lin,Residential
+Tanzania,nonres_a0_exp,Transportation
+Tanzania,nonres_a0_lin,Commercial
+Tanzania,nonres_a0_lin,Industrial
+Tanzania,nonres_a0_lin,Transportation
+Tanzania,nonres_a1_exp,Transportation
+Tanzania,nonres_a1_lin,Commercial
+Tanzania,nonres_a1_lin,Industrial
+Tanzania,nonres_a1_lin,Transportation
+Tanzania,nonres_t0_exp,Transportation
+Tanzania,nonres_t0_lin,Commercial
+Tanzania,nonres_t0_lin,Industrial
+Tanzania,nonres_t0_lin,Transportation
+Tanzania,res_a0_lin,Residential
+Tanzania,res_a1_lin,Residential
+Tanzania,res_t0_lin,Residential
+Thailand,nonres_a0_lin,Commercial
+Thailand,nonres_a0_lin,Industrial
+Thailand,nonres_a0_lin,Transportation
+Thailand,nonres_a1_lin,Commercial
+Thailand,nonres_a1_lin,Industrial
+Thailand,nonres_a1_lin,Transportation
+Thailand,nonres_t0_lin,Commercial
+Thailand,nonres_t0_lin,Industrial
+Thailand,nonres_t0_lin,Transportation
+Thailand,res_a0_lin,Residential
+Thailand,res_a1_lin,Residential
+Thailand,res_t0_lin,Residential
+Togo,nonres_a0_exp,Transportation
+Togo,nonres_a0_lin,Commercial
+Togo,nonres_a0_lin,Industrial
+Togo,nonres_a0_lin,Transportation
+Togo,nonres_a1_exp,Transportation
+Togo,nonres_a1_lin,Commercial
+Togo,nonres_a1_lin,Industrial
+Togo,nonres_a1_lin,Transportation
+Togo,nonres_t0_exp,Transportation
+Togo,nonres_t0_lin,Commercial
+Togo,nonres_t0_lin,Industrial
+Togo,nonres_t0_lin,Transportation
+Togo,res_a0_lin,Residential
+Togo,res_a1_lin,Residential
+Togo,res_t0_lin,Residential
+Trinidad and Tobago,nonres_a0_exp,Transportation
+Trinidad and Tobago,nonres_a0_lin,Commercial
+Trinidad and Tobago,nonres_a0_lin,Industrial
+Trinidad and Tobago,nonres_a0_lin,Transportation
+Trinidad and Tobago,nonres_a1_exp,Transportation
+Trinidad and Tobago,nonres_a1_lin,Commercial
+Trinidad and Tobago,nonres_a1_lin,Industrial
+Trinidad and Tobago,nonres_a1_lin,Transportation
+Trinidad and Tobago,nonres_t0_exp,Transportation
+Trinidad and Tobago,nonres_t0_lin,Commercial
+Trinidad and Tobago,nonres_t0_lin,Industrial
+Trinidad and Tobago,nonres_t0_lin,Transportation
+Trinidad and Tobago,res_a0_lin,Residential
+Trinidad and Tobago,res_a1_lin,Residential
+Trinidad and Tobago,res_t0_lin,Residential
+Tunisia,nonres_a0_lin,Commercial
+Tunisia,nonres_a0_lin,Industrial
+Tunisia,nonres_a0_lin,Transportation
+Tunisia,nonres_a1_lin,Commercial
+Tunisia,nonres_a1_lin,Industrial
+Tunisia,nonres_a1_lin,Transportation
+Tunisia,nonres_t0_lin,Commercial
+Tunisia,nonres_t0_lin,Industrial
+Tunisia,nonres_t0_lin,Transportation
+Tunisia,res_a0_lin,Residential
+Tunisia,res_a1_lin,Residential
+Tunisia,res_t0_lin,Residential
+Turkey,nonres_a0_lin,Commercial
+Turkey,nonres_a0_lin,Industrial
+Turkey,nonres_a0_lin,Transportation
+Turkey,nonres_a1_lin,Commercial
+Turkey,nonres_a1_lin,Industrial
+Turkey,nonres_a1_lin,Transportation
+Turkey,nonres_t0_lin,Commercial
+Turkey,nonres_t0_lin,Industrial
+Turkey,nonres_t0_lin,Transportation
+Turkey,res_a0_lin,Residential
+Turkey,res_a1_lin,Residential
+Turkey,res_t0_lin,Residential
+Turkmenistan,nonres_a0_exp,Commercial
+Turkmenistan,nonres_a0_lin,Commercial
+Turkmenistan,nonres_a0_lin,Industrial
+Turkmenistan,nonres_a0_lin,Transportation
+Turkmenistan,nonres_a1_exp,Commercial
+Turkmenistan,nonres_a1_lin,Commercial
+Turkmenistan,nonres_a1_lin,Industrial
+Turkmenistan,nonres_a1_lin,Transportation
+Turkmenistan,nonres_t0_exp,Commercial
+Turkmenistan,nonres_t0_lin,Commercial
+Turkmenistan,nonres_t0_lin,Industrial
+Turkmenistan,nonres_t0_lin,Transportation
+Turkmenistan,res_a0_lin,Residential
+Turkmenistan,res_a1_lin,Residential
+Turkmenistan,res_t0_lin,Residential
+Uganda,nonres_a0_exp,Transportation
+Uganda,nonres_a0_lin,Commercial
+Uganda,nonres_a0_lin,Industrial
+Uganda,nonres_a0_lin,Transportation
+Uganda,nonres_a1_exp,Transportation
+Uganda,nonres_a1_lin,Commercial
+Uganda,nonres_a1_lin,Industrial
+Uganda,nonres_a1_lin,Transportation
+Uganda,nonres_t0_exp,Transportation
+Uganda,nonres_t0_lin,Commercial
+Uganda,nonres_t0_lin,Industrial
+Uganda,nonres_t0_lin,Transportation
+Uganda,res_a0_lin,Residential
+Uganda,res_a1_lin,Residential
+Uganda,res_t0_lin,Residential
+Ukraine,nonres_a0_lin,Commercial
+Ukraine,nonres_a0_lin,Industrial
+Ukraine,nonres_a0_lin,Transportation
+Ukraine,nonres_a1_lin,Commercial
+Ukraine,nonres_a1_lin,Industrial
+Ukraine,nonres_a1_lin,Transportation
+Ukraine,nonres_t0_lin,Commercial
+Ukraine,nonres_t0_lin,Industrial
+Ukraine,nonres_t0_lin,Transportation
+Ukraine,res_a0_lin,Residential
+Ukraine,res_a1_lin,Residential
+Ukraine,res_t0_lin,Residential
+United Arab Emirates,nonres_a0_exp,Transportation
+United Arab Emirates,nonres_a0_lin,Commercial
+United Arab Emirates,nonres_a0_lin,Industrial
+United Arab Emirates,nonres_a0_lin,Transportation
+United Arab Emirates,nonres_a1_exp,Transportation
+United Arab Emirates,nonres_a1_lin,Commercial
+United Arab Emirates,nonres_a1_lin,Industrial
+United Arab Emirates,nonres_a1_lin,Transportation
+United Arab Emirates,nonres_t0_exp,Transportation
+United Arab Emirates,nonres_t0_lin,Commercial
+United Arab Emirates,nonres_t0_lin,Industrial
+United Arab Emirates,nonres_t0_lin,Transportation
+United Arab Emirates,res_a0_lin,Residential
+United Arab Emirates,res_a1_lin,Residential
+United Arab Emirates,res_t0_lin,Residential
+United Kingdom,nonres_a0_lin,Commercial
+United Kingdom,nonres_a0_lin,Industrial
+United Kingdom,nonres_a1_lin,Commercial
+United Kingdom,nonres_a1_lin,Industrial
+United Kingdom,nonres_t0_lin,Commercial
+United Kingdom,nonres_t0_lin,Industrial
+United Kingdom,res_a0_lin,Residential
+United Kingdom,res_a1_lin,Residential
+United Kingdom,res_t0_lin,Residential
+United States,nonres_a0_lin,Commercial
+United States,nonres_a0_lin,Industrial
+United States,nonres_a1_lin,Commercial
+United States,nonres_a1_lin,Industrial
+United States,nonres_t0_lin,Commercial
+United States,nonres_t0_lin,Industrial
+United States,res_a0_lin,Residential
+United States,res_a1_lin,Residential
+United States,res_t0_lin,Residential
+Uruguay,nonres_a0_lin,Commercial
+Uruguay,nonres_a0_lin,Industrial
+Uruguay,nonres_a0_lin,Transportation
+Uruguay,nonres_a1_lin,Commercial
+Uruguay,nonres_a1_lin,Industrial
+Uruguay,nonres_a1_lin,Transportation
+Uruguay,nonres_t0_lin,Commercial
+Uruguay,nonres_t0_lin,Industrial
+Uruguay,nonres_t0_lin,Transportation
+Uruguay,res_a0_lin,Residential
+Uruguay,res_a1_lin,Residential
+Uruguay,res_t0_lin,Residential
+Uzbekistan,nonres_a0_lin,Commercial
+Uzbekistan,nonres_a0_lin,Industrial
+Uzbekistan,nonres_a0_lin,Transportation
+Uzbekistan,nonres_a1_lin,Commercial
+Uzbekistan,nonres_a1_lin,Industrial
+Uzbekistan,nonres_a1_lin,Transportation
+Uzbekistan,nonres_t0_lin,Commercial
+Uzbekistan,nonres_t0_lin,Industrial
+Uzbekistan,nonres_t0_lin,Transportation
+Uzbekistan,res_a0_lin,Residential
+Uzbekistan,res_a1_lin,Residential
+Uzbekistan,res_t0_lin,Residential
+Venezuela,nonres_a0_lin,Commercial
+Venezuela,nonres_a0_lin,Industrial
+Venezuela,nonres_a0_lin,Transportation
+Venezuela,nonres_a1_lin,Commercial
+Venezuela,nonres_a1_lin,Industrial
+Venezuela,nonres_a1_lin,Transportation
+Venezuela,nonres_t0_lin,Commercial
+Venezuela,nonres_t0_lin,Industrial
+Venezuela,nonres_t0_lin,Transportation
+Venezuela,res_a0_lin,Residential
+Venezuela,res_a1_lin,Residential
+Venezuela,res_t0_lin,Residential
+Vietnam,nonres_a0_lin,Commercial
+Vietnam,nonres_a0_lin,Industrial
+Vietnam,nonres_a1_lin,Commercial
+Vietnam,nonres_a1_lin,Industrial
+Vietnam,nonres_t0_lin,Commercial
+Vietnam,nonres_t0_lin,Industrial
+Vietnam,res_a0_lin,Residential
+Vietnam,res_a1_lin,Residential
+Vietnam,res_t0_lin,Residential
+Yemen,nonres_a0_exp,Transportation
+Yemen,nonres_a0_lin,Commercial
+Yemen,nonres_a0_lin,Industrial
+Yemen,nonres_a0_lin,Transportation
+Yemen,nonres_a1_exp,Transportation
+Yemen,nonres_a1_lin,Commercial
+Yemen,nonres_a1_lin,Industrial
+Yemen,nonres_a1_lin,Transportation
+Yemen,nonres_t0_exp,Transportation
+Yemen,nonres_t0_lin,Commercial
+Yemen,nonres_t0_lin,Industrial
+Yemen,nonres_t0_lin,Transportation
+Yemen,res_a0_lin,Residential
+Yemen,res_a1_lin,Residential
+Yemen,res_t0_lin,Residential
+Zambia,nonres_a0_lin,Commercial
+Zambia,nonres_a0_lin,Industrial
+Zambia,nonres_a0_lin,Transportation
+Zambia,nonres_a1_lin,Commercial
+Zambia,nonres_a1_lin,Industrial
+Zambia,nonres_a1_lin,Transportation
+Zambia,nonres_t0_lin,Commercial
+Zambia,nonres_t0_lin,Industrial
+Zambia,nonres_t0_lin,Transportation
+Zambia,res_a0_lin,Residential
+Zambia,res_a1_lin,Residential
+Zambia,res_t0_lin,Residential
+Zimbabwe,nonres_a0_exp,Transportation
+Zimbabwe,nonres_a0_lin,Commercial
+Zimbabwe,nonres_a0_lin,Industrial
+Zimbabwe,nonres_a0_lin,Transportation
+Zimbabwe,nonres_a1_exp,Transportation
+Zimbabwe,nonres_a1_lin,Commercial
+Zimbabwe,nonres_a1_lin,Industrial
+Zimbabwe,nonres_a1_lin,Transportation
+Zimbabwe,nonres_t0_exp,Transportation
+Zimbabwe,nonres_t0_lin,Commercial
+Zimbabwe,nonres_t0_lin,Industrial
+Zimbabwe,nonres_t0_lin,Transportation
+Zimbabwe,res_a0_lin,Residential
+Zimbabwe,res_a1_lin,Residential
+Zimbabwe,res_t0_lin,Residential

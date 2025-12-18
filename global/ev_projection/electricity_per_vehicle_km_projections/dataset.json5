@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_Electricity_per_Vehicle_Kilometer_Projections_2025",
+    dataset_id: "baseline__electricity_per_vehicle_km_projections",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Electricity consumption per vehicle kilometer projected to follow Mid scenario projections from the NREL 2024 TransporatationAnnual Technology Baseline (ATB).",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",
@@ -49,7 +48,7 @@
             type: "geography",
             "class": "Geography",
             name: "country",
-            file: "../ev_stock_share_projections/IEA_GEO_countries_regions.csv",
+            file: "../ev_stock_share_projections/dimensions/IEA_GEO_countries_regions.csv",
         },
         {
             type: "subsector",
@@ -68,7 +67,9 @@
         },
     ],
     dimension_references: [],
-    trivial_dimensions: [],
+    trivial_dimensions: [
+        "metric",
+    ],
     sector_description: "transportation",
     data_source: "NREL 2024 Transportation Annual Technology Baseline (ATB), Mid scenario projections for Midsize Battery Electric Vehicles (300-mile range) and Gasoline Extended Range Plug-in Hybrid Electric Vehicle (35-mile electric range). The values for PHEVs account for both Wh/mile and PHEV utility factor (fraction of miles traveled on electricity).",
     data_source_date: "2024",

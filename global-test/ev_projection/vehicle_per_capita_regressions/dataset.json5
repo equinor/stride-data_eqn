@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_Test_Vehicles_per_Capita_Regression_Parameters",
+    dataset_id: "baseline__vehicle_per_capita_regressions",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -17,7 +17,6 @@
     },
     description: "Vehicles per capita regression parameters for STRIDE test dataset.",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "geography",

@@ -1,5 +1,5 @@
 {
-    dataset_id: "UN_population_median_2024",
+    dataset_id: "baseline__population",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -22,7 +22,6 @@
     },
     description: "Historical and median projected population data",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "metric",
@@ -58,5 +57,5 @@
     sector_description: "macroeconomics",
     data_source: "United Nations World Population Prospects",
     data_source_date: "2024",
-    data_soruce_doi_url: "https://population.un.org/wpp/",
+    data_source_doi_url: "https://population.un.org/wpp/",
 }

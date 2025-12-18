@@ -1,0 +1,14 @@
+sector,metric
+Industry,cooling
+Industry,heating
+Industry,lighting
+Industry,waterheating
+Other,cooling
+Other,heating
+Other,lighting
+Other,waterheating
+Service,lighting
+Transport,cooling
+Transport,heating
+Transport,lighting
+Transport,waterheating

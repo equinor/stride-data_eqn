@@ -1,6 +1,6 @@
 {
     project_id: "stride_global",
-    name: "STRIDE Global Dataset",
+    name: "stride_global",
     description: "Input data for the STRIDE application, country-level hourly with near-global coverage.",
     datasets: [],
     dimensions: {
@@ -27,7 +27,7 @@
                 module: 'dsgrid.dimension.standard',
                 name: "all_weather_years",
                 description: "All weather years available for analysis in STRIDE",
-                file: "../profile_data/weather_bait/dimensions/weather_years.csv",
+                file: "profile_data/weather_bait/dimensions/weather_years.csv",
             },
             {
                 type: "geography",
@@ -92,22 +92,22 @@
             {
                 type: "metric",
                 "class": "EnergyIntensityRegression",
-                name: "metric",
+                name: "energy_intensity_regression",
                 description: "Slope, intercept, and starting year (t0) parameters for energy intensity regressions. Supports linear and log-linear (exponential) regressions of energy intensity either per HDI-person or per GDP. Regressions describe change in energy intensity year over year.",
-                file: "../default_projection/energy_intensity_regressions/dimensions/energy_intensity_regression_parameters.csv",
+                file: "default_projection/energy_intensity_regressions/dimensions/energy_intensity_regression_parameters.csv",
             },
             {
                 type: "metric",
                 "class": "EnergyEndUse",
-                name: "metric",
+                name: "energy_end_use",
                 description: "metric",
-                file: "../load_shapes/dimensions/IMAGE_load_shape_enduses.csv",
+                file: "profile_data/load_shapes/dimensions/IMAGE_load_shape_enduses.csv",
                 module: "dsgrid.dimension.standard",
             },
             {
                 type: "metric",
                 "class": "WeatherVariable",
-                name: "metric",
+                name: "weather_variable",
                 description: "metric",
                 module: "dsgrid.dimension.standard",
                 records: [
@@ -121,30 +121,16 @@
             {
                 type: "metric",
                 "class": "StockRegression",
-                name: "metric",
+                name: "stock_regression",
                 description: "Slope, intercept, and starting year (t0) parameters for cars per capita linear regressions. Regressions describe change in the number of cars per person year over year.",
-                file: "../ev_projection/vehicle_per_capita_regressions/dimensions/vehicles_per_capita_regression_parameters.csv",
-            },
-            {
-                type: "metric",
-                "class": "WeatherVariable",
-                name: "metric",
-                description: "metric",
-                module: "dsgrid.dimension.standard",
-                records: [
-                    {
-                        id: "BAIT",
-                        name: "building-adjusted internal temperature",
-                        unit: "degree Celsius",
-                    },
-                ],
+                file: "ev_projection/vehicle_per_capita_regressions/dimensions/vehicles_per_capita_regression_parameters.csv",
             },
             {
                 type: "metric",
                 "class": "EnergyServiceDemandRegression",
-                name: "metric",
+                name: "energy_service_demand_regression",
                 description: "Slope, intercept, and starting year (t0) parameters for kilometers per vehicle year exponential regressions. Regressions describe change in the number of kilometers per vehicle year over time.",
-                file: "../ev_projection/km_per_vehicle_year_regressions/dimensions/km_per_vehicle_year_regression_parameters.csv",
+                file: "ev_projection/km_per_vehicle_year_regressions/dimensions/km_per_vehicle_year_regression_parameters.csv",
             },
             {
                 type: "metric",
@@ -187,6 +173,28 @@
                         unit: "Wh/km",
                     },
                 ],
+            },
+            {
+              type: 'time',
+              class: 'Time',
+              name: 'time_est',
+              time_type: 'datetime',
+              leap_day_adjustment: 'none',
+              description: 'Time dimension, 2018 hourly EST, hour-beginning, no Leap Day Adjustment, total value',
+              time_interval_type: 'period_beginning',
+              measurement_type: 'total',
+              time_zone_format: {
+                format_type: "aligned_in_absolute_time",
+                time_zone: "Etc/GMT+5",
+              },
+              ranges: [
+                {
+                  start: '2018-01-01 00:00:00',
+                  end: '2018-12-31 23:00:00',
+                  str_format: '%Y-%m-%d %H:%M:%S',
+                  frequency: 'P0DT1H0M0.000000S',
+                },
+              ],
             },
         ],
     },

@@ -33,13 +33,17 @@ def main():
 
     # filter countries and apply test country names
     regions_to_keep = list(COUNTRIES.values())
-    columns_to_keep = ["year", "month", "hour", "is_weekday", "sector", "enduse"] + regions_to_keep
-    df = df[columns_to_keep]
-    df = df.rename(columns={v: k for k, v in COUNTRIES.items()})
+    # TEMPORARY
+    # columns_to_keep = ["year", "month", "hour", "is_weekday", "sector", "enduse"] + regions_to_keep
+    # df = df[columns_to_keep]
+    # df = df.rename(columns={v: k for k, v in COUNTRIES.items()})
+    df = df[df["geography"].isin(regions_to_keep)]
+    df["geography"] = df["geography"].map({v: k for k, v in COUNTRIES.items()}) 
 
     # scale data
-    countries = list(COUNTRIES.keys())
-    df[countries] = df[countries] * 0.001
+    # countries = list(COUNTRIES.keys())
+    # df[countries] = df[countries] * 0.001
+    df["value"] = df["value"] * 0.001
 
     df.to_csv(base_dir / "profile_data" / "load_shapes" / "load_data.csv", index=False)
 

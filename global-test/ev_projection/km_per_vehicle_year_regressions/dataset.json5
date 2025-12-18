@@ -1,5 +1,5 @@
 {
-    dataset_id: "STRIDE_Test_Kilometers_per_Vehicle_Year_Regression_Parameters",
+    dataset_id: "baseline__km_per_vehicle_year_regressions",
     version: "1.0.0",
     dataset_type: "modeled",
     data_layout: {
@@ -17,7 +17,6 @@
     },
     description: "Kilometers per vehicle year regression parameters for STRIDE test dataset",
     data_classification: "low",
-    use_project_geography_time_zone: true,
     dimensions: [
         {
             type: "geography",

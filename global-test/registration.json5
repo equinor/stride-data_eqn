@@ -13,116 +13,50 @@
     ],
     datasets: [
         {
-            dataset_id: "STRIDE_Test_Population_Data",
-            dataset_path: "default_projection/population",
+            dataset_id: "baseline__population",
             config_file: "default_projection/population/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_HDI_Data",
-            dataset_path: "default_projection/hdi",
+            dataset_id: "baseline__hdi",
             config_file: "default_projection/hdi/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_GDP_Data",
-            dataset_path: "default_projection/gdp",
+            dataset_id: "baseline__gdp",
             config_file: "default_projection/gdp/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_Energy_Intensity_Regressions",
-            dataset_path: "default_projection/energy_intensity_regressions",
+            dataset_id: "baseline__energy_intensity",
             config_file: "default_projection/energy_intensity_regressions/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_Load_Shapes",
-            dataset_path: "profile_data/load_shapes",
+            dataset_id: "baseline__load_shapes",
             config_file: "profile_data/load_shapes/dataset.json5",
-        },        
+        },
         {
-            dataset_id: "STRIDE_Test_Temperature_BAIT",
-            dataset_path: "profile_data/weather_bait",
+            dataset_id: "baseline__weather_bait",
             config_file: "profile_data/weather_bait/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_Vehicles_per_Capita_Regression_Parameters",
-            dataset_path: "ev_projection/vehicle_per_capita_regressions",
+            dataset_id: "baseline__vehicle_per_capita_regressions",
             config_file: "ev_projection/vehicle_per_capita_regressions/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_Kilometers_per_Vehicle_Year_Regression_Parameters",
-            dataset_path: "ev_projection/km_per_vehicle_year_regressions",
+            dataset_id: "baseline__km_per_vehicle_year_regressions",
             config_file: "ev_projection/km_per_vehicle_year_regressions/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_EV_Stock_Share_Projections",
-            dataset_path: "ev_projection/ev_stock_share_projections",
+            dataset_id: "baseline__ev_stock_share_projections",
             config_file: "ev_projection/ev_stock_share_projections/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_PHEV_Share_Projections",
-            dataset_path: "ev_projection/phev_share_projections",
+            dataset_id: "baseline__phev_share_projections",
             config_file: "ev_projection/phev_share_projections/dataset.json5",
         },
         {
-            dataset_id: "STRIDE_Test_Electricity_per_Vehicle_Kilometer_Projections",
-            dataset_path: "ev_projection/electricity_per_vehicle_km_projections",
+            dataset_id: "baseline__electricity_per_vehicle_km_projections",
             config_file: "ev_projection/electricity_per_vehicle_km_projections/dataset.json5",
         },
     ],
     dataset_submissions: [
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Population_Data",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_HDI_Data",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_GDP_Data",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Energy_Intensity_Regressions",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Load_Shapes",
-            dimension_mapping_file: "profile_data/load_shapes/dimension_mappings.json5",
-        },        
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Temperature_BAIT",
-            // dimension_mapping_file: "",
-        },        
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Vehicles_per_Capita_Regression_Parameters",
-            dimension_mapping_file: "ev_projection/vehicle_per_capita_regressions/dimension_mappings.json5",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Kilometers_per_Vehicle_Year_Regression_Parameters",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_EV_Stock_Share_Projections",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_PHEV_Share_Projections",
-            // dimension_mapping_file: "",
-        },
-        {
-            project_id: "test_project",
-            dataset_id: "STRIDE_Test_Electricity_per_Vehicle_Kilometer_Projections",
-            // dimension_mapping_file: "",
-        },
     ],
 }

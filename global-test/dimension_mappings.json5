@@ -1,0 +1,14 @@
+{
+    dimension_mappings: [
+        {
+            project_id: "test_project",
+            dataset_id: "baseline__load_shapes",
+            dimension_mapping_file: "profile_data/load_shapes/dimension_mappings.json5",
+        },
+        {
+            project_id: "test_project",
+            dataset_id: "baseline__vehicle_per_capita_regressions",
+            dimension_mapping_file: "ev_projection/vehicle_per_capita_regressions/dimension_mappings.json5",
+        },
+    ],
+}
