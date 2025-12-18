@@ -1,0 +1,39 @@
+{
+    dimension_mappings: [
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__load_shapes",
+            dimension_mapping_file: "profile_data/load_shapes/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__weather_bait",
+            dimension_mapping_file: "profile_data/weather_bait/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__vehicle_per_capita_regressions",
+            dimension_mapping_file: "ev_projection/vehicle_per_capita_regressions/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__km_per_vehicle_year_regressions",
+            dimension_mapping_file: "ev_projection/km_per_vehicle_year_regressions/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__ev_stock_share_projections",
+            dimension_mapping_file: "ev_projection/ev_stock_share_projections/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__phev_share_projections",
+            dimension_mapping_file: "ev_projection/phev_share_projections/dimension_mappings.json5",
+        },
+        {
+            project_id: "stride_global",
+            dataset_id: "baseline__electricity_per_vehicle_km_projections",
+            dimension_mapping_file: "ev_projection/electricity_per_vehicle_km_projections/dimension_mappings.json5",
+        },
+    ],
+}
