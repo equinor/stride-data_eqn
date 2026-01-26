@@ -42,6 +42,18 @@
             type: "time",
             time_type: "datetime",
             time_interval_type: "period_beginning",
+            name: "daily",
+            description: "Daily time resolution",
+            module: "dsgrid.dimension.standard",
+            "class": "Time",
+            measurement_type: "total",
+            ranges: [
+                {
+                    start: "2018-01-01",
+                    end: "2020-12-31",
+                    str_format: "%Y-%m-%d",
+                },
+            ],            
             column_format: {
                 dtype: "time_format_in_parts",
                 year_column: "weather_year",
@@ -52,18 +64,6 @@
               format_type: "aligned_in_clock_time",
               time_zones: ["Europe/Brussels", "Asia/Bangkok"],
             },
-            name: "daily",
-            description: "daily",
-            module: "dsgrid.dimension.standard",
-            "class": "Time",
-            leap_day_adjustment: "none",
-            ranges: [
-                {
-                    start: "2018-01-01",
-                    end: "2020-12-31",
-                    str_format: "%Y-%m-%d",
-                },
-            ],
         },
     ],
     dimension_references: [],

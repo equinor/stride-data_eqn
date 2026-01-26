@@ -188,7 +188,6 @@
                frequency: 'P0DT1H0M0.000000S',
                name: 'time_est',
                time_type: 'datetime',
-               leap_day_adjustment: 'none',
                description: 'Time dimension, 2018 hourly EST, hour-beginning, no Leap Day Adjustment, total value',
                time_interval_type: 'period_beginning',
                str_format: '%Y-%m-%d %H:%M:%S',

@@ -179,7 +179,6 @@
               class: 'Time',
               name: 'time_est',
               time_type: 'datetime',
-              leap_day_adjustment: 'none',
               description: 'Time dimension, 2018 hourly EST, hour-beginning, no Leap Day Adjustment, total value',
               time_interval_type: 'period_beginning',
               measurement_type: 'total',
