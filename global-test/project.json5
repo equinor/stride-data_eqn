@@ -29,9 +29,6 @@
                 file: 'dimensions/weather_years.csv',
                 module: 'dsgrid.dimension.standard'
             },
-            // Time could be period beginning, hourly, aligned with weather_year
-            // and in the dominant time zone for the selected country. Right now
-            // the chronify time zones are US-centric: https://github.com/NREL/chronify/blob/main/src/chronify/time.py#L138.
             {
                 type: 'geography',
                 class: 'Geography',
@@ -94,17 +91,6 @@
                 file: "default_projection/energy_intensity_regressions/dimensions/energy_intensity_regression_parameters.csv",
             },
             {
-                type: 'metric',
-                class: 'EnergyIntensity',
-                name: 'energy intensity',
-                description: 'Energy intensity by HDI-population or GDP',
-                records: [
-                    {id: 'res_energy_intensity', name: 'Residential Energy Intensity', unit: 'MWh/HDI-person'},
-                    {id: 'nonres_energy_intensity', name: 'Non-residential Energy Intensity', unit: 'MWh/billion USD-2024'},
-                ],
-                module: 'dsgrid.dimension.standard'
-            },
-            {
                 type: "metric",
                 "class": "EnergyEndUse",
                 name: "enduse",
@@ -112,13 +98,38 @@
                 file: "profile_data/load_shapes/dimensions/enduses.csv",
                 module: "dsgrid.dimension.standard",
             },
-            {
+{
                 type: "metric",
                 "class": "WeatherVariable",
-                name: "bait",
-                description: "building-adjusted internal temperature",
+                name: "weather_variable",
+                description: "metric",
                 module: "dsgrid.dimension.standard",
                 records: [
+                    {
+                        id: "Temperature",
+                        name: "dry-bulb temperature",
+                        unit: "degree Celsius",
+                    },
+                    {
+                        id: "Solar_Radiation",
+                        name: "surface solar radiation",
+                        unit: "W/m2",
+                    },
+                    {
+                        id: "Wind_Speed",
+                        name: "wind speed at 2m",
+                        unit: "m/s",
+                    },
+                    {
+                        id: "Dew_Point",
+                        name: "dew point temperature",
+                        unit: "degree Celsius",
+                    },
+                    {
+                        id: "Humidity",
+                        name: "humidity",
+                        unit: "g/kg",
+                    },
                     {
                         id: "BAIT",
                         name: "building-adjusted internal temperature",

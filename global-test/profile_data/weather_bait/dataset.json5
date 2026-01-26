@@ -4,9 +4,16 @@
     dataset_type: "modeled",
     data_layout: {
         table_format: "one_table",
-        value_format: "stacked",
+        value_format: "pivoted",
+        pivoted_dimension_type: "metric",
         data_file: {
             path: "load_data.csv",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+            ],
         },
     },
     description: "Population-weighted building adjusted internal temperature in degrees centigrade, i.e., building-adjusted internal temperature (BAIT)",
@@ -25,6 +32,31 @@
             description: "metric",
             module: "dsgrid.dimension.standard",
             records: [
+                {
+                    id: "Temperature",
+                    name: "dry-bulb temperature",
+                    unit: "degree Celsius",
+                },
+                {
+                    id: "Solar_Radiation",
+                    name: "surface solar radiation",
+                    unit: "W/m2",
+                },
+                {
+                    id: "Wind_Speed",
+                    name: "wind speed at 2m",
+                    unit: "m/s",
+                },
+                {
+                    id: "Dew_Point",
+                    name: "dew point temperature",
+                    unit: "degree Celsius",
+                },
+                {
+                    id: "Humidity",
+                    name: "humidity",
+                    unit: "g/kg",
+                },
                 {
                     id: "BAIT",
                     name: "building-adjusted internal temperature",
@@ -52,6 +84,7 @@
                     start: "2018-01-01",
                     end: "2020-12-31",
                     str_format: "%Y-%m-%d",
+                    frequency: "P1DT0H0M0.000000S",
                 },
             ],            
             column_format: {
@@ -67,8 +100,8 @@
         },
     ],
     dimension_references: [],
-    trivial_dimensions: ["metric"],
-    sector_description: "buildings",
+    trivial_dimensions: [],
+    sector_description: "weather",
     data_source: "STRIDE Team",
     data_source_date: "2025",
     data_source_doi_url: "https://github.com/dsgrid/stride-data",

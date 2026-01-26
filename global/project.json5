@@ -112,6 +112,31 @@
                 module: "dsgrid.dimension.standard",
                 records: [
                     {
+                        id: "Temperature",
+                        name: "dry-bulb temperature",
+                        unit: "degree Celsius",
+                    },
+                    {
+                        id: "Solar_Radiation",
+                        name: "surface solar radiation",
+                        unit: "W/m2",
+                    },
+                    {
+                        id: "Wind_Speed",
+                        name: "wind speed at 2m",
+                        unit: "m/s",
+                    },
+                    {
+                        id: "Dew_Point",
+                        name: "dew point temperature",
+                        unit: "degree Celsius",
+                    },
+                    {
+                        id: "Humidity",
+                        name: "humidity",
+                        unit: "g/kg",
+                    },
+                    {
                         id: "BAIT",
                         name: "building-adjusted internal temperature",
                         unit: "degree Celsius",
