@@ -7,11 +7,6 @@
         },
         {
             project_id: "stride_global",
-            dataset_id: "baseline__weather_bait",
-            dimension_mapping_file: "profile_data/weather_bait/dimension_mappings.json5",
-        },
-        {
-            project_id: "stride_global",
             dataset_id: "baseline__vehicle_per_capita_regressions",
             dimension_mapping_file: "ev_projection/vehicle_per_capita_regressions/dimension_mappings.json5",
         },

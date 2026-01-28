@@ -3,11 +3,11 @@ Albania,Albania,Europe/Tirane
 Algeria,Algeria,Africa/Algiers
 Angola,Angola,Africa/Lagos
 Argentina,Argentina,America/Argentina/Buenos_Aires
-Armenia,Armenia,Europe/Istanbul
+Armenia,Armenia,Asia/Yerevan
 Australia,Australia,Australia/Brisbane
 Austria,Austria,Europe/Vienna
-Azerbaijan,Azerbaijan,Asia/Tehran
-Bahrain,Bahrain,Asia/Dubai
+Azerbaijan,Azerbaijan,Asia/Baku
+Bahrain,Bahrain,Asia/Qatar
 Bangladesh,Bangladesh,Asia/Dhaka
 Belarus,Belarus,Europe/Minsk
 Belgium,Belgium,Europe/Brussels
@@ -16,10 +16,10 @@ Bolivia,Bolivia,America/La_Paz
 Bosnia and Herzegovina,Bosnia And Herzegovina,Europe/Belgrade
 Botswana,Botswana,Africa/Maputo
 Brazil,Brazil,America/Fortaleza
-Brunei,Brunei,Asia/Makassar
+Brunei,Brunei,Asia/Kuching
 Bulgaria,Bulgaria,Europe/Sofia
 Burkina Faso,Burkina Faso,Africa/Abidjan
-Cambodia,Cambodia,Asia/Yangon
+Cambodia,Cambodia,Asia/Bangkok
 Cameroon,Cameroon,Africa/Lagos
 Canada,Canada,America/Rankin_Inlet
 Chad,Chad,Africa/Ndjamena
@@ -45,7 +45,7 @@ Ethiopia,Ethiopia,Africa/Nairobi
 Finland,Finland,Europe/Helsinki
 France,France,Europe/Paris
 Gabon,Gabon,Africa/Lagos
-Georgia,Georgia,Europe/Istanbul
+Georgia,Georgia,Asia/Tbilisi
 Germany,Germany,Europe/Berlin
 Ghana,Ghana,Africa/Abidjan
 Greece,Greece,Europe/Athens
@@ -53,45 +53,45 @@ Guatemala,Guatemala,America/Guatemala
 Guyana,Guyana,America/Guyana
 Haiti,Haiti,America/Port-au-Prince
 Honduras,Honduras,America/Tegucigalpa
-Hong Kong,Hong Kong,Asia/Shanghai
+Hong Kong,Hong Kong,Asia/Hong_Kong
 Hungary,Hungary,Europe/Budapest
 Iceland,Iceland,Africa/Abidjan
 India,India,Asia/Kolkata
 Indonesia,Indonesia,Asia/Makassar
 Iran,Iran,Asia/Tehran
-Iraq,Iraq,Asia/Tehran
+Iraq,Iraq,Asia/Baghdad
 Ireland,Ireland,Europe/Dublin
-Israel,Israel,Africa/Cairo
+Israel,Israel,Asia/Jerusalem
 Italy,Italy,Europe/Rome
 Ivory Coast,Ivory Coast,Africa/Abidjan
 Jamaica,Jamaica,America/Jamaica
 Japan,Japan,Asia/Tokyo
-Jordan,Jordan,Asia/Riyadh
+Jordan,Jordan,Asia/Amman
 Kazakhstan,Kazakhstan,Asia/Almaty
 Kenya,Kenya,Africa/Nairobi
 Kuwait,Kuwait,Asia/Riyadh
-Kyrgyzstan,Kyrgyzstan,Asia/Almaty
-Laos,Laos,Asia/Yangon
+Kyrgyzstan,Kyrgyzstan,Asia/Bishkek
+Laos,Laos,Asia/Bangkok
 Latvia,Latvia,Europe/Riga
-Lebanon,Lebanon,Europe/Istanbul
+Lebanon,Lebanon,Asia/Beirut
 Libya,Libya,Africa/Tripoli
 Lithuania,Lithuania,Europe/Vilnius
 Luxembourg,Luxembourg,Europe/Brussels
 Madagascar,Madagascar,Africa/Nairobi
-Malaysia,Malaysia,Asia/Makassar
+Malaysia,Malaysia,Asia/Kuching
 Mali,Mali,Africa/Abidjan
 Malta,Malta,Europe/Malta
 Mauritania,Mauritania,Africa/Abidjan
 Mauritius,Mauritius,Indian/Mauritius
 Mexico,Mexico,America/Mexico_City
 Moldova,Moldova,Europe/Chisinau
-Mongolia,Mongolia,Asia/Shanghai
+Mongolia,Mongolia,Asia/Ulaanbaatar
 Montenegro,Montenegro,Europe/Belgrade
 Morocco,Morocco,Africa/Casablanca
 Mozambique,Mozambique,Africa/Maputo
 Myanmar,Myanmar,Asia/Yangon
-Namibia,Namibia,Africa/Maputo
-Nepal,Nepal,Asia/Kolkata
+Namibia,Namibia,Africa/Windhoek
+Nepal,Nepal,Asia/Kathmandu
 Netherlands,Netherlands,Europe/Brussels
 New Zealand,New Zealand,Pacific/Auckland
 Nicaragua,Nicaragua,America/Managua
@@ -101,49 +101,49 @@ North Macedonia,North Macedonia,Europe/Belgrade
 Norway,Norway,Europe/Berlin
 Oman,Oman,Asia/Dubai
 Pakistan,Pakistan,Asia/Karachi
-Palestine,Palestine,Africa/Cairo
+Palestine,Palestine,Asia/Gaza
 Panama,Panama,America/Panama
 Paraguay,Paraguay,America/Asuncion
 Peru,Peru,America/Lima
-Philippines,Philippines,Asia/Makassar
+Philippines,Philippines,Asia/Manila
 Poland,Poland,Europe/Warsaw
 Portugal,Portugal,Europe/Lisbon
-Qatar,Qatar,Asia/Dubai
+Qatar,Qatar,Asia/Qatar
 Romania,Romania,Europe/Bucharest
 Russia,Russia,Europe/Moscow
 Rwanda,Rwanda,Africa/Maputo
 Saudi Arabia,Saudi Arabia,Asia/Riyadh
 Senegal,Senegal,Africa/Abidjan
 Serbia,Serbia,Europe/Belgrade
-Singapore,Singapore,Asia/Makassar
+Singapore,Singapore,Asia/Singapore
 Slovakia,Slovakia,Europe/Prague
 Slovenia,Slovenia,Europe/Belgrade
 South Africa,South Africa,Africa/Johannesburg
-South Korea,South Korea,Asia/Tokyo
+South Korea,South Korea,Asia/Seoul
 Spain,Spain,Europe/Madrid
-Sri Lanka,Sri Lanka,Asia/Kolkata
+Sri Lanka,Sri Lanka,Asia/Colombo
 Sudan,Sudan,Africa/Khartoum
 Suriname,Suriname,America/Paramaribo
 Sweden,Sweden,Europe/Berlin
 Switzerland,Switzerland,Europe/Zurich
-Syria,Syria,Europe/Istanbul
-Tajikistan,Tajikistan,Asia/Almaty
+Syria,Syria,Asia/Damascus
+Tajikistan,Tajikistan,Asia/Dushanbe
 Tanzania,Tanzania,Africa/Nairobi
-Thailand,Thailand,Asia/Yangon
+Thailand,Thailand,Asia/Bangkok
 Togo,Togo,Africa/Abidjan
-Trinidad and Tobago,Trinidad And Tobago,America/Port_of_Spain
+Trinidad and Tobago,Trinidad And Tobago,America/Puerto_Rico
 Tunisia,Tunisia,Africa/Tunis
 Turkey,Turkey,Europe/Istanbul
-Turkmenistan,Turkmenistan,Asia/Almaty
+Turkmenistan,Turkmenistan,Asia/Ashgabat
 Uganda,Uganda,Africa/Nairobi
 Ukraine,Ukraine,Europe/Kyiv
 United Arab Emirates,United Arab Emirates,Asia/Dubai
 United Kingdom,United Kingdom,Europe/London
 United States,United States,America/Chicago
 Uruguay,Uruguay,America/Montevideo
-Uzbekistan,Uzbekistan,Asia/Almaty
+Uzbekistan,Uzbekistan,Asia/Samarkand
 Venezuela,Venezuela,America/Caracas
-Vietnam,Vietnam,Asia/Shanghai
+Vietnam,Vietnam,Asia/Bangkok
 Yemen,Yemen,Asia/Riyadh
 Zambia,Zambia,Africa/Maputo
 Zimbabwe,Zimbabwe,Africa/Maputo

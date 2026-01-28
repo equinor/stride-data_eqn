@@ -5,8 +5,8 @@ import pandas as pd
 base_dir = Path(__file__).resolve().parent.parent
 
 COUNTRIES = {
-    "country_1": "IR",
-    "country_2": "KE",
+    "country_1": "Ireland",
+    "country_2": "Kenya",
 }
 
 def main():
@@ -20,12 +20,8 @@ def main():
 
     # filter countries and apply test country names
     regions_to_keep = list(COUNTRIES.values())
-    # TEMPORARY - https://github.com/dsgrid/dsgrid/issues/398
-    # columns_to_keep = ["weather_year", "month", "day"] + regions_to_keep
-    # df = df[columns_to_keep]
-    # df = df.rename(columns={v: k for k, v in COUNTRIES.items()})
-    df = df[df["geography"].isin(regions_to_keep)]
-    df["geography"] = df["geography"].map({v: k for k, v in COUNTRIES.items()})
+    df = df[df["country"].isin(regions_to_keep)]
+    df["country"] = df["country"].map({v: k for k, v in COUNTRIES.items()})
 
     df.to_csv(base_dir / "profile_data" / "weather_bait" / "load_data.csv", index=False)
 

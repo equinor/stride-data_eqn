@@ -4,9 +4,16 @@
     dataset_type: "modeled",
     data_layout: {
         table_format: "one_table",
-        value_format: "stacked",
+        value_format: "pivoted",
+        pivoted_dimension_type: "metric",
         data_file: {
             path: "load_data.csv",
+            columns: [
+                {
+                    name: "country",
+                    dimension_type: "geography",
+                },
+            ],
         },
     },
     description: "Population-weighted building adjusted internal temperature in degrees centigrade, i.e., building-adjusted internal temperature (BAIT)",
@@ -26,6 +33,31 @@
             module: "dsgrid.dimension.standard",
             records: [
                 {
+                    id: "Temperature",
+                    name: "dry-bulb temperature",
+                    unit: "degree Celsius",
+                },
+                {
+                    id: "Solar_Radiation",
+                    name: "surface solar radiation",
+                    unit: "W/m2",
+                },
+                {
+                    id: "Wind_Speed",
+                    name: "wind speed at 2m",
+                    unit: "m/s",
+                },
+                {
+                    id: "Dew_Point",
+                    name: "dew point temperature",
+                    unit: "degree Celsius",
+                },
+                {
+                    id: "Humidity",
+                    name: "humidity",
+                    unit: "g/kg",
+                },
+                {
                     id: "BAIT",
                     name: "building-adjusted internal temperature",
                     unit: "degree Celsius",
@@ -42,6 +74,19 @@
             type: "time",
             time_type: "datetime",
             time_interval_type: "period_beginning",
+            name: "daily",
+            description: "Daily time resolution",
+            module: "dsgrid.dimension.standard",
+            "class": "Time",
+            measurement_type: "total",
+            ranges: [
+                {
+                    start: "2018-01-01",
+                    end: "2020-12-31",
+                    str_format: "%Y-%m-%d",
+                    frequency: "P1DT0H0M0.000000S",
+                },
+            ],            
             column_format: {
                 dtype: "time_format_in_parts",
                 year_column: "weather_year",
@@ -52,23 +97,11 @@
               format_type: "aligned_in_clock_time",
               time_zones: ["Europe/Brussels", "Asia/Bangkok"],
             },
-            name: "daily",
-            description: "daily",
-            module: "dsgrid.dimension.standard",
-            "class": "Time",
-            leap_day_adjustment: "none",
-            ranges: [
-                {
-                    start: "2018-01-01",
-                    end: "2020-12-31",
-                    str_format: "%Y-%m-%d",
-                },
-            ],
         },
     ],
     dimension_references: [],
-    trivial_dimensions: ["metric"],
-    sector_description: "buildings",
+    trivial_dimensions: [],
+    sector_description: "weather",
     data_source: "STRIDE Team",
     data_source_date: "2025",
     data_source_doi_url: "https://github.com/dsgrid/stride-data",
