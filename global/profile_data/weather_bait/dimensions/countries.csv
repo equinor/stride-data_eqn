@@ -58,7 +58,7 @@ Hungary,Hungary,Etc/GMT-1
 Iceland,Iceland,Etc/GMT
 India,India,Asia/Kolkata
 Indonesia,Indonesia,Etc/GMT-8
-Iran,Iran,Asia/Tehran
+Iran,Iran,Etc/GMT-4
 Iraq,Iraq,Etc/GMT-3
 Ireland,Ireland,Etc/GMT
 Israel,Israel,Etc/GMT-2
@@ -121,7 +121,7 @@ Slovenia,Slovenia,Etc/GMT-1
 South Africa,South Africa,Etc/GMT-2
 South Korea,South Korea,Etc/GMT-9
 Spain,Spain,Etc/GMT-1
-Sri Lanka,Sri Lanka,Asia/Colombo
+Sri Lanka,Sri Lanka,Asia/Kolkata
 Sudan,Sudan,Etc/GMT-2
 Suriname,Suriname,Etc/GMT+3
 Sweden,Sweden,Etc/GMT-1

@@ -83,10 +83,10 @@
             time_zone_format: {
                 format_type: "aligned_in_std_clock_time",
                 time_zones: [
-                    "Asia/Colombo",
+                    // "Asia/Colombo", // Sri Lanka's time zone had offset changes in 1996 and 2006, so we use Asia/Kolkata instead
                     "Asia/Kathmandu",
                     "Asia/Kolkata",
-                    "Asia/Tehran",
+                    // "Asia/Tehran", // Iran's time zone has offset +3:30 and +4:30, so we use Etc/GMT-4 instead
                     "Asia/Yangon",
                     "Etc/GMT+6",
                     "Etc/GMT+5",
