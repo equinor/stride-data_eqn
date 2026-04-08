@@ -23,7 +23,7 @@
             type: "geography",
             "class": "Geography",
             name: "country",
-            file: "../../dimensions/countries.csv",
+            file: "dimensions/countries.csv",
         },
         {
             type: "metric",
@@ -94,8 +94,8 @@
                 day_column: "day",
             },
             time_zone_format: {
-              format_type: "aligned_in_clock_time",
-              time_zones: ["Europe/Brussels", "Asia/Bangkok"],
+              format_type: "aligned_in_std_clock_time",
+              time_zones: ["Etc/GMT-1", "Etc/GMT-7"],
             },
         },
     ],
