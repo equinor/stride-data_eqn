@@ -200,6 +200,20 @@
                 ],
             },
             {
+                type: "metric",
+                "class": "EnergyDemand",
+                name: "total_load",
+                description: "Total electricity demand from historical metered data",
+                module: "dsgrid.dimension.standard",
+                records: [
+                    {
+                        id: "total_load_mwh",
+                        name: "Total Electricity Demand",
+                        unit: "MWh",
+                    },
+                ],
+            },
+            {
               type: 'time',
               class: 'Time',
               name: 'time_est',

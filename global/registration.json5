@@ -56,6 +56,10 @@
             dataset_id: "baseline__electricity_per_vehicle_km_projections",
             config_file: "ev_projection/electricity_per_vehicle_km_projections/dataset.json5",
         },
+        {
+            dataset_id: "baseline__historical_demand_entsoe",
+            config_file: "profile_data/historical_demand_entsoe/dataset.json5",
+        },
     ],
     dataset_submissions: [],
 }

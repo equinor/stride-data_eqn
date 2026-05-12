@@ -1,0 +1,75 @@
+{
+    dataset_id: "baseline__historical_demand_entsoe",
+    version: "1.0.0",
+    dataset_type: "modeled",
+    data_layout: {
+        table_format: "one_table",
+        value_format: "stacked",
+        data_file: {
+            path: "load_data.parquet",
+            columns: [
+                {
+                    name: "geography",
+                    dimension_type: "geography",
+                },
+            ],
+        },
+    },
+    description: "Hourly total electricity demand from the ENTSO-E Transparency Platform. Covers EU/EEA + UK + Switzerland countries from 2015–2024. Data is cleaned, gap-filled, and stored as MWh in UTC.",
+    data_classification: "low",
+    dimensions: [
+        {
+            type: "geography",
+            "class": "Geography",
+            module: "dsgrid.dimension.standard",
+            name: "country",
+            description: "Countries with historical demand data from ENTSO-E",
+            file: "dimensions/countries.csv",
+        },
+        {
+            type: "metric",
+            "class": "EnergyDemand",
+            name: "total_load",
+            description: "Total electricity demand",
+            module: "dsgrid.dimension.standard",
+            records: [
+                {
+                    id: "total_load_mwh",
+                    name: "Total Electricity Demand",
+                    unit: "MWh",
+                },
+            ],
+        },
+        {
+            type: "weather_year",
+            "class": "WeatherYear",
+            name: "weather_year",
+            description: "Years with ENTSO-E historical demand data",
+            file: "dimensions/weather_years.csv",
+        },
+        {
+            type: "time",
+            time_type: "datetime",
+            time_interval_type: "period_beginning",
+            name: "hourly",
+            description: "Hourly time resolution in UTC",
+            module: "dsgrid.dimension.standard",
+            "class": "Time",
+            measurement_type: "total",
+            ranges: [
+                {
+                    start: "2015-01-01T00:00:00",
+                    end: "2024-12-31T23:00:00",
+                    str_format: "%Y-%m-%dT%H:%M:%S",
+                    frequency: "P0DT1H0M0.000000S",
+                },
+            ],
+        },
+    ],
+    dimension_references: [],
+    trivial_dimensions: [],
+    sector_description: "electricity",
+    data_source: "ENTSO-E Transparency Platform",
+    data_source_date: "2026",
+    data_source_doi_url: "https://transparency.entsoe.eu/",
+}
