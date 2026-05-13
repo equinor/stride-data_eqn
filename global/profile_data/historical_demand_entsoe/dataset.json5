@@ -4,7 +4,8 @@
     dataset_type: "modeled",
     data_layout: {
         table_format: "one_table",
-        value_format: "stacked",
+        value_format: "pivoted",
+        pivoted_dimension_type: "metric",
         data_file: {
             path: "load_data.parquet",
             columns: [
