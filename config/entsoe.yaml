@@ -1,144 +1,147 @@
 # ENTSO-E Transparency Platform download configuration
 # Each entry maps STRIDE geography IDs to ENTSO-E bidding zone codes.
 # Multi-zone countries (e.g., Norway, Italy) list all zones to aggregate (sum).
+#
+# Scope: 2016–2024 for all countries. 2015 excluded due to data gaps in
+# Romania, Lithuania, and Sweden. Ireland and UK excluded due to persistent
+# ENTSO-E data quality issues (Ireland: frequent multi-day gaps; UK: data
+# stops mid-2021 post-Brexit).
 
 entsoe:
   countries:
     - stride_geography: Austria
       iso_alpha2: AT
       zones: [AT]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Belgium
       iso_alpha2: BE
       zones: [BE]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Bulgaria
       iso_alpha2: BG
       zones: [BG]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Croatia
       iso_alpha2: HR
       zones: [HR]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Czech Republic
       iso_alpha2: CZ
       zones: [CZ]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Denmark
       iso_alpha2: DK
       zones: [DK_1, DK_2]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Estonia
       iso_alpha2: EE
       zones: [EE]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Finland
       iso_alpha2: FI
       zones: [FI]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: France
       iso_alpha2: FR
       zones: [FR]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+
+    # DE_AT_LU zone existed before Oct 2018 (Germany+Austria+Luxembourg combined)
+    - stride_geography: Germany
+      iso_alpha2: DE
+      zones: [DE_AT_LU]
+      years: [2016, 2017]
+
+    # DE_AT_LU (Jan-Sep 2018) + DE_LU (Oct-Dec 2018) - non-overlapping, summed
+    - stride_geography: Germany
+      iso_alpha2: DE
+      zones: [DE_AT_LU, DE_LU]
+      years: [2018]
 
     - stride_geography: Germany
       iso_alpha2: DE
       zones: [DE_LU]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Greece
       iso_alpha2: GR
       zones: [GR]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Hungary
       iso_alpha2: HU
       zones: [HU]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
-
-    # IE_SEM covers the Single Electricity Market (Republic of Ireland + Northern Ireland).
-    # GB excludes Northern Ireland. National statistics for UK typically include NI,
-    # so annual totals for GB from ENTSO-E will be lower than UK national stats.
-    - stride_geography: Ireland
-      iso_alpha2: IE
-      zones: [IE_SEM]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Italy
       iso_alpha2: IT
       zones: [IT_NORD, IT_CNOR, IT_CSUD, IT_SUD, IT_SICI, IT_SARD]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Latvia
       iso_alpha2: LV
       zones: [LV]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Lithuania
       iso_alpha2: LT
       zones: [LT]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Netherlands
       iso_alpha2: NL
       zones: [NL]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Norway
       iso_alpha2: "NO"
       zones: [NO_1, NO_2, NO_3, NO_4, NO_5]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Poland
       iso_alpha2: PL
       zones: [PL]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Portugal
       iso_alpha2: PT
       zones: [PT]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Romania
       iso_alpha2: RO
       zones: [RO]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Slovakia
       iso_alpha2: SK
       zones: [SK]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Slovenia
       iso_alpha2: SI
       zones: [SI]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Spain
       iso_alpha2: ES
       zones: [ES]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Sweden
       iso_alpha2: SE
       zones: [SE_1, SE_2, SE_3, SE_4]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     - stride_geography: Switzerland
       iso_alpha2: CH
       zones: [CH]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
-
-    # GB excludes Northern Ireland (which is part of IE_SEM).
-    - stride_geography: United Kingdom
-      iso_alpha2: GB
-      zones: [GB]
-      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
