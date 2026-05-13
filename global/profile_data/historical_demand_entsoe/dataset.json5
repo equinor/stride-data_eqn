@@ -36,6 +36,7 @@
                 {
                     id: "total_load_mwh",
                     name: "Total Electricity Demand",
+                    fuel_id: "electricity",
                     unit: "MWh",
                 },
             ],
