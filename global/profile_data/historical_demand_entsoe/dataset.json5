@@ -28,7 +28,7 @@
         },
         {
             type: "metric",
-            "class": "EnergyDemand",
+            "class": "EnergyEndUse",
             name: "total_load",
             description: "Total electricity demand",
             module: "dsgrid.dimension.standard",

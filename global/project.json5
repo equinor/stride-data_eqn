@@ -201,7 +201,7 @@
             },
             {
                 type: "metric",
-                "class": "EnergyDemand",
+                "class": "EnergyEndUse",
                 name: "total_load",
                 description: "Total electricity demand from historical metered data",
                 module: "dsgrid.dimension.standard",
