@@ -57,6 +57,10 @@
             module: "dsgrid.dimension.standard",
             "class": "Time",
             measurement_type: "total",
+            time_zone_format: {
+                format_type: "aligned_in_absolute_time",
+                time_zone: "UTC",
+            },
             ranges: [
                 {
                     start: "2015-01-01T00:00:00",
